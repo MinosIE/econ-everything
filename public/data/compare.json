@@ -7,7 +7,8 @@
     "cases": [
       { "who": "通货膨胀目标制（如新西兰、英国、欧央行）", "whoEn": "Inflation targeters (New Zealand, UK, ECB)", "how": "以明确的通胀目标（多为 2% 左右）为唯一或首要名义锚，强调规则与可信度，政策沟通高度透明。", "howEn": "An explicit inflation target (often around 2%) as the primary nominal anchor, emphasising rules, credibility and transparent communication." },
       { "who": "双重使命（如美联储）", "whoEn": "Dual mandate (US Federal Reserve)", "how": "同时承担物价稳定与最大就业两个法定目标，通过权衡在两者间取舍，灵活性更高但预期管理更难。", "howEn": "Statutory goals for both price stability and maximum employment, trading off between them: more flexibility, harder expectation management." },
-      { "who": "多目标框架（含金融稳定）", "whoEn": "Multi-goal frameworks including financial stability", "how": "在物价与就业之外，用宏观审慎工具应对信贷与资产价格风险，避免用利率同时兼顾双重目标。", "howEn": "Beyond prices and jobs, macroprudential tools address credit and asset-price risk so that rates are not overloaded." }
+      { "who": "多目标框架（含金融稳定）", "whoEn": "Multi-goal frameworks including financial stability", "how": "在物价与就业之外，用宏观审慎工具应对信贷与资产价格风险，避免用利率同时兼顾双重目标。", "howEn": "Beyond prices and jobs, macroprudential tools address credit and asset-price risk so that rates are not overloaded." },
+      { "who": "多目标 + 宏观审慎（如中国）", "whoEn": "Multiple goals plus macroprudential (e.g. China)", "how": "在价格稳定之外兼顾增长、就业与金融稳定，用宏观审慎工具管理信贷与资产价格，工具组合更杂揉、相机抉择更明显。", "howEn": "Alongside price stability it also weighs growth, employment and financial stability, using macroprudential tools for credit and asset prices, with a more blended, discretionary toolkit." }
     ],
     "takeaway": "目标越多，规则越模糊，市场对政策的预期就越不稳定。因此关键不是「哪个框架更对」，而是目标能否被清晰沟通、工具是否匹配、以及能否守住长期可信度。",
     "takeawayEn": "More goals mean blurrier rules and less stable expectations. The question is not which framework is right, but whether goals can be communicated clearly, tools match them and credibility survives.",
@@ -21,7 +22,8 @@
     "cases": [
       { "who": "需求侧支持（购房补贴、低息贷款、税收减免）", "whoEn": "Demand-side support (subsidies, cheap credit, tax relief)", "how": "短期见效快、政治阻力小，但在供给受限的城市，效果往往被资本化为更高的房价。", "howEn": "Fast and politically easy, but where supply is constrained the benefit capitalises into higher prices." },
       { "who": "供给侧改革（规划松绑、容积率提高、公共住房）", "whoEn": "Supply-side reform (zoning, density, public housing)", "how": "直接增加可居住单元，抑制长期价格上涨，但周期长、涉及存量利益、落地阻力大。", "howEn": "Directly adds dwellings and dampens long-run prices, but is slow, clashes with incumbent interests and faces fierce resistance." },
-      { "who": "租赁保障与租金管制", "whoEn": "Tenancy protection and rent control", "how": "保护现有租户效果明显，但长期可能减少出租房源与维护投入，加剧新租客的困难。", "howEn": "Strongly protects sitting tenants but over time can shrink rental supply and maintenance, worsening conditions for new tenants." }
+      { "who": "租赁保障与租金管制", "whoEn": "Tenancy protection and rent control", "how": "保护现有租户效果明显，但长期可能减少出租房源与维护投入，加剧新租客的困难。", "howEn": "Strongly protects sitting tenants but over time can shrink rental supply and maintenance, worsening conditions for new tenants." },
+      { "who": "保障性租赁与因城施策（如中国）", "whoEn": "Affordable rental and city-specific policy (e.g. China)", "how": "棚改货币化曾快速撬动需求，后期转向保障性租赁与共有产权，并允许地方根据库存「因城施策」，强调「房住不炒」。", "howEn": "Monetised shantytown resettlement once lifted demand quickly, later shifting to affordable rental and shared ownership, with localities allowed city-specific measures under 'housing for living, not speculation'." }
     ],
     "takeaway": "住房同时是消费品与资产，任何政策都会在「谁受益、谁受损、多久见效」三方面留下痕迹。评估时至少要问：供给弹性有多大，收益最终落到了谁手里。",
     "takeawayEn": "Housing is both consumption and asset, so every policy leaves traces in who gains, who loses and how soon. At minimum ask how elastic supply is and who ultimately captures the benefit.",
@@ -49,7 +51,8 @@
     "cases": [
       { "who": "碳税（如瑞典、加拿大部分省份）", "whoEn": "Carbon tax (Sweden, parts of Canada)", "how": "价格确定、行政简单、便于企业长期规划；但减排总量不确定，且在政治上易被当作「加税」。", "howEn": "A certain price, simple administration and predictable planning, but an uncertain total reduction and politically framed as a new tax." },
       { "who": "碳交易（如欧盟 ETS）", "whoEn": "Emissions trading (EU ETS)", "how": "总量确定，配额价格由市场发现，减排成本低者多减；但价格波动大、配额分配方式影响公平与效果。", "howEn": "A certain quantity with market-discovered prices, so low-cost abaters cut most; prices are volatile and initial allocation shapes fairness and results." },
-      { "who": "标准与补贴（技术强制、绿色补贴）", "whoEn": "Standards and subsidies (mandates, green subsidies)", "how": "执行直观、可定向扶持特定技术；但往往财政成本更高、缺乏灵活性，且可能引发贸易摩擦。", "howEn": "Direct and able to target specific technologies, but usually costlier, less flexible and a source of trade friction." }
+      { "who": "标准与补贴（技术强制、绿色补贴）", "whoEn": "Standards and subsidies (mandates, green subsidies)", "how": "执行直观、可定向扶持特定技术；但往往财政成本更高、缺乏灵活性，且可能引发贸易摩擦。", "howEn": "Direct and able to target specific technologies, but usually costlier, less flexible and a source of trade friction." },
+      { "who": "全国碳排放权交易市场（如中国）", "whoEn": "National emissions trading (e.g. China)", "how": "以强度而非绝对总量起步、免费配额为主，先覆盖电力行业，价格信号较弱但市场覆盖规模居全球前列，强调平稳过渡。", "howEn": "Starting from intensity rather than an absolute cap with mostly free allocation, it first covers power generation; the price signal is weaker but its coverage leads the world, emphasising a smooth transition." }
     ],
     "takeaway": "选择的核心是「要确定价格还是要确定数量」，以及碳成本如何被税收、企业利润与消费者价格分担——这决定了对产业与居民的实际影响。",
     "takeawayEn": "The core choice is a certain price versus a certain quantity, and how the carbon cost is split between government, firm margins and consumer prices — which decides the real impact on industry and households.",

@@ -283,5 +283,43 @@
     "impactEn": "It re-confirmed the importance of credibility and expectation management and returned stagflation risk to policy debate.",
     "related": ["inflation", "central-bank", "volcker-shock"],
     "sources": [{ "label": "BIS 年度经济报告 通胀与加息章节", "labelEn": "BIS Annual Economic Report, inflation and policy chapter", "year": 2024 }]
+  },
+  {
+    "id": "reform-opening-1978",
+    "y": 1978,
+    "yearLabel": "1978",
+    "yearLabelEn": "1978",
+    "title": "中国改革开放启动",
+    "titleEn": "China Launches Reform and Opening Up",
+    "place": "中国",
+    "placeEn": "China",
+    "level": 2,
+    "what": "以家庭联产承包、设立经济特区与逐步放开价格、外贸与外资管制为起点，中国从高度集中的计划经济体向市场化转型。",
+    "whatEn": "Beginning with household responsibility, special economic zones and gradually relaxing controls on prices, trade and foreign investment, China shifted from a centrally planned economy toward the market.",
+    "why": "计划经济下的短缺与效率瓶颈难以为继，需要引入市场激励与对外开放来释放生产力。",
+    "whyEn": "Shortages and inefficiency under planning became unsustainable, so market incentives and opening up were needed to unleash productivity.",
+    "impact": "此后四十余年实现了高速工业化与大规模减贫，同时也伴随收入与区域差距、环境与债务等难题，是从计划到市场的标志性转折。",
+    "impactEn": "It delivered rapid industrialisation and mass poverty reduction over the next four decades, alongside challenges of inequality, the environment and debt — a landmark turn from plan to market.",
+    "related": ["comparative-advantage", "gdp"],
+    "sources": [{ "label": "世界银行 中国改革开放四十年回顾", "labelEn": "World Bank, China 40 Years of Reform and Development", "year": 2019 }]
+  },
+  {
+    "id": "china-wto-2001",
+    "y": 2001,
+    "yearLabel": "2001",
+    "yearLabelEn": "2001",
+    "title": "中国加入世界贸易组织",
+    "titleEn": "China Joins the World Trade Organization",
+    "place": "中国",
+    "placeEn": "China",
+    "level": 2,
+    "what": "中国结束十五年复关与入世谈判，正式成为 WTO 成员，承诺大幅降低关税并削减非关税壁垒。",
+    "whatEn": "After fifteen years of negotiations, China acceded to the WTO, committing to steep tariff cuts and reduced non-tariff barriers.",
+    "why": "融入多边贸易体系被视为以外部规则倒逼国内改革、并换取稳定出口市场的途径。",
+    "whyEn": "Joining the multilateral system was seen as using external rules to push domestic reform while securing stable export markets.",
+    "impact": "出口与制造业产能快速扩张，中国深度嵌入全球产业链；同时也带来了产业冲击、贸易摩擦与对外依赖的讨论。",
+    "impactEn": "Exports and manufacturing capacity expanded rapidly and China became deeply embedded in global supply chains; it also sparked debate on industry shocks, trade friction and external dependence.",
+    "related": ["tariff", "comparative-advantage"],
+    "sources": [{ "label": "WTO 中国加入议定书", "labelEn": "WTO Protocol on the Accession of China", "year": 2001 }]
   }
 ]

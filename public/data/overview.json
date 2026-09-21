@@ -2,9 +2,9 @@
   "version": "0.1.0",
   "counts": {
     "concepts": 26,
-    "glossary": 44,
+    "glossary": 45,
     "thinkers": 8,
-    "events": 15
+    "events": 17
   },
   "kpis": [
     {
@@ -15,7 +15,7 @@
     {
       "key": "glossary",
       "icon": "📖",
-      "value": 44
+      "value": 45
     },
     {
       "key": "thinkers",
@@ -25,7 +25,7 @@
     {
       "key": "events",
       "icon": "🗓️",
-      "value": 15
+      "value": 17
     }
   ]
 }

@@ -534,5 +534,19 @@
     "plainEn": "You think a stock will fall, so you borrow and sell it now; if it drops you buy back cheap, return it and keep the gap. But if it rises instead, you must buy back higher to return it — and the loss grows the higher it climbs, with no cap.",
     "related": ["asset-bubble", "leverage", "systemic-risk", "liquidity"],
     "sources": [{ "label": "SEC 关于卖空机制与风险披露的说明", "labelEn": "SEC overview of short selling and risk disclosure", "year": 2023 }]
+  },
+  {
+    "id": "kondratiev-wave",
+    "term": "康波周期",
+    "termEn": "Kondratiev Wave",
+    "abbr": "长波",
+    "category": "经济思想",
+    "categoryEn": "Economic thought",
+    "def": "由俄国经济学家康德拉季耶夫提出的约 50–60 年经济长周期假说，认为技术创新集群会驱动资本主义经历扩张与衰退交替的长波。该理论影响深远但争议很大：难以在统计上严格验证，也难以区分长波与随机冲击。",
+    "defEn": "A hypothesis by Russian economist Kondratiev of roughly 50–60 year long economic waves, arguing that clusters of technological innovation drive capitalism through alternating expansion and contraction. Influential but contested: hard to verify statistically and to separate from random shocks.",
+    "plain": "有人把经济想象成有「长呼吸」：每五六十年一波由重大技术革命带动的繁荣与调整。但这个「长周期」到底是不是规律，学界一直争论，因为它很难被数据干净地证明。",
+    "plainEn": "Some picture the economy as having a 'long breath' — a boom and adjustment every fifty-odd years driven by major technological revolutions. Whether this 'long cycle' is a real law is still debated, because it is hard to prove cleanly from data.",
+    "related": ["business-cycle"],
+    "sources": [{ "label": "康德拉季耶夫《经济生活中的长波》", "labelEn": "Kondratiev, The Long Waves in Economic Life", "year": 1925 }]
   }
 ]

@@ -136,5 +136,28 @@
       { "y": 2024, "v": 112 }
     ],
     "sources": [{ "label": "IMF 财政监测（近似整理）", "labelEn": "IMF Fiscal Monitor (approximated)", "year": 2024 }]
+  },
+  {
+    "id": "china-growth",
+    "title": "中国 GDP 增速（示意）",
+    "titleEn": "China GDP growth (illustrative)",
+    "unit": "%",
+    "unitEn": "%",
+    "level": 1,
+    "note": "示意性年度近似值，取自中国官方公布的 GDP 同比实际增速。2020 年受疫情冲击明显放缓，2021 年为低基数反弹，此后回归中高速区间。具体数值请以中国国家统计局发布为准。",
+    "noteEn": "Illustrative annual approximations from China's officially published year-on-year real GDP growth. 2020 slowed sharply under the pandemic, 2021 rebounded on a low base, then growth returned to a mid-to-high range. Consult China's National Bureau of Statistics for exact figures.",
+    "series": [
+      { "y": 2015, "v": 6.9 },
+      { "y": 2016, "v": 6.7 },
+      { "y": 2017, "v": 6.9 },
+      { "y": 2018, "v": 6.6 },
+      { "y": 2019, "v": 6.0 },
+      { "y": 2020, "v": 2.3 },
+      { "y": 2021, "v": 8.1 },
+      { "y": 2022, "v": 3.0 },
+      { "y": 2023, "v": 5.2 },
+      { "y": 2024, "v": 5.0 }
+    ],
+    "sources": [{ "label": "中国国家统计局 GDP 数据（近似整理）", "labelEn": "China's National Bureau of Statistics GDP data (approximated)", "year": 2024 }]
   }
 ]

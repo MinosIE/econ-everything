@@ -492,6 +492,13 @@
       "nEn": "Short Selling"
     }
   ],
+  "kondratiev-wave": [
+    {
+      "m": "m-glossary",
+      "n": "康波周期（长波）",
+      "nEn": "Kondratiev Wave (长波)"
+    }
+  ],
   "gdp-measure": [
     {
       "m": "m-macro",
@@ -814,6 +821,20 @@
       "nEn": "The Global Inflation Surge and Rapid Hiking"
     }
   ],
+  "reform-opening-1978": [
+    {
+      "m": "m-events",
+      "n": "中国改革开放启动",
+      "nEn": "China Launches Reform and Opening Up"
+    }
+  ],
+  "china-wto-2001": [
+    {
+      "m": "m-events",
+      "n": "中国加入世界贸易组织",
+      "nEn": "China Joins the World Trade Organization"
+    }
+  ],
   "prospect-theory": [
     {
       "m": "m-behavioral",
@@ -1029,6 +1050,13 @@
       "m": "m-charts",
       "n": "发达经济体政府债务占 GDP 比重（示意）",
       "nEn": "Advanced-economy government debt to GDP (illustrative)"
+    }
+  ],
+  "china-growth": [
+    {
+      "m": "m-charts",
+      "n": "中国 GDP 增速（示意）",
+      "nEn": "China GDP growth (illustrative)"
     }
   ],
   "inflation-always-bad": [
