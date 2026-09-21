@@ -13,15 +13,18 @@ html {
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Hiragino Sans GB',
-    'Microsoft YaHei', Helvetica, Arial, sans-serif;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB",
+    "Microsoft YaHei", Helvetica, Arial, sans-serif;
   background: var(--bg);
   color: var(--text);
   line-height: 1.65;
   padding-bottom: 72px;
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
-  transition: background 0.3s, color 0.3s;
+  transition:
+    background 0.3s,
+    color 0.3s;
 }
 
 body.no-scroll {
@@ -52,13 +55,13 @@ mark {
   display: flex;
   flex-direction: column;
   gap: 26px;
-  padding: 0 24px;
+  padding: 24px;
   width: 100%;
 }
 
 @media (max-width: 560px) {
   .wrap {
-    padding: 0 14px;
+    padding: 14px;
     gap: 20px;
   }
 }
@@ -80,14 +83,18 @@ mark {
 }
 
 .hero::after {
-  content: '';
+  content: "";
   position: absolute;
   right: -70px;
   top: -70px;
   width: 240px;
   height: 240px;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(199, 154, 58, 0.34), transparent 70%);
+  background: radial-gradient(
+    circle,
+    rgba(199, 154, 58, 0.34),
+    transparent 70%
+  );
   pointer-events: none;
 }
 
@@ -182,7 +189,7 @@ mark {
 }
 @media (max-width: 560px) {
   .hero {
-    padding: 48px 16px 30px;
+    padding: 60px 16px 30px;
   }
   .kpis {
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -507,7 +514,10 @@ mark {
   opacity: 0;
   transform: translateY(14px) scale(0.92);
   pointer-events: none;
-  transition: opacity 0.25s, transform 0.25s, filter 0.15s;
+  transition:
+    opacity 0.25s,
+    transform 0.25s,
+    filter 0.15s;
 }
 .to-top.show {
   opacity: 1;
