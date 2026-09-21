@@ -86,6 +86,8 @@
 - **2008 — The Global Financial Crisis** (United States → global): Subprime defaults crashed mortgage securities, major institutions failed or were rescued, and global credit markets froze.
 - **2020 — The Pandemic Shock and Unprecedented Easing** (Global): Supply and demand halted together, and governments launched unprecedented fiscal transfers and asset purchases.
 - **2022–2024 — The Global Inflation Surge and Rapid Hiking** (Global): Inflation hit multi-decade highs in many countries and major central banks hiked at historic speed, pressuring valuations and housing.
+- **1978 — China Launches Reform and Opening Up** (China): Beginning with household responsibility, special economic zones and gradually relaxing controls on prices, trade and foreign investment, China shifted from a centrally planned economy toward the market.
+- **2001 — China Joins the World Trade Organization** (China): After fifteen years of negotiations, China acceded to the WTO, committing to steep tariff cuts and reduced non-tariff barriers.
 
 ## Usage and reuse
 

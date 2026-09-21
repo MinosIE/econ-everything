@@ -207,6 +207,7 @@ Source: https://MinosIE.github.io/econ-everything/
 - **Supply and Demand**［Micro concepts］：The framework in which price and quantity emerge from sellers' willingness to supply and buyers' willingness to buy. Plainly：Sellers and buyers together determine the price.
 - **Nash Equilibrium**［Game theory concepts］：A stable state where all players have chosen strategies and no one gains by changing alone. Plainly：The standoff where anyone who moves alone ends up worse off.
 - **Short Selling**［Finance concepts］：A strategy of borrowing an asset to sell it now, then buying it back cheaper after a price fall to return to the lender and keep the difference; profit is capped by a full drop, while losses rise without a hard ceiling as the price climbs. Plainly：You think a stock will fall, so you borrow and sell it now; if it drops you buy back cheap, return it and keep the gap. But if it rises instead, you must buy back higher to return it — and the loss grows the higher it climbs, with no cap.
+- **Kondratiev Wave**（长波）［Economic thought］：A hypothesis by Russian economist Kondratiev of roughly 50–60 year long economic waves, arguing that clusters of technological innovation drive capitalism through alternating expansion and contraction. Influential but contested: hard to verify statistically and to separate from random shocks. Plainly：Some picture the economy as having a 'long breath' — a boom and adjustment every fifty-odd years driven by major technological revolutions. Whether this 'long cycle' is a real law is still debated, because it is hard to prove cleanly from data.
 
 ## Macroeconomics
 
@@ -579,6 +580,16 @@ Source: https://MinosIE.github.io/econ-everything/
 - Why：Supply shocks, shifted demand composition and tight labour markets spread inflation from individual categories into core measures.
 - Impact：It re-confirmed the importance of credibility and expectation management and returned stagflation risk to policy debate.
 
+### 1978　China Launches Reform and Opening Up（China）
+- What happened：Beginning with household responsibility, special economic zones and gradually relaxing controls on prices, trade and foreign investment, China shifted from a centrally planned economy toward the market.
+- Why：Shortages and inefficiency under planning became unsustainable, so market incentives and opening up were needed to unleash productivity.
+- Impact：It delivered rapid industrialisation and mass poverty reduction over the next four decades, alongside challenges of inequality, the environment and debt — a landmark turn from plan to market.
+
+### 2001　China Joins the World Trade Organization（China）
+- What happened：After fifteen years of negotiations, China acceded to the WTO, committing to steep tariff cuts and reduced non-tariff barriers.
+- Why：Joining the multilateral system was seen as using external rules to push domestic reform while securing stable export markets.
+- Impact：Exports and manufacturing capacity expanded rapidly and China became deeply embedded in global supply chains; it also sparked debate on industry shocks, trade friction and external dependence.
+
 ## Behavioral Economics
 
 ### Prospect Theory（Core theory）
@@ -747,6 +758,8 @@ Source: https://MinosIE.github.io/econ-everything/
   Data points：2015=6.49, 2016=6.94, 2017=6.51, 2018=6.88, 2019=6.96, 2020=6.52, 2021=6.37, 2022=6.9, 2023=7.1, 2024=7.3
 - **Advanced-economy government debt to GDP (illustrative)**（unit：% of GDP）：Illustrative annual approximations. The 2020 jump came from pandemic spending plus a smaller denominator; inflation and nominal growth brought it down somewhat, yet levels remain above pre-pandemic.
   Data points：2015=104, 2016=105, 2017=104, 2018=104, 2019=104, 2020=122, 2021=121, 2022=115, 2023=113, 2024=112
+- **China GDP growth (illustrative)**（unit：%）：Illustrative annual approximations from China's officially published year-on-year real GDP growth. 2020 slowed sharply under the pandemic, 2021 rebounded on a low base, then growth returned to a mid-to-high range. Consult China's National Bureau of Statistics for exact figures.
+  Data points：2015=6.9, 2016=6.7, 2017=6.9, 2018=6.6, 2019=6, 2020=2.3, 2021=8.1, 2022=3, 2023=5.2, 2024=5
 
 ## Myths Busted
 
@@ -790,12 +803,14 @@ Source: https://MinosIE.github.io/econ-everything/
 - Inflation targeters (New Zealand, UK, ECB)：An explicit inflation target (often around 2%) as the primary nominal anchor, emphasising rules, credibility and transparent communication.
 - Dual mandate (US Federal Reserve)：Statutory goals for both price stability and maximum employment, trading off between them: more flexibility, harder expectation management.
 - Multi-goal frameworks including financial stability：Beyond prices and jobs, macroprudential tools address credit and asset-price risk so that rates are not overloaded.
+- Multiple goals plus macroprudential (e.g. China)：Alongside price stability it also weighs growth, employment and financial stability, using macroprudential tools for credit and asset prices, with a more blended, discretionary toolkit.
 - Takeaway：More goals mean blurrier rules and less stable expectations. The question is not which framework is right, but whether goals can be communicated clearly, tools match them and credibility survives.
 
 ### Housing affordability: subsidise demand or expand supply?
 - Demand-side support (subsidies, cheap credit, tax relief)：Fast and politically easy, but where supply is constrained the benefit capitalises into higher prices.
 - Supply-side reform (zoning, density, public housing)：Directly adds dwellings and dampens long-run prices, but is slow, clashes with incumbent interests and faces fierce resistance.
 - Tenancy protection and rent control：Strongly protects sitting tenants but over time can shrink rental supply and maintenance, worsening conditions for new tenants.
+- Affordable rental and city-specific policy (e.g. China)：Monetised shantytown resettlement once lifted demand quickly, later shifting to affordable rental and shared ownership, with localities allowed city-specific measures under 'housing for living, not speculation'.
 - Takeaway：Housing is both consumption and asset, so every policy leaves traces in who gains, who loses and how soon. At minimum ask how elastic supply is and who ultimately captures the benefit.
 
 ### Should healthcare be funded by taxes, insurance or out of pocket?
@@ -808,6 +823,7 @@ Source: https://MinosIE.github.io/econ-everything/
 - Carbon tax (Sweden, parts of Canada)：A certain price, simple administration and predictable planning, but an uncertain total reduction and politically framed as a new tax.
 - Emissions trading (EU ETS)：A certain quantity with market-discovered prices, so low-cost abaters cut most; prices are volatile and initial allocation shapes fairness and results.
 - Standards and subsidies (mandates, green subsidies)：Direct and able to target specific technologies, but usually costlier, less flexible and a source of trade friction.
+- National emissions trading (e.g. China)：Starting from intensity rather than an absolute cap with mostly free allocation, it first covers power generation; the price signal is weaker but its coverage leads the world, emphasising a smooth transition.
 - Takeaway：The core choice is a certain price versus a certain quantity, and how the carbon cost is split between government, firm margins and consumer prices — which decides the real impact on industry and households.
 
 ## References
