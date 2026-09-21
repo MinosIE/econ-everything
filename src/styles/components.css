@@ -80,6 +80,26 @@
   }
 }
 
+.loading-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 300;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 14px;
+  color: var(--text);
+  background: color-mix(in srgb, var(--bg) 72%, transparent);
+  backdrop-filter: blur(2px);
+}
+.loading-overlay[hidden] {
+  display: none;
+}
+.loading-overlay .loading-text {
+  font-weight: 600;
+}
+
 /* ---------------- 难度徽标 / 标签 ---------------- */
 .lvl {
   flex-shrink: 0;
@@ -744,6 +764,8 @@
   background: rgba(4, 22, 31, 0.5);
   opacity: 0;
   transition: opacity 0.24s;
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
 }
 .detail-panel {
   position: absolute;
@@ -766,6 +788,35 @@
 }
 .detail-root.open .detail-panel {
   transform: none;
+}
+
+.detail-head,
+.detail-body,
+.detail-rel,
+.detail-src {
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.38s ease, transform 0.38s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.detail-root.open .detail-head {
+  opacity: 1;
+  transform: none;
+  transition-delay: 0.1s;
+}
+.detail-root.open .detail-body {
+  opacity: 1;
+  transform: none;
+  transition-delay: 0.16s;
+}
+.detail-root.open .detail-rel {
+  opacity: 1;
+  transform: none;
+  transition-delay: 0.22s;
+}
+.detail-root.open .detail-src {
+  opacity: 1;
+  transform: none;
+  transition-delay: 0.28s;
 }
 .detail-close {
   position: absolute;

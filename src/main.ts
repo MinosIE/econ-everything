@@ -26,15 +26,25 @@ function mailtoHref(): string {
   return `mailto:${MAIL_TO}?subject=${subject}&body=${body}`;
 }
 
-/** 把邮件链接应用到 hero 与页脚的节点，语言切换时同步刷新。 */
+/** 把预填邮件链接应用到 hero 节点，语言切换时同步刷新。 */
 function updateMailLinks(): void {
   const href = mailtoHref();
-  document.querySelectorAll<HTMLAnchorElement>('#heroMailLink, #footMailLink').forEach((a) => {
+  document.querySelectorAll<HTMLAnchorElement>('#heroMailLink').forEach((a) => {
     a.href = href;
   });
 }
 
-/* ---------------- 模块切换 ---------------- */
+/* ---------------- 模块切换 / 加载提示 ---------------- */
+
+const loadingEl = need('#loading');
+function showLoading(): void {
+  const label = loadingEl.querySelector<HTMLElement>('.loading-text');
+  if (label) label.textContent = t('ui.loading');
+  loadingEl.hidden = false;
+}
+function hideLoading(): void {
+  loadingEl.hidden = true;
+}
 
 function setActive(id: string): void {
   current = id;
@@ -82,7 +92,9 @@ async function activate(id: string, openKey?: string, scroll = false): Promise<v
   setActive(id);
   const def = MODULES.find((m) => m.id === id);
   if (!def) return;
+  if (!instances.has(def.id)) showLoading();
   await ensureModule(def);
+  hideLoading();
   if (openKey) {
     const inst = instances.get(id);
     if (!inst?.openById?.(openKey)) flash(openKey);
@@ -157,10 +169,8 @@ function renderFooter(): void {
       · <a href="${BASE}data/concepts.json">concepts.json</a>
       · ${esc(t('foot.llms'))}：<a href="${BASE}llms.txt">llms.txt</a>
       · <a href="${BASE}llms-full.txt">llms-full.txt</a>
-      · ${esc(t('foot.mail'))}：<a id="footMailLink" href="mailto:${MAIL_TO}">${esc(MAIL_TO)}</a>
     </p>
     <p>${esc(t('foot.copy'))}</p>`;
-  updateMailLinks();
 }
 
 /* ---------------- JSON-LD / 深链 / 顶栏 ---------------- */
@@ -224,6 +234,7 @@ function boot(): void {
   void renderKpis();
   void renderRefs();
   renderFooter();
+  updateMailLinks();
   bindNav();
   bindTop();
   injectJsonLd();
@@ -245,6 +256,7 @@ function boot(): void {
     renderFooter();
     void renderKpis();
     void renderRefs();
+    updateMailLinks();
     if (current !== 'm-home') {
       const def = MODULES.find((m) => m.id === current);
       pending.delete(current);

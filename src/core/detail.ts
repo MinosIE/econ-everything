@@ -4,6 +4,7 @@ import type { DetailPayload, SourceRef } from './types';
 
 let root: HTMLElement;
 let lastFocus: HTMLElement | null = null;
+let closeTimer: number | null = null;
 
 function levelLabel(level?: number): string {
   if (!level) return '';
@@ -25,15 +26,25 @@ function sourcesHtml(sources?: SourceRef[]): string {
 
 export function closeDetail(): void {
   if (!root || root.hidden) return;
-  root.hidden = true;
-  root.innerHTML = '';
-  document.body.classList.remove('no-scroll');
-  lastFocus?.focus();
-  lastFocus = null;
+  root.classList.remove('open');
+  if (closeTimer) clearTimeout(closeTimer);
+  closeTimer = window.setTimeout(() => {
+    root.hidden = true;
+    root.innerHTML = '';
+    document.body.classList.remove('no-scroll');
+    lastFocus?.focus();
+    lastFocus = null;
+    closeTimer = null;
+  }, 400);
 }
 
 export function openDetail(p: DetailPayload): void {
   if (!root) initDetail();
+  if (closeTimer) {
+    clearTimeout(closeTimer);
+    closeTimer = null;
+  }
+  root.classList.remove('open');
   lastFocus = (document.activeElement as HTMLElement) ?? null;
 
   const eyebrow = [p.eyebrow, levelLabel(p.level)].filter(Boolean).join(' · ');
@@ -99,9 +110,6 @@ export function openDetail(p: DetailPayload): void {
 export function initDetail(): void {
   root = need('#detailRoot');
   root.hidden = true;
-  root.addEventListener('transitionend', () => {
-    if (root.hidden) root.classList.remove('open');
-  });
   document.addEventListener('keydown', (ev) => {
     if (ev.key === 'Escape') closeDetail();
   });

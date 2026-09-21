@@ -197,7 +197,6 @@ const zh = {
   'foot.sister': '姊妹项目',
   'foot.data': '结构化数据',
   'foot.llms': 'AI 全文索引',
-  'foot.mail': '反馈邮箱',
   'foot.copy': '© 2026 万物经济学 · MIT License',
 };
 
@@ -411,7 +410,6 @@ const en: typeof zh = {
   'foot.sister': 'Sister project',
   'foot.data': 'Structured data',
   'foot.llms': 'LLM full text',
-  'foot.mail': 'Email',
   'foot.copy': '© 2026 Economics of Everything · MIT License',
 };
 
