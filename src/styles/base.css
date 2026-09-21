@@ -99,7 +99,6 @@ mark {
 }
 
 .hero > p {
-  max-width: 720px;
   font-size: 15px;
   color: rgba(255, 255, 255, 0.8);
 }
