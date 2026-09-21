@@ -368,6 +368,7 @@ mark {
   display: flex;
   flex-direction: column;
   gap: 18px;
+  min-height: 60vh;
 }
 
 .mod-head {
