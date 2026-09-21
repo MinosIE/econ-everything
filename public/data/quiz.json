@@ -8,8 +8,14 @@
     "qEn": "You spend an hour at the cinema. The most accurate reading of opportunity cost is:",
     "options": [
       { "k": "电影票的价格", "kEn": "The price of the ticket" },
-      { "k": "这一小时里你放弃的最有价值的其他选择", "kEn": "The most valuable alternative you gave up in that hour" },
-      { "k": "电影票价格加上这一小时的机会成本", "kEn": "The ticket price plus the value of the hour" },
+      {
+        "k": "这一小时里你放弃的最有价值的其他选择",
+        "kEn": "The most valuable alternative you gave up in that hour"
+      },
+      {
+        "k": "电影票价格加上这一小时的机会成本",
+        "kEn": "The ticket price plus the value of the hour"
+      },
       { "k": "你为此感到的后悔程度", "kEn": "How much you regret it" }
     ],
     "answer": 1,
@@ -44,7 +50,10 @@
     "qEn": "Which of the following is normally excluded from GDP?",
     "options": [
       { "k": "餐馆出售的一份午餐", "kEn": "A lunch sold at a restaurant" },
-      { "k": "自己在家做的一顿同样的饭", "kEn": "Cooking the same meal at home" },
+      {
+        "k": "自己在家做的一顿同样的饭",
+        "kEn": "Cooking the same meal at home"
+      },
       { "k": "企业购入的新设备", "kEn": "New equipment bought by a firm" },
       { "k": "政府修建的一段公路", "kEn": "A road built by the government" }
     ],
@@ -67,7 +76,6 @@
       { "k": "0%", "kEn": "0%" }
     ],
     "answer": 2,
-    "explanation": "",
     "explain": "近似算法为实际利率 ≈ 名义利率 − 通胀率 = 5% − 6% = −1%。负实际利率意味着债权的购买力在缩水，通常对债务人有利、对存款人不利。",
     "explainEn": "Approximately real = nominal − inflation = 5% − 6% = −1%. A negative real rate erodes the purchasing power of a claim, favouring borrowers over savers.",
     "related": ["interest-rate"]
@@ -80,7 +88,10 @@
     "q": "比较优势的核心判断标准是：",
     "qEn": "Comparative advantage is fundamentally judged by:",
     "options": [
-      { "k": "谁的绝对生产率更高", "kEn": "Who has higher absolute productivity" },
+      {
+        "k": "谁的绝对生产率更高",
+        "kEn": "Who has higher absolute productivity"
+      },
       { "k": "谁的机会成本更低", "kEn": "Who has lower opportunity cost" },
       { "k": "谁的工资水平更低", "kEn": "Who has lower wages" },
       { "k": "谁的市场规模更大", "kEn": "Who has a larger market" }
@@ -98,10 +109,19 @@
     "q": "囚徒困境最核心的含义是：",
     "qEn": "The central message of the prisoner's dilemma is:",
     "options": [
-      { "k": "个人理性选择可能带来集体更差的结果", "kEn": "Individually rational choices can produce collectively worse outcomes" },
+      {
+        "k": "个人理性选择可能带来集体更差的结果",
+        "kEn": "Individually rational choices can produce collectively worse outcomes"
+      },
       { "k": "背叛总是最优策略", "kEn": "Defecting is always optimal" },
-      { "k": "合作在一次性博弈中最稳定", "kEn": "Cooperation is most stable in one-off games" },
-      { "k": "信息越多结果越好", "kEn": "More information always improves outcomes" }
+      {
+        "k": "合作在一次性博弈中最稳定",
+        "kEn": "Cooperation is most stable in one-off games"
+      },
+      {
+        "k": "信息越多结果越好",
+        "kEn": "More information always improves outcomes"
+      }
     ],
     "answer": 0,
     "explain": "在单次博弈中，各自选择占优策略会导致双方都更差。合作要稳定，通常需要重复博弈、可观察行为与可信惩罚机制。",
@@ -116,9 +136,18 @@
     "q": "根据损失厌恶，投资者更可能：",
     "qEn": "Given loss aversion, investors are more likely to:",
     "options": [
-      { "k": "过早卖出盈利股票，长期持有亏损股票", "kEn": "Sell winners too early and hold losers too long" },
-      { "k": "过早卖出亏损股票，长期持有盈利股票", "kEn": "Sell losers too early and hold winners too long" },
-      { "k": "对盈亏反应完全对称", "kEn": "React symmetrically to gains and losses" },
+      {
+        "k": "过早卖出盈利股票，长期持有亏损股票",
+        "kEn": "Sell winners too early and hold losers too long"
+      },
+      {
+        "k": "过早卖出亏损股票，长期持有盈利股票",
+        "kEn": "Sell losers too early and hold winners too long"
+      },
+      {
+        "k": "对盈亏反应完全对称",
+        "kEn": "React symmetrically to gains and losses"
+      },
       { "k": "完全忽略沉没成本", "kEn": "Ignore sunk costs entirely" }
     ],
     "answer": 0,
@@ -136,7 +165,10 @@
     "options": [
       { "k": "全部由卖方承担", "kEn": "Sellers bear it all" },
       { "k": "全部由买方承担", "kEn": "Buyers bear it all" },
-      { "k": "由缺乏弹性的一方承担更多", "kEn": "Whichever side is less elastic bears more" },
+      {
+        "k": "由缺乏弹性的一方承担更多",
+        "kEn": "Whichever side is less elastic bears more"
+      },
       { "k": "由征收机关承担", "kEn": "The tax authority bears it" }
     ],
     "answer": 2,

@@ -26,9 +26,9 @@ public/
   llms.txt  llms-en.txt  llms-full.txt  llms-full-en.txt  # 脚本生成
   robots.txt  sitemap.xml  favicon.svg  og-cover.svg       # 脚本生成
 scripts/           # 派生文件与校验（Node ESM）
-  build-all.mjs  build-overview.mjs  build-search.mjs  build-geo.mjs  build-llms-full.mjs  check-i18n.mjs
+  build-all.mjs  build-overview.mjs  build-search.mjs  build-geo.mjs  build-llms-full.mjs  check-data.mjs  check-i18n.mjs
 src/
-  core/           # i18n / 主题 / 数据加载 / 详情面板 / 搜索 / 相关跳转 / 工具
+  core/           # i18n（词表在 i18n.json）/ 主题 / 数据加载 / 详情面板 / 搜索 / 相关跳转 / 工具
   modules/        # 16 个内容模块 + 通用渲染器 shared.ts
   styles/         # 深青 + 琥珀金设计系统（设计令牌 / 基础 / 组件）
 index.html        # 单页骨架（导航、首页、16 个模块容器、详情面板、搜索、页脚）
@@ -39,7 +39,7 @@ index.html        # 单页骨架（导航、首页、16 个模块容器、详情
 ```bash
 npm install        # 安装依赖
 npm run dev        # 本地开发（Vite dev server）
-npm run gen        # 生成全部派生文件并做双语校验（提交前必跑）
+npm run gen        # 生成全部派生文件并做结构 + 双语校验（提交前必跑）
 npm run build      # 生产构建 → dist/（base 已设为 /econ-everything/）
 npm run preview    # 预览 dist/（注意：vite preview 的 brotli 中间件在本地可能有偶发 404，
                    #   属预览器问题，GitHub Pages 等静态托管不受影响）
@@ -47,7 +47,7 @@ npm run preview    # 预览 dist/（注意：vite preview 的 brotli 中间件�
 
 ## 数据贡献
 
-1. 在对应 `public/data/*.json` 中新增条目，**中文原文与 `*En` 译文字段必须成对**（校验脚本 `check-i18n` 会拦截缺失）。
+1. 在对应 `public/data/*.json` 中新增条目，**中文原文与 `*En` 译文字段必须成对**（校验脚本 `check-i18n` 会拦截缺失；`check-data` 另行拦截 id 重复/格式、必备字段缺失、level 非法、sources 缺失、quiz 答案下标越界等结构问题）。
 2. 运行 `npm run gen` 重新生成搜索索引、相关跳转表、概览 KPI 与 GEO 文件。
 3. 提交，推送到 `main`，GitHub Actions 会自动构建并发布到 GitHub Pages。
 
@@ -56,8 +56,11 @@ npm run preview    # 预览 dist/（注意：vite preview 的 brotli 中间件�
 ## 部署
 
 通过 `.github/workflows/deploy.yml` 在每次 push 到 `main` 时：
+
 1. `npm ci` → `npm run gen` → `npm run build`
 2. 将 `dist/` 上传为 GitHub Pages artifact 并发布。
+
+另由 `.github/workflows/ci.yml` 在 PR / push 时把关：`gen` 后仓库内提交的派生文件必须与生成结果一致（`verify:derived`），并通过类型检查与构建。
 
 站点地址：`https://MinosIE.github.io/econ-everything/`
 

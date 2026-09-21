@@ -11,7 +11,7 @@
 ## 核心约定（务必遵守）
 
 1. **数据驱动 / 无后端**：所有展示内容来自 `public/data/*.json`。不要在前端硬写内容文案。新增/修改内容 = 改 JSON。
-2. **中英双语成对**：每个展示字段都成对出现 —— 中文原文（如 `term`）与其英译（`termEn`）。新增任何带 `*En` 对应物的字段，必须同时补上 `*En`，否则 `scripts/check-i18n.mjs` 会报错。**界面词表**在 `src/core/i18n.ts` 的 `zh` / `en` 两个对象里，键必须完全对齐。
+2. **中英双语成对**：每个展示字段都成对出现 —— 中文原文（如 `term`）与其英译（`termEn`）。新增任何带 `*En` 对应物的字段，必须同时补上 `*En`，否则 `scripts/check-i18n.mjs` 会报错。**界面词表**在 `src/core/i18n.json` 的 `zh` / `en` 两个对象里（`src/core/i18n.ts` 只负责加载与取值），键必须完全对齐。
 3. **派生文件由脚本生成，不要手改**：`overview.json` / `search.json` / `related.json` / `llms*.txt` / `robots.txt` / `sitemap.xml` 均由 `scripts/` 生成。改动数据后跑 `npm run gen`。
 4. **防 LLM 误读**：数据里关键数字要给 `sources`（label/year，尽量带 `url`），有争议的话题（如最低工资、贸易、医疗筹资）并列多方观点，不站队、不预测、不产生投资建议。
 5. **XSS 安全**：所有外部数据都经过 `src/core/dom.ts` 的 `esc()` 转义后才进 `innerHTML`。新增渲染代码时，**绝不要**把未经 `esc()` 的字段直接拼进模板。
@@ -20,11 +20,11 @@
 ## 目录速查
 
 - `public/data/`：人工维护的源数据（16 个内容文件 + 3 个脚本生成的派生文件）。
-- `scripts/`：`build-all` / `build-overview` / `build-search` / `build-geo` / `build-llms-full` / `check-i18n`（Node ESM，读取 `scripts/lib.mjs` 的规格配置）。
+- `scripts/`：`build-all` / `build-overview` / `build-search` / `build-geo` / `build-llms-full` / `check-data`（结构校验）/ `check-i18n`（双语校验）（Node ESM，读取 `scripts/lib.mjs` 的规格配置）。
 - `src/core/`：`i18n` `theme` `data` `dom` `app` `detail` `search` `related` `ui` `types`。
 - `src/modules/`：16 个内容模块 + `shared.ts`（卡片网格/详情/相关按钮的通用渲染器）+ `types.ts`（各模块的 TS 接口）。
 - `src/styles/`：设计令牌 `tokens.css`、基础 `base.css`、组件 `components.css`、入口 `index.css`（深青 `#0E7490` + 琥珀金 `#C79A3A`，含深/浅色主题）。
-- `index.html`：SPA 骨架，包含导航 `#modNav`、首页 `#homeGrid`、每个模块的 `<section class="module" id="m-xxx">` 及内部 host 节点（如 `#conceptsGrid`）、详情面板 `#detailRoot`、搜索 `#search`/`#searchResults`、页脚 `#foot`。
+- `index.html`：SPA 骨架，包含导航 `#modNav`、首页 `#homeGrid`、每个模块的 `<section class="module" id="m-xxx">` 及内部 host 节点（如 `#conceptsGrid`）、详情面板 `#detailRoot`、搜索 `#search`/`#searchResults`、页脚 `#foot`，以及静态内联的 JSON-LD（不执行 JS 的爬虫也能读到；模块增删时需同步）。
 
 ## 新增一个内容模块的标准流程
 
@@ -32,13 +32,14 @@
 2. 在 `src/modules/` 写 `xxx.ts`，复用 `shared.ts` 的 `mountGrid`（卡片网格）或自定义渲染；如需详情面板用 `openDetail(detail(payload))`。
 3. 在 `index.html` 的 `#content` 内加 `<section id="m-xxx">`（含 `mod-head` 标题、可选 `#xxxFilters` 筛选条、`#xxxGrid` 容器）。
 4. 在 `src/modules/index.ts` 注册 `{ id:'m-xxx', key:'xxx', file:'xxx.json', icon, load: () => import('./xxx') }`。
-5. 在 `src/core/i18n.ts` 补 `nav.xxx` / `entry.xxx` / `xxx.title` / `xxx.sub` 的中英双语。
-6. 在 `scripts/lib.mjs` 的 `INDEX_SPECS`、`I18N_SPECS`、`MODULE_LABELS`、`DATA_FILES` 中登记（search/sitemap/双语校验需要）。
-7. `npm run gen` → `npm run build` → 本地预览验证。
+5. 在 `src/core/i18n.json` 补 `nav.xxx` / `entry.xxx` / `xxx.title` / `xxx.sub` 的中英双语（zh / en 两处）。
+6. 在 `scripts/lib.mjs` 的 `INDEX_SPECS`、`I18N_SPECS`、`MODULE_LABELS`、`DATA_FILES` 中登记（search/sitemap/双语校验需要），并在 `scripts/check-data.mjs` 的 `SPECS` 中登记结构规格（必备字段 / level / sources）。
+7. `npm run gen` → `npm run build` → 本地预览验证。深链格式为 `#<key>/<id>`（如 `#concepts/opportunity-cost`），由 `src/main.ts` 的 `deepLink()` 解析。
 
 ## 校验 / 构建
 
-- `npm run gen`：生成全部派生文件并做双语校验。提交前必跑。
+- `npm run gen`：生成全部派生文件，并依次跑 `check-data`（结构：id 唯一性/格式、必备字段、level、sources、quiz 答案下标、charts 数据点）与 `check-i18n`（双语）。提交前必跑。
+- CI 门禁（`.github/workflows/ci.yml`，PR 与 push main 都触发）：`npm run gen` → `npm run verify:derived`（仓库里提交的派生文件必须与 gen 输出一致）→ `npm run build`。
 - `npm run build`：生产构建到 `dist/`（base 已设为 `/econ-everything/`）。
 - `npx tsc --noEmit`：类型检查。
 - 本地预览：`npm run build` 后用任意静态服务器以 **子路径 `/econ-everything/`** 提供 `dist/`（如 `python3 -m http.server --directory /tmp/ghpages` 且 `dist` 位于 `/tmp/ghpages/econ-everything/`）。
@@ -48,4 +49,4 @@
 - 16 个模块全部渲染；首页 KPI/入口/参考文献/JSON-LD 正常。
 - 搜索跨模块命中并跳转；详情面板含相关条目与来源；中英切换全局生效。
 - `tsc --noEmit` 通过；生产构建在 GitHub Pages 路径下零 console 报错。
-- `npm run gen` 双语校验全绿（17 个数据文件、186 条目、zh/en 键对齐）。
+- `npm run gen` 校验全绿（17 个数据文件、190 条目、zh/en 键对齐）；2 条跨文件 id 重复警告（`gdp`、`information-asymmetry`）待治理。

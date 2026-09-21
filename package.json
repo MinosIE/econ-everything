@@ -10,7 +10,7 @@
     "dev": "npm run gen && vite",
     "build": "npm run gen && tsc --noEmit && vite build",
     "preview": "npm run gen && vite build && vite preview",
-    "check": "node scripts/check-i18n.mjs",
+    "check": "node scripts/check-data.mjs && node scripts/check-i18n.mjs",
     "verify:derived": "git diff --exit-code -- public"
   },
   "devDependencies": {

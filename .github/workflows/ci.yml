@@ -1,0 +1,36 @@
+name: CI 校验（不部署）
+
+# 与 deploy.yml 互补：这里负责把「提交前必跑」的约束变成硬门禁。
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 拉取代码
+        uses: actions/checkout@v4
+
+      - name: 安装 Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: 安装依赖
+        run: npm ci
+
+      - name: 生成派生文件（含 check-data / check-i18n）
+        run: npm run gen
+
+      - name: 校验提交进仓库的派生文件与 gen 输出一致
+        run: npm run verify:derived
+
+      - name: 类型检查 + 生产构建
+        run: npm run build
