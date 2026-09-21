@@ -1,0 +1,378 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>万物经济学 · Economics of Everything | 经济学通识科普</title>
+    <meta
+      name="description"
+      content="用经济学解释世界：核心概念、名词词典、宏观经济、微观经济、货币金融、经济思想家、流派、经济发展史、行为经济学、博弈论、国际贸易、生活中的经济学，中英双语、免费无广告，帮你在 3 分钟内看懂一个概念。"
+    />
+    <meta
+      name="keywords"
+      content="经济学,经济学入门,经济学原理,微观经济学,宏观经济学,通货膨胀,GDP,供需,机会成本,边际,博弈论,行为经济学,国际贸易,货币政策,经济学词典,经济学通识"
+    />
+    <meta name="author" content="万物经济学" />
+    <meta name="robots" content="index,follow,max-image-preview:large" />
+    <link rel="canonical" href="https://MinosIE.github.io/econ-everything/" />
+    <link rel="alternate" hreflang="zh-CN" href="https://MinosIE.github.io/econ-everything/" />
+    <link
+      rel="alternate"
+      hreflang="en"
+      href="https://MinosIE.github.io/econ-everything/?lang=en"
+    />
+    <link rel="alternate" hreflang="x-default" href="https://MinosIE.github.io/econ-everything/" />
+    <link rel="sitemap" type="application/xml" href="sitemap.xml" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="theme-color" content="#0E7490" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#0B1C26" media="(prefers-color-scheme: dark)" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="万物经济学 · Economics of Everything" />
+    <meta
+      property="og:description"
+      content="用经济学解释世界：从供需、通胀到博弈论，把「万物」拆成看得懂的常识。"
+    />
+    <meta property="og:url" content="https://MinosIE.github.io/econ-everything/" />
+    <meta property="og:locale" content="zh_CN" />
+    <meta property="og:locale:alternate" content="en_US" />
+    <meta property="og:site_name" content="万物经济学" />
+    <meta property="og:image" content="https://MinosIE.github.io/econ-everything/og-cover.svg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="万物经济学 · Economics of Everything" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="万物经济学 · Economics of Everything" />
+    <meta
+      name="twitter:description"
+      content="用经济学解释世界：从供需、通胀到博弈论，把「万物」拆成看得懂的常识。"
+    />
+    <meta name="twitter:image" content="https://MinosIE.github.io/econ-everything/og-cover.svg" />
+    <meta name="twitter:image:alt" content="万物经济学 · Economics of Everything" />
+
+    <!-- 避免主题闪烁：首屏渲染前确定主题 -->
+    <script>
+      (function () {
+        try {
+          var t = localStorage.getItem('theme');
+          if (!t) {
+            t = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+          }
+          document.documentElement.setAttribute('data-theme', t);
+        } catch (e) {
+          document.documentElement.setAttribute('data-theme', 'light');
+        }
+      })();
+    </script>
+    <!-- 语言决定顺序：?lang= → localStorage → navigator.language -->
+    <script>
+      (function () {
+        try {
+          var q = null;
+          try {
+            q = new URLSearchParams(location.search).get('lang');
+          } catch (_) {}
+          var l = q || localStorage.getItem('lang');
+          if (!l) {
+            l = (navigator.language || 'zh').toLowerCase().startsWith('en') ? 'en' : 'zh';
+          }
+          l = l === 'en' ? 'en' : 'zh';
+          if (q) localStorage.setItem('lang', l);
+          document.documentElement.lang = l === 'en' ? 'en' : 'zh-CN';
+          document.documentElement.setAttribute('data-lang', l);
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body>
+    <div class="wrap">
+      <section class="hero">
+        <button class="icon-btn theme-btn" id="themeBtn" aria-label="切换明暗主题">
+          <span id="themeLabel">夜间</span>
+        </button>
+        <button class="icon-btn lang-btn" id="langBtn" aria-label="切换语言 Switch language">
+          <span id="langLabel">中文</span>
+        </button>
+        <h1 data-i18n="heroTitle">万物经济学 · Economics of Everything</h1>
+        <p data-i18n="heroSub">
+          用经济学解释世界：从供需、通胀到博弈论，把「万物」拆成看得懂的常识。中立、结构化、中英双语、免费无广告。
+        </p>
+        <p class="hero-issue">
+          <span data-i18n="heroIssue">发现问题或有建议？欢迎提 Issue 或邮件反馈：</span
+          ><a
+            class="hero-issue-link"
+            href="https://github.com/MinosIE/econ-everything/issues"
+            target="_blank"
+            rel="noopener noreferrer"
+            >GitHub Issues ↗</a
+          ><a
+            id="heroMailLink"
+            class="hero-issue-link-alt"
+            href="mailto:417913012@qq.com"
+            ><span data-i18n="heroMail">✉️ 邮件反馈</span></a
+          >
+        </p>
+        <div class="kpis" id="kpis"></div>
+      </section>
+
+      <div class="search">
+        <input
+          id="search"
+          type="search"
+          autocomplete="off"
+          aria-label="搜索"
+          data-i18n-attr="placeholder:searchPlaceholder"
+          placeholder="搜索：概念 / 术语 / 思想家 / 大事记，如「机会成本」「通胀」「凯恩斯」"
+        />
+        <div class="search-results" id="searchResults" hidden></div>
+      </div>
+
+      <nav class="modnav" id="modNav" aria-label="模块导航">
+        <button class="mod active" data-go="m-home" data-i18n="nav.home">概览</button>
+        <button class="mod" data-go="m-concepts" data-i18n="nav.concepts">核心概念</button>
+        <button class="mod" data-go="m-glossary" data-i18n="nav.glossary">名词词典</button>
+        <button class="mod" data-go="m-macro" data-i18n="nav.macro">宏观经济</button>
+        <button class="mod" data-go="m-micro" data-i18n="nav.micro">微观经济</button>
+        <button class="mod" data-go="m-money" data-i18n="nav.money">货币与金融</button>
+        <button class="mod" data-go="m-thinkers" data-i18n="nav.thinkers">经济思想家</button>
+        <button class="mod" data-go="m-schools" data-i18n="nav.schools">经济学流派</button>
+        <button class="mod" data-go="m-events" data-i18n="nav.events">经济大事记</button>
+        <button class="mod" data-go="m-behavioral" data-i18n="nav.behavioral">行为经济学</button>
+        <button class="mod" data-go="m-game" data-i18n="nav.game">博弈论</button>
+        <button class="mod" data-go="m-trade" data-i18n="nav.trade">国际贸易</button>
+        <button class="mod" data-go="m-everyday" data-i18n="nav.everyday">生活中的经济学</button>
+        <button class="mod" data-go="m-charts" data-i18n="nav.charts">数据可视化</button>
+        <button class="mod" data-go="m-myths" data-i18n="nav.myths">常见误区</button>
+        <button class="mod" data-go="m-quiz" data-i18n="nav.quiz">小测验</button>
+        <button class="mod" data-go="m-compare" data-i18n="nav.compare">中外对比</button>
+      </nav>
+
+      <section class="module active" id="m-home">
+        <p class="home-lead" data-i18n="homeLead">
+          从原理到宏观、微观、货币金融，再到思想史与生活现场 —— 选一个板块开始
+        </p>
+        <div class="home-grid" id="homeGrid"></div>
+        <section class="refs" id="refsBox" hidden>
+          <h2 data-i18n="refsTitle">主要参考资料与数据来源</h2>
+          <p class="mod-sub" data-i18n="refsSub">
+            本站内容为通识性整理，关键数字均标注来源与年份；不构成任何投资建议。
+          </p>
+          <ul class="ref-list" id="refList"></ul>
+        </section>
+      </section>
+
+      <section class="module" id="m-concepts">
+        <header class="mod-head">
+          <h2 data-i18n="concepts.title">核心概念</h2>
+          <p class="mod-sub" data-i18n="concepts.sub">
+            经济学的地基：稀缺、机会成本、边际、激励、供需与均衡。按分类与难度筛选，点击卡片看详解。
+          </p>
+        </header>
+        <div class="filters" id="conceptsFilters"></div>
+        <p class="count" id="conceptsCount"></p>
+        <div class="card-grid" id="conceptsGrid"></div>
+      </section>
+
+      <section class="module" id="m-glossary">
+        <header class="mod-head">
+          <h2 data-i18n="glossary.title">名词词典</h2>
+          <p class="mod-sub" data-i18n="glossary.sub">
+            新闻里天天出现却说不清的词：定义 + 大白话 + 英文对照 + 相关概念。
+          </p>
+        </header>
+        <div class="inline-search">
+          <input
+            id="glossaryQuery"
+            type="search"
+            autocomplete="off"
+            aria-label="在词典内搜索"
+            data-i18n-attr="placeholder:glossary.searchPlaceholder"
+            placeholder="在词典内搜索：如「流动性」「基尼系数」「公开市场操作」"
+          />
+        </div>
+        <div class="filters" id="glossaryFilters"></div>
+        <p class="count" id="glossaryCount"></p>
+        <div class="gloss-list" id="glossaryList"></div>
+      </section>
+
+      <section class="module" id="m-macro">
+        <header class="mod-head">
+          <h2 data-i18n="macro.title">宏观经济</h2>
+          <p class="mod-sub" data-i18n="macro.sub">
+            整体经济的体温计：GDP、通胀、失业、财政与货币政策，以及它们的传导链条。
+          </p>
+        </header>
+        <div class="filters" id="macroFilters"></div>
+        <div class="card-grid" id="macroGrid"></div>
+      </section>
+
+      <section class="module" id="m-micro">
+        <header class="mod-head">
+          <h2 data-i18n="micro.title">微观经济</h2>
+          <p class="mod-sub" data-i18n="micro.sub">
+            从一个人的选择到一家公司的定价：需求供给、弹性、成本、市场结构与竞争。
+          </p>
+        </header>
+        <div class="filters" id="microFilters"></div>
+        <div class="card-grid" id="microGrid"></div>
+      </section>
+
+      <section class="module" id="m-money">
+        <header class="mod-head">
+          <h2 data-i18n="money.title">货币与金融</h2>
+          <p class="mod-sub" data-i18n="money.sub">
+            钱从哪里来、值多少、谁在定价：货币史、央行、利率、银行体系、汇率与资产泡沫。
+          </p>
+        </header>
+        <div class="filters" id="moneyFilters"></div>
+        <div class="card-grid" id="moneyGrid"></div>
+      </section>
+
+      <section class="module" id="m-thinkers">
+        <header class="mod-head">
+          <h2 data-i18n="thinkers.title">经济思想家</h2>
+          <p class="mod-sub" data-i18n="thinkers.sub">
+            斯密、李嘉图、马克思、马歇尔、凯恩斯、哈耶克、熊彼特、弗里德曼……他们各自回答了什么问题。
+          </p>
+        </header>
+        <div class="card-grid" id="thinkersGrid"></div>
+      </section>
+
+      <section class="module" id="m-schools">
+        <header class="mod-head">
+          <h2 data-i18n="schools.title">经济学流派</h2>
+          <p class="mod-sub" data-i18n="schools.sub">
+            同一组现象，不同的解释处方：古典、新古典、凯恩斯、货币主义、奥地利、制度、行为。
+          </p>
+        </header>
+        <div class="card-grid" id="schoolsGrid"></div>
+      </section>
+
+      <section class="module" id="m-events">
+        <header class="mod-head">
+          <h2 data-i18n="events.title">经济大事记</h2>
+          <p class="mod-sub" data-i18n="events.sub">
+            大萧条、布雷顿森林、石油危机、广场协议、2008 金融危机、量化宽松……事件改变规则。
+          </p>
+        </header>
+        <div class="timeline" id="eventsList"></div>
+      </section>
+
+      <section class="module" id="m-behavioral">
+        <header class="mod-head">
+          <h2 data-i18n="behavioral.title">行为经济学</h2>
+          <p class="mod-sub" data-i18n="behavioral.sub">
+            人不是算计机器：前景理论、锚定、损失厌恶、羊群效应、双曲贴现。
+          </p>
+        </header>
+        <div class="filters" id="behavioralFilters"></div>
+        <div class="card-grid" id="behavioralGrid"></div>
+      </section>
+
+      <section class="module" id="m-game">
+        <header class="mod-head">
+          <h2 data-i18n="game.title">博弈论</h2>
+          <p class="mod-sub" data-i18n="game.sub">
+            当你的最优选择取决于别人的选择：囚徒困境、纳什均衡、智猪博弈、公地悲剧。
+          </p>
+        </header>
+        <div class="filters" id="gameFilters"></div>
+        <div class="card-grid" id="gameGrid"></div>
+      </section>
+
+      <section class="module" id="m-trade">
+        <header class="mod-head">
+          <h2 data-i18n="trade.title">国际贸易</h2>
+          <p class="mod-sub" data-i18n="trade.sub">
+            为什么贸易不必然是零和：比较优势、关税、贸易战、全球产业链与争议双方观点。
+          </p>
+        </header>
+        <div class="card-grid" id="tradeGrid"></div>
+      </section>
+
+      <section class="module" id="m-everyday">
+        <header class="mod-head">
+          <h2 data-i18n="everyday.title">生活中的经济学</h2>
+          <p class="mod-sub" data-i18n="everyday.sub">
+            排队、房价、打车、二手市场、招聘、平台经济——用经济学重新看一遍日常。
+          </p>
+        </header>
+        <div class="card-grid" id="everydayGrid"></div>
+      </section>
+
+      <section class="module" id="m-charts">
+        <header class="mod-head">
+          <h2 data-i18n="charts.title">数据可视化</h2>
+          <p class="mod-sub" data-i18n="charts.sub">
+            用纯 SVG 手绘的长期趋势示意：增长、通胀、失业、利率、汇率。示例性年度近似值，非实时数据。
+          </p>
+        </header>
+        <div class="chart-wrap" id="chartsWrap"></div>
+      </section>
+
+      <section class="module" id="m-myths">
+        <header class="mod-head">
+          <h2 data-i18n="myths.title">常见误区</h2>
+          <p class="mod-sub" data-i18n="myths.sub">
+            听起来很有道理，但经不起推敲：逐条拆解流行说法，并说明为什么容易搞错。
+          </p>
+        </header>
+        <div class="myth-list" id="mythsList"></div>
+      </section>
+
+      <section class="module" id="m-quiz">
+        <header class="mod-head">
+          <h2 data-i18n="quiz.title">小测验</h2>
+          <p class="mod-sub" data-i18n="quiz.sub">
+            读完之后自测一下：选择题 + 答案解析，全部本地完成，不上传任何数据。
+          </p>
+        </header>
+        <div class="quiz" id="quizBox"></div>
+      </section>
+
+      <section class="module" id="m-compare">
+        <header class="mod-head">
+          <h2 data-i18n="compare.title">中外对比</h2>
+          <p class="mod-sub" data-i18n="compare.sub">
+            同一个问题，不同国家与流派的处理方式对照。只呈现差别与代价，不替你做价值判断。
+          </p>
+        </header>
+        <div class="cmp-list" id="compareList"></div>
+      </section>
+
+      <footer class="foot" id="foot"></footer>
+    </div>
+
+    <noscript>
+      <p class="noscript">
+        本页为交互式科普站，需开启 JavaScript 才能渲染内容。全部结构化数据见
+        <code>data/overview.json</code>、<code>data/concepts.json</code> 等文件（也可访问
+        <code>llms-full.txt</code> 阅读全站纯文本）。
+      </p>
+    </noscript>
+
+    <button class="to-top" id="toTop" type="button" aria-label="返回顶部" title="返回顶部">
+      <svg
+        viewBox="0 0 24 24"
+        width="22"
+        height="22"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2.4"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        aria-hidden="true"
+      >
+        <path d="M12 19V5" />
+        <path d="M5 12l7-7 7 7" />
+      </svg>
+    </button>
+
+    <div class="detail-root" id="detailRoot" hidden></div>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

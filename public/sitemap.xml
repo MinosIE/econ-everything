@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://MinosIE.github.io/econ-everything/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://MinosIE.github.io/econ-everything/llms.txt</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://MinosIE.github.io/econ-everything/llms-en.txt</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://MinosIE.github.io/econ-everything/llms-full.txt</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://MinosIE.github.io/econ-everything/llms-full-en.txt</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://MinosIE.github.io/econ-everything/data/concepts.json</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://MinosIE.github.io/econ-everything/data/glossary.json</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://MinosIE.github.io/econ-everything/data/macro.json</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://MinosIE.github.io/econ-everything/data/micro.json</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://MinosIE.github.io/econ-everything/data/money.json</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://MinosIE.github.io/econ-everything/data/thinkers.json</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://MinosIE.github.io/econ-everything/data/schools.json</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://MinosIE.github.io/econ-everything/data/events.json</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://MinosIE.github.io/econ-everything/data/behavioral.json</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://MinosIE.github.io/econ-everything/data/gametheory.json</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://MinosIE.github.io/econ-everything/data/trade.json</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://MinosIE.github.io/econ-everything/data/everyday.json</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://MinosIE.github.io/econ-everything/data/charts.json</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://MinosIE.github.io/econ-everything/data/myths.json</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://MinosIE.github.io/econ-everything/data/quiz.json</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://MinosIE.github.io/econ-everything/data/compare.json</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://MinosIE.github.io/econ-everything/data/sources.json</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+</urlset>

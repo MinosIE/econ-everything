@@ -1,0 +1,94 @@
+# Economics of Everything
+
+> A bilingual, ad-free educational site explaining economics in plain language: core concepts, glossary, macro, micro, money and finance, thinkers, schools of thought, economic history, behavioral economics, game theory, trade, everyday economics, charts, myths, a quiz and cross-country comparisons. All data are structured JSON with paired English fields (`*En`). Nothing here is investment advice.
+
+## Data endpoints
+- [Overview and counts](https://MinosIE.github.io/econ-everything/data/overview.json): entry counts and home-page KPIs
+- [Core concepts](https://MinosIE.github.io/econ-everything/data/concepts.json) | [Glossary](https://MinosIE.github.io/econ-everything/data/glossary.json)
+- [Macroeconomics](https://MinosIE.github.io/econ-everything/data/macro.json) | [Microeconomics](https://MinosIE.github.io/econ-everything/data/micro.json) | [Money & finance](https://MinosIE.github.io/econ-everything/data/money.json)
+- [Thinkers](https://MinosIE.github.io/econ-everything/data/thinkers.json) | [Schools of thought](https://MinosIE.github.io/econ-everything/data/schools.json) | [Economic History](https://MinosIE.github.io/econ-everything/data/events.json)
+- [Behavioral economics](https://MinosIE.github.io/econ-everything/data/behavioral.json) | [Game theory](https://MinosIE.github.io/econ-everything/data/gametheory.json) | [Trade](https://MinosIE.github.io/econ-everything/data/trade.json)
+- [Everyday economics](https://MinosIE.github.io/econ-everything/data/everyday.json) | [Charts](https://MinosIE.github.io/econ-everything/data/charts.json)
+- [Myths](https://MinosIE.github.io/econ-everything/data/myths.json) | [Quiz](https://MinosIE.github.io/econ-everything/data/quiz.json) | [Compare](https://MinosIE.github.io/econ-everything/data/compare.json)
+- [References](https://MinosIE.github.io/econ-everything/data/sources.json) | [Search index](https://MinosIE.github.io/econ-everything/data/search.json) | [Related index](https://MinosIE.github.io/econ-everything/data/related.json)
+- [Full text](https://MinosIE.github.io/econ-everything/llms-full-en.txt): full plain-text dump of all structured data
+- [Chinese index](https://MinosIE.github.io/econ-everything/llms.txt): 中文索引
+
+## Modules
+- Core Concepts
+- Glossary
+- Macroeconomics
+- Microeconomics
+- Money & Finance
+- Thinkers
+- Schools of Thought
+- Economic History
+- Behavioral Economics
+- Game Theory
+- Trade & Globalization
+- Everyday Economics
+- Data & Charts
+- Myths Busted
+- Quiz
+- Compare
+
+## Core concepts at a glance
+- **Scarcity** (Foundations, level 1): Resources are limited while wants are not, so choices must be made.
+- **Trade-off** (Foundations, level 1): To get one thing, you usually have to give up another.
+- **Opportunity Cost** (Foundations, level 1): The value of the best alternative you give up.
+- **Marginal Thinking** (Foundations, level 1): Decisions hinge on the extra benefit and cost of one more unit.
+- **Incentives** (Foundations, level 1): People respond to rewards and penalties; change the rules and behaviour changes.
+- **Sunk Cost** (Foundations, level 1): Costs already spent and unrecoverable should not drive the next decision.
+- **Supply and Demand** (Supply & Demand, level 1): Higher prices bring more sellers and fewer buyers.
+- **Market Equilibrium** (Supply & Demand, level 1): The price at which quantity supplied equals quantity demanded.
+- **Elasticity** (Supply & Demand, level 2): How much quantity responds to a price change: a big response means elastic.
+- **Surplus and Shortage** (Supply & Demand, level 2): Hold price away from equilibrium and you get either unsold stock or queues.
+- **Externality** (Market Structure, level 2): Your action affects a third party without payment or compensation.
+- **Public Goods** (Market Structure, level 2): Goods everyone can use and no one can easily be excluded from.
+- **Market Structure** (Market Structure, level 2): From perfect competition to monopoly, the number of sellers sets pricing power.
+- **Comparative Advantage** (Trade & Globalization, level 2): Even if you are worse at everything, specialising where your relative cost is lowest benefits both sides.
+- **Gross Domestic Product** (Macro, level 1): The total value of final goods and services produced within a country in a year.
+- **Inflation** (Macro, level 1): A sustained rise in the general price level, eroding the value of money.
+- **Unemployment** (Macro, level 2): The share of people able and willing to work who cannot find a job.
+- **Economic Growth** (Macro, level 2): A long-run rise in output per person, driven mainly by productivity and technology.
+- **Money** (Money & Finance, level 1): A generally accepted medium of exchange, unit of account and store of value.
+- **Interest Rate** (Money & Finance, level 1): The price of funds, and the discount rate that translates future money into today's value.
+- **Central Bank** (Money & Finance, level 2): The institution that issues money, sets interest rates and acts as lender of last resort.
+- **Nash Equilibrium** (Behavior & Games, level 3): A set of strategies where no player gains by changing alone.
+- **Loss Aversion** (Behavior & Games, level 2): Losing hurts more than gaining the same amount feels good.
+- **Tax Incidence** (Micro, level 3): Who is taxed by law and who bears the burden in practice are different questions.
+- **Tragedy of the Commons** (Market Structure, level 2): Resources open to all and owned by none are overused until depleted.
+- **Information Asymmetry** (Market Structure, level 2): When one side knows more, markets can shrink as bad products drive out good ones.
+
+## Thinkers at a glance
+- **Adam Smith** (1723–1790, Classical): Showed how self-interest, under division of labour and markets, can produce public benefit.
+- **David Ricardo** (1772–1823, Classical): Pushed economics towards rigorous reasoning with comparative advantage and rent theory.
+- **Karl Marx** (1818–1883, Critique of classical political economy): Analysed capitalism's internal contradictions and crisis tendencies through accumulation and class relations.
+- **Alfred Marshall** (1842–1924, Neoclassical): Integrated supply, demand, elasticity and marginal analysis into modern microeconomics.
+- **John Maynard Keynes** (1883–1946, Keynesian): Argued that insufficient aggregate demand causes persistent unemployment, so government must act.
+- **Friedrich Hayek** (1899–1992, Austrian): Emphasised dispersed knowledge and price signals, warning of the information problem in central planning.
+- **Joseph Schumpeter** (1883–1950, Innovation and evolutionary economics): Placed entrepreneurial innovation and creative destruction at the core of capitalist growth.
+- **Milton Friedman** (1912–2006, Monetarism / Chicago): Argued that inflation is always and everywhere a monetary phenomenon, favouring rules over discretion.
+
+## Economic History at a glance
+- **1602 — Founding of the Dutch East India Company** (Netherlands): The first multinational joint-stock company to issue publicly tradable shares was founded.
+- **1776 — The Wealth of Nations Is Published** (United Kingdom): Adam Smith set out division of labour, market mechanisms and free trade, founding economics as a discipline.
+- **1825 — The First Modern Economic Crisis** (United Kingdom): Speculative investment and credit expansion collapsed abruptly, banks failed and unemployment and bankruptcies rose together.
+- **1870s — The Classical Gold Standard Takes Shape** (Europe and North America): Major economies pegged their currencies to gold, creating a de facto fixed-rate system.
+- **1929 — The Great Depression** (United States → global): After the crash, credit contracted and banks failed in chains; global output and prices fell deeply and unemployment soared.
+- **1936 — The General Theory Is Published** (United Kingdom): Keynes argued insufficient aggregate demand causes persistent unemployment, and macroeconomics was born.
+- **1944 — The Bretton Woods System Is Established** (New Hampshire, USA): A fixed-rate system pegged the dollar to gold and other currencies to the dollar, with the IMF and World Bank created.
+- **1971 — The Nixon Shock: the Dollar Leaves Gold** (United States): The United States suspended dollar convertibility into gold, destroying the fixed-rate basis of Bretton Woods.
+- **1973 — The First Oil Shock** (Middle East → global): An oil embargo and a multi-fold price rise hit industrial economies with inflation and stagnation at once.
+- **1979–1982 — The Volcker Disinflation** (United States): The Federal Reserve raised policy rates towards 20%, accepting a deep two-year recession to break inflation.
+- **1985 — The Plaza Accord** (New York, USA): Five countries jointly intervened in currency markets, driving a sharp depreciation of the dollar against the yen and mark.
+- **1997 — The Asian Financial Crisis** (Southeast Asia → East Asia): Currencies and asset prices collapsed, short-term foreign debt could not be rolled over and countries sought international rescue.
+- **2008 — The Global Financial Crisis** (United States → global): Subprime defaults crashed mortgage securities, major institutions failed or were rescued, and global credit markets froze.
+- **2020 — The Pandemic Shock and Unprecedented Easing** (Global): Supply and demand halted together, and governments launched unprecedented fiscal transfers and asset purchases.
+- **2022–2024 — The Global Inflation Surge and Rapid Hiking** (Global): Inflation hit multi-decade highs in many countries and major central banks hiked at historic speed, pressuring valuations and housing.
+
+## Usage and reuse
+
+- Content is an educational summary; key figures carry a source and year, and contested topics list multiple views without taking sides.
+- AI search engines and creators are welcome to cite this site; please link the source site and the relevant data file.
+- Nothing on this site is investment advice.

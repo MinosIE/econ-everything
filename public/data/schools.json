@@ -1,0 +1,188 @@
+[
+  {
+    "id": "classical",
+    "order": 1,
+    "name": "古典经济学",
+    "nameEn": "Classical Economics",
+    "span": "1776–1870 年代",
+    "spanEn": "1776–1870s",
+    "level": 1,
+    "core": "市场能自我调节，增长来自分工、资本积累与自由贸易，政府应少干预。",
+    "coreEn": "Markets self-adjust; growth comes from division of labour, capital accumulation and free trade, so government should do little.",
+    "founders": ["亚当·斯密", "大卫·李嘉图", "托马斯·马尔萨斯", "约翰·穆勒"],
+    "foundersEn": ["Adam Smith", "David Ricardo", "Thomas Malthus", "John Stuart Mill"],
+    "keyIdeas": [
+      "劳动价值论：价值源于劳动投入",
+      "比较优势与自由贸易互利",
+      "萨伊定律：供给自动创造需求",
+      "人口与土地报酬递减的长期悲观"
+    ],
+    "keyIdeasEn": [
+      "Labour theory of value: value derives from labour input",
+      "Comparative advantage makes trade mutually beneficial",
+      "Say's law: supply creates its own demand",
+      "Long-run pessimism from population growth and diminishing returns"
+    ],
+    "strengths": ["首次系统解释价格机制与分工，为现代经济学奠定语言与问题清单。"],
+    "strengthsEn": ["First systematic account of price mechanisms and division of labour, setting modern economics' language and agenda."],
+    "criticisms": ["低估了需求不足与失业的持续性；劳动价值论难以解释价格结构；对市场自我修复过于乐观。"],
+    "criticismsEn": ["Underestimated persistent demand deficiency and unemployment; the labour theory of value struggles with relative prices; too optimistic about self-correction."],
+    "related": ["scarcity", "comparative-advantage", "adam-smith"],
+    "sources": [{ "label": "斯密《国富论》", "labelEn": "Smith, The Wealth of Nations", "year": 1776 }]
+  },
+  {
+    "id": "neoclassical",
+    "order": 2,
+    "name": "新古典经济学",
+    "nameEn": "Neoclassical Economics",
+    "span": "1870 年代–1930 年代",
+    "spanEn": "1870s–1930s",
+    "level": 2,
+    "core": "价格由供需共同决定，个体在约束下追求效用最大化，边际分析成为通用工具。",
+    "coreEn": "Price comes from supply and demand together; individuals maximise utility under constraints, and marginal analysis becomes the general tool.",
+    "founders": ["阿尔弗雷德·马歇尔", "莱昂·瓦尔拉斯", "威廉·杰文斯", "维尔弗雷多·帕累托"],
+    "foundersEn": ["Alfred Marshall", "Léon Walras", "William Jevons", "Vilfredo Pareto"],
+    "keyIdeas": [
+      "边际效用递减决定需求",
+      "一般均衡：所有市场同时出清",
+      "弹性与消费者剩余等量化工具",
+      "帕累托效率作为福利评价标准"
+    ],
+    "keyIdeasEn": [
+      "Diminishing marginal utility drives demand",
+      "General equilibrium: all markets clear simultaneously",
+      "Quantitative tools such as elasticity and consumer surplus",
+      "Pareto efficiency as the welfare benchmark"
+    ],
+    "strengths": ["把经济学变成可推理、可计算的分析体系，解释力与操作性大幅提升。"],
+    "strengthsEn": ["Turned economics into a deductive, computable system with far greater explanatory and operational power."],
+    "criticisms": ["假设完全信息与理性过于理想；对总量与失业问题缺乏解释，为大萧条所冲击。"],
+    "criticismsEn": ["Assumes perfect information and rationality; says little about aggregate demand and unemployment, which the Depression exposed."],
+    "related": ["supply-demand", "elasticity", "alfred-marshall"],
+    "sources": [{ "label": "马歇尔《经济学原理》", "labelEn": "Marshall, Principles of Economics", "year": 1890 }]
+  },
+  {
+    "id": "keynesian",
+    "order": 3,
+    "name": "凯恩斯主义",
+    "nameEn": "Keynesian Economics",
+    "span": "1936–1970 年代（后经新凯恩斯主义复兴）",
+    "spanEn": "1936–1970s, later revived as New Keynesian",
+    "level": 1,
+    "core": "总需求不足会造成持续失业，政府应主动用财政与货币政策补足需求。",
+    "coreEn": "Insufficient aggregate demand causes persistent unemployment, so government should fill the gap with fiscal and monetary policy.",
+    "founders": ["约翰·梅纳德·凯恩斯", "保罗·萨缪尔森", "詹姆斯·托宾", "约翰·希克斯"],
+    "foundersEn": ["John Maynard Keynes", "Paul Samuelson", "James Tobin", "John Hicks"],
+    "keyIdeas": [
+      "有效需求决定产出与就业",
+      "工资与价格粘性使市场调整缓慢",
+      "乘数效应放大财政支出效果",
+      "逆周期调控可平滑波动"
+    ],
+    "keyIdeasEn": [
+      "Effective demand determines output and employment",
+      "Sticky wages and prices slow adjustment",
+      "The multiplier amplifies fiscal spending",
+      "Countercyclical policy can smooth cycles"
+    ],
+    "strengths": ["成功解释了大萧条并指导战后二十年的高速增长与低失业。"],
+    "strengthsEn": ["Explained the Great Depression and guided two decades of fast growth with low unemployment after 1945."],
+    "criticisms": ["1970 年代滞胀暴露其通胀盲点；长期赤字与债务可持续性受质疑；政策时滞与政治周期问题突出。"],
+    "criticismsEn": ["The 1970s stagflation exposed its inflation blind spot; long-run deficit sustainability is questioned; policy lags and political cycles are problematic."],
+    "related": ["john-maynard-keynes", "milton-friedman", "business-cycle"],
+    "sources": [{ "label": "凯恩斯《就业、利息和货币通论》", "labelEn": "Keynes, The General Theory", "year": 1936 }]
+  },
+  {
+    "id": "monetarism",
+    "order": 4,
+    "name": "货币主义",
+    "nameEn": "Monetarism",
+    "span": "1956 年至今",
+    "spanEn": "1956–present",
+    "level": 2,
+    "core": "长期通胀由货币增速决定，政策应以稳定货币增长的可预期规则为纲。",
+    "coreEn": "Long-run inflation is set by money growth, so policy should follow predictable rules for stable money growth.",
+    "founders": ["米尔顿·弗里德曼", "安娜·施瓦茨", "卡尔·布伦纳", "艾伦·梅尔策"],
+    "foundersEn": ["Milton Friedman", "Anna Schwartz", "Karl Brunner", "Allan Meltzer"],
+    "keyIdeas": [
+      "通胀本质是货币现象",
+      "自然失业率：扩张无法长期降低失业",
+      "规则优于相机抉择",
+      "货币政策存在长而多变的时滞"
+    ],
+    "keyIdeasEn": [
+      "Inflation is fundamentally a monetary phenomenon",
+      "The natural rate: expansion cannot lower unemployment permanently",
+      "Rules beat discretion",
+      "Monetary policy works with long and variable lags"
+    ],
+    "strengths": ["对 1970 年代通胀给出有效诊断，推动通胀目标制与央行独立性成为主流制度。"],
+    "strengthsEn": ["Diagnosed 1970s inflation effectively and helped make inflation targeting and central bank independence mainstream."],
+    "criticisms": ["货币需求并不稳定，狭义货币增速与通胀的关系在金融创新后弱化；对 2008 年后的非常规政策指导有限。"],
+    "criticismsEn": ["Money demand is unstable, and the link between narrow money growth and inflation weakened with financial innovation; limited guidance for post-2008 unconventional policy."],
+    "related": ["milton-friedman", "inflation", "central-bank"],
+    "sources": [{ "label": "弗里德曼《美国货币史》", "labelEn": "Friedman & Schwartz, A Monetary History of the United States", "year": 1963 }]
+  },
+  {
+    "id": "austrian",
+    "order": 5,
+    "name": "奥地利学派",
+    "nameEn": "Austrian School",
+    "span": "1871 年至今",
+    "spanEn": "1871–present",
+    "level": 3,
+    "core": "经济是分散知识下的动态过程，价格信号与企业家发现是核心，反对过度干预。",
+    "coreEn": "The economy is a dynamic process under dispersed knowledge; price signals and entrepreneurial discovery are central, so intervention should be limited.",
+    "founders": ["卡尔·门格尔", "欧根·冯·米塞斯", "弗里德里希·哈耶克", "伊斯雷尔·柯兹纳"],
+    "foundersEn": ["Carl Menger", "Ludwig von Mises", "Friedrich Hayek", "Israel Kirzner"],
+    "keyIdeas": [
+      "主观价值论：价值源于个体评价",
+      "知识与价格信号问题",
+      "资本结构与利率扭曲导致错配",
+      "企业家发现驱动市场过程"
+    ],
+    "keyIdeasEn": [
+      "Subjective value: value reflects individual valuation",
+      "The knowledge and price-signal problem",
+      "Capital structure and rate distortions cause misallocation",
+      "Entrepreneurial discovery drives the market process"
+    ],
+    "strengths": ["对知识分散、制度约束与货币扭曲的分析深刻，影响了转型经济与制度经济学。"],
+    "strengthsEn": ["Deep analysis of dispersed knowledge, institutional constraints and monetary distortion influenced transition economies and institutional economics."],
+    "criticisms": ["对市场自发调整过于乐观；缺乏可检验的宏观预测；低估了危机中流动性支持的必要性。"],
+    "criticismsEn": ["Overly optimistic about self-correction; offers few testable macro predictions; understates the need for liquidity support in crises."],
+    "related": ["friedrich-hayek", "central-bank", "bubbles-crises"],
+    "sources": [{ "label": "哈耶克《知识在社会中的运用》", "labelEn": "Hayek, The Use of Knowledge in Society", "year": 1945 }]
+  },
+  {
+    "id": "new-institutional",
+    "order": 6,
+    "name": "制度与行为经济学",
+    "nameEn": "Institutional and Behavioral Economics",
+    "span": "1937 年至今",
+    "spanEn": "1937–present",
+    "level": 3,
+    "core": "制度安排与真实心理过程决定经济结果；交易成本与认知偏差都不可忽略。",
+    "coreEn": "Institutions and real psychological processes determine outcomes; neither transaction costs nor cognitive bias can be ignored.",
+    "founders": ["罗纳德·科斯", "道格拉斯·诺斯", "埃莉诺·奥斯特罗姆", "丹尼尔·卡尼曼", "理查德·塞勒"],
+    "foundersEn": ["Ronald Coase", "Douglass North", "Elinor Ostrom", "Daniel Kahneman", "Richard Thaler"],
+    "keyIdeas": [
+      "交易成本决定企业与市场的边界",
+      "产权与制度质量影响长期增长",
+      "公共池塘资源可由社区规则有效治理",
+      "前景理论：损失厌恶与参照点依赖"
+    ],
+    "keyIdeasEn": [
+      "Transaction costs set the boundary between firm and market",
+      "Property rights and institutional quality shape long-run growth",
+      "Common-pool resources can be governed by community rules",
+      "Prospect theory: loss aversion and reference dependence"
+    ],
+    "strengths": ["把制度与现实人性纳入分析，解释了大量标准模型无法解释的现象，政策可操作性更强。"],
+    "strengthsEn": ["Brings institutions and real human behaviour into analysis, explaining much that standard models cannot and making policy more workable."],
+    "criticisms": ["理论整合度低于主流框架；行为干预的长期效果与规模适用性仍存争议。"],
+    "criticismsEn": ["Less unified than mainstream frameworks; the long-run effect and scalability of behavioural interventions remain contested."],
+    "related": ["externality", "loss-aversion", "tragedy-of-the-commons"],
+    "sources": [{ "label": "诺斯《制度、制度变迁与经济绩效》", "labelEn": "North, Institutions, Institutional Change and Economic Performance", "year": 1990 }]
+  }
+]

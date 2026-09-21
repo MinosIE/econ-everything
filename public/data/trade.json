@@ -1,0 +1,92 @@
+[
+  {
+    "id": "gains-from-trade",
+    "topic": "贸易为什么不是零和",
+    "topicEn": "Why Trade Is Not Zero-Sum",
+    "level": 2,
+    "oneLiner": "双方各自专注相对成本更低的生产，交换后总产出与总福利都能提高。",
+    "oneLinerEn": "Each side specialises where relative cost is lowest, and exchange raises total output and welfare.",
+    "detail": "比较优势说明：贸易的基础不是「谁更强」，而是「相对机会成本不同」。因此即便一国在所有行业效率都更低，专注相对劣势最小的行业仍可获益。贸易带来的收益是「总量提升」，但内部分配并不均匀——受损者真实存在，因此需要配套调整政策。",
+    "detailEn": "Comparative advantage says trade rests not on who is stronger but on differing relative opportunity costs. Even a country less efficient in everything gains by specialising where its relative disadvantage is smallest. The gain is aggregate, but distribution within a country is uneven — losers are real and need adjustment policies.",
+    "example": "两国分别专注自己放弃代价最小的产品并交换，两国可消费的组合都更大。",
+    "exampleEn": "Two countries specialise in what costs them least to forgo, and both can consume a larger bundle.",
+    "views": [
+      { "k": "主流经济学观点", "kEn": "Mainstream view", "v": "贸易提高总产出、降低价格、扩大选择，长期对多数人有利。", "vEn": "Trade raises output, lowers prices and widens choice, benefiting most people over time." },
+      { "k": "批评与修正", "kEn": "Critiques", "v": "收益分配不均、产业空心化与安全依赖风险真实存在，不能只用总量论证。", "vEn": "Uneven distribution, deindustrialisation and security dependence are real, so aggregate arguments alone are insufficient." }
+    ],
+    "related": ["tariff-war", "trade-deficit-meaning", "currency-and-trade"],
+    "sources": [{ "label": "李嘉图《政治经济学及赋税原理》", "labelEn": "Ricardo, On the Principles of Political Economy and Taxation", "year": 1817 }]
+  },
+  {
+    "id": "tariff-war",
+    "topic": "关税与贸易战",
+    "topicEn": "Tariffs and Trade Wars",
+    "level": 2,
+    "oneLiner": "关税抬高进口价、保护本国生产者，但成本多由本国消费者与下游企业承担。",
+    "oneLinerEn": "Tariffs raise import prices and shield domestic producers, but domestic consumers and downstream firms usually pay.",
+    "detail": "关税的直接影响是进口减少、国内价格上升。收益归于受保护的生产者与财政，成本分散到大量消费者与使用进口中间品的企业。若对方报复，出口行业受损；长期还可能推动供应链重构与技术脱钩，代价超出短期贸易额变化。",
+    "detailEn": "Tariffs cut imports and raise domestic prices. Benefits accrue to protected producers and the treasury, while costs spread across many consumers and firms using imported inputs. Retaliation hurts exporters, and over time supply chains may be reconfigured and technology decoupled, with costs beyond the headline trade volumes.",
+    "example": "对进口洗衣机加税后，本国同类产品价格同步上升，消费者实际承担了大部分成本。",
+    "exampleEn": "After tariffs on imported washing machines, domestic prices rose too, so consumers bore much of the cost.",
+    "views": [
+      { "k": "支持关税的理由", "kEn": "Case for", "v": "保护幼稚产业、维护供应链安全、应对不公平补贴与倾销。", "vEn": "Protecting infant industries, securing supply chains, and countering unfair subsidies or dumping." },
+      { "k": "反对关税的理由", "kEn": "Case against", "v": "抬高国内成本、引发报复、保护低效率、最终由本国消费者买单。", "vEn": "Raising domestic costs, inviting retaliation, protecting inefficiency and ultimately taxing local consumers." }
+    ],
+    "related": ["gains-from-trade", "trade-deficit-meaning", "global-supply-chain-risks"],
+    "sources": [{ "label": "WTO 关税与贸易政策审议报告", "labelEn": "WTO trade policy review reports", "year": 2024 }]
+  },
+  {
+    "id": "trade-deficit-meaning",
+    "topic": "贸易逆差意味着什么",
+    "topicEn": "What a Trade Deficit Means",
+    "level": 3,
+    "oneLiner": "逆差是进口多于出口的表现，本身既不等于「吃亏」，也不能单独判断好坏。",
+    "oneLinerEn": "A deficit means imports exceed exports; on its own it signals neither loss nor gain.",
+    "detail": "从国民核算看，贸易差额与储蓄—投资差额恒等：国内储蓄低于投资，就需要外部资金流入，表现为贸易逆差。因此逆差与外资流入、消费旺盛或投资旺盛相伴，原因各异。真正值得关注的是债务结构、资金用途与产业竞争力。",
+    "detailEn": "In the national accounts the trade balance equals the saving-investment gap: when domestic saving is below investment, foreign capital flows in and a trade deficit appears. Deficits therefore accompany capital inflows, strong consumption or strong investment, for different reasons. What matters is debt structure, use of funds and industrial competitiveness.",
+    "example": "一个国家大量进口设备用于扩产，短期逆差扩大但未来产能提升；另一种逆差源于长期借债消费，性质完全不同。",
+    "exampleEn": "Importing machinery to expand capacity widens a deficit temporarily; borrowing to fund consumption is a different matter entirely.",
+    "views": [
+      { "k": "不必恐慌", "kEn": "Not alarming per se", "v": "逆差可反映投资吸引力与全球分工位置，是储蓄投资关系的镜像。", "vEn": "A deficit can reflect investment attractiveness and global division of labour: a mirror of the saving-investment balance." },
+      { "k": "值得警惕", "kEn": "Worth watching", "v": "若由持续借债消费驱动，可能积累外债风险与货币脆弱性。", "vEn": "If driven by debt-financed consumption, it can accumulate external debt risk and currency fragility." }
+    ],
+    "related": ["gains-from-trade", "tariff-war", "currency-and-trade"],
+    "sources": [{ "label": "IMF 对外部门报告", "labelEn": "IMF External Sector Report", "year": 2024 }]
+  },
+  {
+    "id": "global-supply-chain-risks",
+    "topic": "全球产业链的效率与脆弱",
+    "topicEn": "Global Supply Chains: Efficiency and Fragility",
+    "level": 2,
+    "oneLiner": "精细化分工带来低成本，也把单点故障传导成全球停摆。",
+    "oneLinerEn": "Fine-grained specialisation lowers cost while turning a single failure into a global stall.",
+    "detail": "准时制生产与单一供应商降低了库存成本，却在疫情、自然灾害或地缘冲突中暴露脆弱性。应对方式包括多元化供应、提高关键库存、近岸外包与友岸外包——每一种都意味着成本上升。因此「效率」与「韧性」本身就是一个取舍。",
+    "detailEn": "Just-in-time production and single sourcing cut inventory costs but proved fragile to pandemics, disasters and geopolitics. Responses include supplier diversification, strategic inventory, near-shoring and friend-shoring — each raising cost. Efficiency and resilience are themselves a trade-off.",
+    "example": "一颗几元钱的芯片缺货，导致整车厂停产，损失以数十亿计。",
+    "exampleEn": "A shortage of a chip costing a few dollars halted car plants, with losses in the billions.",
+    "views": [
+      { "k": "效率优先", "kEn": "Efficiency first", "v": "专业化与规模效应显著降低成本，过度冗余会削弱长期竞争力。", "vEn": "Specialisation and scale cut costs sharply; excessive redundancy erodes long-run competitiveness." },
+      { "k": "韧性优先", "kEn": "Resilience first", "v": "关键领域的断供代价极高，适度冗余是必要的保险费。", "vEn": "In critical sectors, disruption costs are extreme, so some redundancy is necessary insurance." }
+    ],
+    "related": ["gains-from-trade", "tariff-war", "trade-deficit-meaning"],
+    "sources": [{ "label": "OECD 全球价值链报告", "labelEn": "OECD reports on global value chains", "year": 2023 }]
+  },
+  {
+    "id": "currency-and-trade",
+    "topic": "汇率如何影响贸易",
+    "topicEn": "How Exchange Rates Affect Trade",
+    "level": 3,
+    "oneLiner": "本币贬值让出口更便宜、进口更贵，但改善贸易差额需要时间。",
+    "oneLinerEn": "Depreciation cheapens exports and raises import costs, but the trade balance adjusts only with a lag.",
+    "detail": "汇率变动首先改变相对价格，随后影响数量。由于合同、产能与消费习惯短期内难以调整，贬值初期进口成本上升快、出口数量增加慢，贸易差额可能先恶化，这被称为「J 曲线效应」。汇率也受利率差与资本流动影响，并不总由贸易决定。",
+    "detailEn": "Exchange rates move relative prices first and quantities later. Contracts, capacity and habits adjust slowly, so in the early phase import costs rise faster than exports grow and the trade balance may worsen first — the J-curve. Rates also respond to interest differentials and capital flows, not trade alone.",
+    "example": "本币贬值后出国旅游与进口商品变贵，出口企业订单增加往往要等几个季度。",
+    "exampleEn": "After depreciation, overseas travel and imports get pricier while export orders pick up only quarters later.",
+    "views": [
+      { "k": "贬值有利出口", "kEn": "Depreciation helps exports", "v": "价格竞争力增强，出口数量与就业可能改善。", "vEn": "Price competitiveness improves and export volumes and jobs may rise." },
+      { "k": "代价与限制", "kEn": "Costs and limits", "v": "推高进口成本与输入型通胀，若供应链高度依赖进口则效果有限。", "vEn": "It raises import costs and imported inflation, and matters little when supply chains depend heavily on imports." }
+    ],
+    "related": ["gains-from-trade", "trade-deficit-meaning", "global-supply-chain-risks"],
+    "sources": [{ "label": "IMF 汇率与贸易弹性研究", "labelEn": "IMF research on exchange rates and trade elasticities", "year": 2022 }]
+  }
+]

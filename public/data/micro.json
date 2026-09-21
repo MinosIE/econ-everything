@@ -1,0 +1,164 @@
+[
+  {
+    "id": "demand-curve",
+    "title": "需求曲线与它的移动",
+    "titleEn": "The Demand Curve and Why It Moves",
+    "icon": "📉",
+    "category": "需求供给",
+    "categoryEn": "Demand & supply",
+    "level": 1,
+    "lead": "价格变化是「沿曲线移动」，收入、偏好、替代品价格变化才是「整条曲线平移」。",
+    "leadEn": "A price change moves you along the curve; income, tastes or substitute prices shift the whole curve.",
+    "points": [
+      { "k": "沿曲线移动", "kEn": "Movement along", "v": "只有自身价格变化才导致需求量变化，其余因素不变。", "vEn": "Only the good's own price changes quantity demanded, holding everything else constant." },
+      { "k": "曲线右移", "kEn": "Shift right", "v": "收入上升、偏好转向、替代品涨价或买家人数增加都会推高需求。", "vEn": "Higher income, shifting tastes, pricier substitutes or more buyers all raise demand." },
+      { "k": "曲线左移", "kEn": "Shift left", "v": "互补品涨价、预期未来降价、替代品降价都会压低需求。", "vEn": "Pricier complements, expectations of future discounts or cheaper substitutes reduce demand." },
+      { "k": "需求 vs 需求量", "kEn": "Demand vs quantity", "v": "中文常混用，但前者指整条曲线，后者指某一价格下的具体数量。", "vEn": "Demand is the whole curve; quantity demanded is the amount at a given price." }
+    ],
+    "watch": [
+      "把「价格上涨导致需求减少」和「需求减少导致价格下跌」混为一谈，是最常见的因果倒置。",
+      "观察到价格与数量同时上升，通常意味着供给或需求曲线发生了移动，而不是需求定律失效。"
+    ],
+    "watchEn": [
+      "Confusing 'higher price reduces demand' with 'lower demand reduces price' is a common reversal of causation.",
+      "Price and quantity rising together usually means a curve shifted, not that the law of demand failed."
+    ],
+    "related": ["elasticity-pricing", "cost-structure", "market-forms"],
+    "sources": [{ "label": "马歇尔《经济学原理》", "labelEn": "Marshall, Principles of Economics", "year": 1890 }]
+  },
+  {
+    "id": "elasticity-pricing",
+    "title": "弹性与定价",
+    "titleEn": "Elasticity and Pricing",
+    "icon": "🎯",
+    "category": "需求供给",
+    "categoryEn": "Demand & supply",
+    "level": 2,
+    "lead": "涨价能否增加收入，取决于需求弹性；弹性小于 1 时涨价增收，大于 1 时涨价反而减收。",
+    "leadEn": "Whether a price rise raises revenue depends on elasticity: below 1 it helps, above 1 it hurts.",
+    "points": [
+      { "k": "缺乏弹性", "kEn": "Inelastic", "v": "必需品、替代品少、占支出比例小 → 涨价后销量跌得少，收入增加。", "vEn": "Necessities with few substitutes and a small budget share lose few sales, so revenue rises." },
+      { "k": "富有弹性", "kEn": "Elastic", "v": "非必需、替代品多、比价方便 → 涨价后销量大跌，收入可能下降。", "vEn": "Discretionary goods with many substitutes lose sales sharply, so revenue can fall." },
+      { "k": "长期更敏感", "kEn": "More elastic over time", "v": "短期难以改变习惯，长期可以换车、搬家、改配方，弹性上升。", "vEn": "Habits adjust slowly: over time people can switch cars or suppliers, raising elasticity." },
+      { "k": "定价启示", "kEn": "Pricing lesson", "v": "把不同弹性的人群分开（学生票、早鸟价），是提高总收入的标准做法。", "vEn": "Separating groups by elasticity — student fares, early-bird rates — is the standard way to raise revenue." }
+    ],
+    "watch": [
+      "「涨价一定赚钱」只在缺乏弹性时成立，很多企业败在这里。",
+      "弹性是估算值而非精确常数，同一商品在不同时期、不同地区差异很大。"
+    ],
+    "watchEn": [
+      "'Raising price always raises revenue' holds only when demand is inelastic; many firms get this wrong.",
+      "Elasticity is an estimate, not a constant: it varies by period and market."
+    ],
+    "related": ["demand-curve", "market-forms", "cost-structure"],
+    "sources": [{ "label": "曼昆《经济学原理》", "labelEn": "Mankiw, Principles of Economics", "year": 2020 }]
+  },
+  {
+    "id": "cost-structure",
+    "title": "成本结构",
+    "titleEn": "Cost Structure",
+    "icon": "🏭",
+    "category": "企业",
+    "categoryEn": "The firm",
+    "level": 2,
+    "lead": "固定成本、可变成本与边际成本决定企业的盈亏平衡点与最优产量。",
+    "leadEn": "Fixed, variable and marginal costs determine a firm's break-even point and optimal output.",
+    "points": [
+      { "k": "固定成本", "kEn": "Fixed", "v": "与产量无关（厂房、软件研发、牌照），产量越大单件摊得越薄。", "vEn": "Independent of output (plants, software development, licences) and spread thinner as volume grows." },
+      { "k": "可变成本", "kEn": "Variable", "v": "随产量变化（原料、计件工资、运费）。", "vEn": "Scales with output: materials, piece-rate wages, freight." },
+      { "k": "边际成本", "kEn": "Marginal", "v": "多做一件的增量成本；只要价格高于它，短期内继续生产就是合理的。", "vEn": "The extra cost of one more unit: while price exceeds it, producing on is rational in the short run." },
+      { "k": "盈亏平衡", "kEn": "Break-even", "v": "总贡献（价格 − 可变成本）覆盖固定成本时的产量即为平衡点。", "vEn": "The output at which total contribution (price minus variable cost) covers fixed cost." }
+    ],
+    "watch": [
+      "固定成本高、边际成本低的行业（软件、内容、航空）天然趋向规模集中与价格战。",
+      "把已投入的固定成本当成「必须继续」的理由，就是沉没成本谬误。"
+    ],
+    "watchEn": [
+      "Industries with high fixed and low marginal costs (software, content, airlines) naturally concentrate and cut prices.",
+      "Treating spent fixed cost as a reason to continue is the sunk-cost fallacy."
+    ],
+    "related": ["market-forms", "elasticity-pricing", "demand-curve"],
+    "sources": [{ "label": "平狄克、鲁宾费尔德《微观经济学》", "labelEn": "Pindyck & Rubinfeld, Microeconomics", "year": 2018 }]
+  },
+  {
+    "id": "market-forms",
+    "title": "四种市场形态",
+    "titleEn": "Four Market Structures",
+    "icon": "⚖️",
+    "category": "市场结构",
+    "categoryEn": "Market structure",
+    "level": 2,
+    "lead": "从完全竞争到垄断，卖家数量与产品差异决定定价权，也决定对消费者与效率的影响。",
+    "leadEn": "From perfect competition to monopoly, seller count and differentiation determine pricing power and welfare.",
+    "points": [
+      { "k": "完全竞争", "kEn": "Perfect competition", "v": "众多小卖家、同质产品、自由进出，长期利润趋近于零。", "vEn": "Many small sellers of identical goods with free entry: long-run profit tends to zero." },
+      { "k": "垄断竞争", "kEn": "Monopolistic competition", "v": "产品有差异（餐馆、服装），短期有定价权，长期因进入而摊薄。", "vEn": "Differentiated products (restaurants, apparel) give short-run pricing power that erodes with entry." },
+      { "k": "寡头", "kEn": "Oligopoly", "v": "少数几家彼此牵制，策略互动明显，可能默契维持高价。", "vEn": "A few interdependent players: strategic interaction can sustain high prices tacitly." },
+      { "k": "垄断", "kEn": "Monopoly", "v": "单一卖家可定价，但受需求约束；若靠壁垒维持，需监管介入。", "vEn": "A single seller can set price, limited by demand; if sustained by barriers, regulation follows." }
+    ],
+    "watch": [
+      "「集中度下降就一定有竞争」未必成立：地域、渠道或数据壁垒可能仍阻止有效竞争。",
+      "垄断并不总是坏事：自然垄断行业（电网、自来水管网）由一家提供反而成本最低。"
+    ],
+    "watchEn": [
+      "Falling concentration does not guarantee competition: geographic, channel or data barriers may persist.",
+      "Monopoly is not always harmful: in natural monopolies (grids, water networks) one provider is cheapest."
+    ],
+    "related": ["cost-structure", "externality-policy", "information-asymmetry"],
+    "sources": [{ "label": "泰勒尔《产业组织理论》", "labelEn": "Tirole, The Theory of Industrial Organization", "year": 1988 }]
+  },
+  {
+    "id": "externality-policy",
+    "title": "外部性的治理工具",
+    "titleEn": "Tools for Externalities",
+    "icon": "🌿",
+    "category": "市场失灵",
+    "categoryEn": "Market failure",
+    "level": 3,
+    "lead": "庇古税、排污权交易、科斯式产权界定与直接管制各有适用条件与代价。",
+    "leadEn": "Pigouvian taxes, permit trading, Coasean property rights and direct regulation each fit different conditions.",
+    "points": [
+      { "k": "庇古税", "kEn": "Pigouvian tax", "v": "按边际外部成本征税，把社会成本内化到价格中，简单但税率难定。", "vEn": "Taxing the marginal external cost internalises it, yet the right rate is hard to know." },
+      { "k": "排污权交易", "kEn": "Cap and trade", "v": "先定总量再让市场分配配额，减排成本低者多减、成本高者购买。", "vEn": "Cap the total and let the market allocate permits: cheap abaters cut more, costly ones buy." },
+      { "k": "产权界定", "kEn": "Property rights", "v": "若交易成本低、产权清晰，双方可自行协商达成有效结果（科斯定理）。", "vEn": "With clear rights and low transaction costs, parties can bargain to an efficient outcome (Coase)." },
+      { "k": "直接管制", "kEn": "Regulation", "v": "标准、禁令、技术强制，执行确定但往往缺乏灵活性、成本更高。", "vEn": "Standards, bans and technology mandates are certain to enforce but inflexible and often costlier." }
+    ],
+    "watch": [
+      "科斯定理的前提（产权清晰、交易成本低）在现实中常常不成立，因此不能一律「交给市场」。",
+      "总量控制的关键是配额初始分配方式，它决定了谁是赢家、谁是输家。"
+    ],
+    "watchEn": [
+      "Coase's premises — clear rights and low transaction costs — often fail, so 'leave it to the market' is not universal.",
+      "Under a cap, how permits are initially allocated decides who wins and who loses."
+    ],
+    "related": ["market-forms", "information-asymmetry", "cost-structure"],
+    "sources": [{ "label": "科斯《社会成本问题》", "labelEn": "Coase, The Problem of Social Cost", "year": 1960 }]
+  },
+  {
+    "id": "information-asymmetry",
+    "title": "信息不对称",
+    "titleEn": "Information Asymmetry",
+    "icon": "🔍",
+    "category": "市场失灵",
+    "categoryEn": "Market failure",
+    "level": 2,
+    "lead": "一方知道得更多，市场可能萎缩甚至消失，因为好商品被坏商品挤出。",
+    "leadEn": "When one side knows more, markets can shrink or vanish as good products are driven out.",
+    "points": [
+      { "k": "逆向选择", "kEn": "Adverse selection", "v": "交易前信息劣势方无法分辨质量，只愿出平均价，优质卖家退出。", "vEn": "Before contracting, the less informed side pays an average price, so high-quality sellers exit." },
+      { "k": "道德风险", "kEn": "Moral hazard", "v": "交易后因有人兜底而改变行为，如参保后更不注意健康。", "vEn": "After contracting, protection changes behaviour, such as taking fewer health precautions once insured." },
+      { "k": "信号", "kEn": "Signalling", "v": "有成本且难以伪造的信号（学历、认证、保修）能重建信任。", "vEn": "Costly, hard-to-fake signals (degrees, certification, warranties) rebuild trust." },
+      { "k": "筛选", "kEn": "Screening", "v": "信息劣势方设计机制让不同类型自我暴露，如免赔额与自付比例。", "vEn": "The less informed side designs menus that make types reveal themselves, such as deductibles." }
+    ],
+    "watch": [
+      "二手车、保险、信贷、招聘、医疗是信息不对称最典型的五个场景。",
+      "平台评级与第三方认证是数字时代的信号机制，但刷单会侵蚀其可信度。"
+    ],
+    "watchEn": [
+      "Used cars, insurance, credit, hiring and healthcare are the five classic arenas.",
+      "Platform ratings and third-party certification are modern signals, but fake reviews erode them."
+    ],
+    "related": ["market-forms", "externality-policy", "demand-curve"],
+    "sources": [{ "label": "阿克洛夫《柠檬市场》", "labelEn": "Akerlof, The Market for Lemons", "year": 1970 }]
+  }
+]

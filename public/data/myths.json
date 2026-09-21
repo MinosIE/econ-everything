@@ -1,0 +1,74 @@
+[
+  {
+    "id": "inflation-always-bad",
+    "myth": "通货膨胀一定是坏事。",
+    "mythEn": "Inflation is always bad.",
+    "truth": "温和且可预期的通胀通常被视为健康：它给工资与相对价格调整留出空间，也降低了债务的实际负担。真正有害的是高通胀、剧烈波动与不可预期。",
+    "truthEn": "Moderate, predictable inflation is generally considered healthy: it leaves room for relative price adjustments and lightens real debt. What harms is high, volatile and unpredictable inflation.",
+    "why": "人们在涨价时感受强烈、在收入增长时感受迟钝，且媒体报道更偏好「物价暴涨」。加之通缩同样危险却难以感知，于是「通胀=坏」成为直觉。",
+    "whyEn": "Price rises are felt acutely while income gains are noticed less, and media prefer dramatic stories. Deflation is equally dangerous but harder to perceive, so 'inflation is bad' becomes intuition.",
+    "level": 1,
+    "related": ["deflation", "volcker-shock"],
+    "sources": [{ "label": "IMF 通胀目标制研究", "labelEn": "IMF research on inflation targeting", "year": 2023 }]
+  },
+  {
+    "id": "trade-zero-sum",
+    "myth": "贸易是零和游戏：一方顺差，另一方就吃亏。",
+    "mythEn": "Trade is zero-sum: one side's surplus means the other side's loss.",
+    "truth": "贸易的基础是比较优势，双方总产出与可得商品组合都能扩大。顺差逆差反映的是储蓄投资关系与资本流动，本身不是输赢的记分牌。",
+    "truthEn": "Trade rests on comparative advantage, expanding total output and the consumption bundle for both sides. Trade balances reflect saving-investment gaps and capital flows, not a scoreboard.",
+    "why": "贸易的收益是分散且渐进的（更便宜的商品、更多选择），而损失是集中且可见的（关停的工厂、失业的工人），不对称的政治感受造成误读。",
+    "whyEn": "Gains are diffuse and gradual — cheaper goods and more choice — while losses are concentrated and visible: closed plants and laid-off workers. The asymmetry drives the misreading.",
+    "level": 2,
+    "related": ["gains-from-trade", "trade-deficit-meaning"],
+    "sources": [{ "label": "WTO 世界贸易报告", "labelEn": "WTO World Trade Report", "year": 2023 }]
+  },
+  {
+    "id": "gdp-equals-wellbeing",
+    "myth": "GDP 增长就等于生活变好。",
+    "mythEn": "Rising GDP means life is getting better.",
+    "truth": "GDP 衡量市场产出的流量，不统计分配、环境损耗、家务劳动与健康。增长是改善生活的必要条件之一，但远非充分条件，需结合中位数收入、基尼系数与寿命等指标。",
+    "truthEn": "GDP measures a flow of market output and ignores distribution, environmental damage, unpaid work and health. Growth is one necessary condition for better lives, far from sufficient, and must be read with median income, inequality and life expectancy.",
+    "why": "GDP 单一数字易于传播与比较，且长期与生活水平高度相关，因此容易被当成综合体检报告使用。",
+    "whyEn": "A single GDP number is easy to communicate and compare, and correlates strongly with living standards over time, so it gets used as a full medical report.",
+    "level": 1,
+    "related": ["inflation-always-bad", "printing-money"],
+    "sources": [{ "label": "Stiglitz-Sen-Fitoussi 委员会《经济表现与社会进步测量报告》", "labelEn": "Stiglitz-Sen-Fitoussi Commission report on measuring economic performance and social progress", "year": 2009 }]
+  },
+  {
+    "id": "printing-money",
+    "myth": "多印钱就能让所有人变富。",
+    "mythEn": "Printing more money makes everyone richer.",
+    "truth": "货币是交易的媒介而非财富本身。超发只改变价格与分配：在产出无法同步增加时，结果是通胀与资产价格上涨，且先拿到钱的人受益更多。",
+    "truthEn": "Money is a medium of exchange, not wealth itself. Over-issuance changes prices and distribution: with output unable to keep pace, the result is inflation and asset price rises, and those who receive it first gain most.",
+    "why": "「印钱」听起来像是无成本的凭空创造，而通胀、汇率贬值与购买力下降的过程缓慢且分散，因果关系不易被直接看到。",
+    "whyEn": "'Printing' sounds like costless creation, while inflation and currency depreciation unfold slowly and diffusely, obscuring the causal link.",
+    "level": 2,
+    "related": ["gdp-equals-wellbeing", "inflation-always-bad"],
+    "sources": [{ "label": "米什金《货币金融学》", "labelEn": "Mishkin, The Economics of Money, Banking and Financial Markets", "year": 2019 }]
+  },
+  {
+    "id": "robots-take-all-jobs",
+    "myth": "自动化会把工作全部消灭。",
+    "mythEn": "Automation will eliminate all jobs.",
+    "truth": "技术既替代任务也创造新任务。历史上总就业并未因技术消失，但结构剧烈变化：技能错配、地区衰退与转型阵痛真实存在，因此调整政策比预测「总量失业」更有意义。",
+    "truthEn": "Technology replaces tasks and creates new ones. Total employment has not vanished historically, but the structure changes sharply: skill mismatch, regional decline and painful transition are real, so adjustment policy matters more than predicting mass unemployment.",
+    "why": "被替代的岗位往往具体、集中且可见，而新创造的岗位分散、尚未出现且难以命名，因此「机器换人」的叙事更具冲击力。",
+    "whyEn": "Displaced jobs are specific, concentrated and visible, while new jobs are scattered, not yet existing and hard to name, so the displacement narrative dominates.",
+    "level": 2,
+    "related": ["gdp-equals-wellbeing", "minimum-wage"],
+    "sources": [{ "label": "OECD 就业展望：自动化与就业", "labelEn": "OECD Employment Outlook on automation and jobs", "year": 2023 }]
+  },
+  {
+    "id": "minimum-wage",
+    "myth": "提高最低工资必然导致失业增加。",
+    "mythEn": "Raising the minimum wage necessarily destroys jobs.",
+    "truth": "教科书模型预测低技能就业下降，但实证研究结果分化：在垄断性雇主（买方垄断）市场或适度上调时，就业影响可能很小甚至为正；大幅高于市场均衡水平则负面影响更明显。",
+    "truthEn": "Textbook models predict lower low-skill employment, but empirical findings differ: in monopsonistic labour markets or with moderate increases the effect can be small or even positive, while large rises above market equilibrium hurt more visibly.",
+    "why": "「价格上升需求下降」是清晰的直觉链条，容易被套用到劳动力市场，而忽略了雇主并非完全竞争买家这一关键前提。",
+    "whyEn": "The 'higher price, lower demand' chain is intuitive and gets applied to labour markets while ignoring that employers are not perfectly competitive buyers.",
+    "level": 3,
+    "related": ["robots-take-all-jobs", "gdp-equals-wellbeing"],
+    "sources": [{ "label": "卡德、克鲁格《最低工资与就业》", "labelEn": "Card & Krueger, Minimum Wages and Employment", "year": 1994 }]
+  }
+]

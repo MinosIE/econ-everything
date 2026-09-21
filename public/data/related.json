@@ -1,0 +1,1160 @@
+{
+  "scarcity": [
+    {
+      "m": "m-concepts",
+      "n": "稀缺",
+      "nEn": "Scarcity"
+    }
+  ],
+  "trade-off": [
+    {
+      "m": "m-concepts",
+      "n": "权衡取舍",
+      "nEn": "Trade-off"
+    }
+  ],
+  "opportunity-cost": [
+    {
+      "m": "m-concepts",
+      "n": "机会成本",
+      "nEn": "Opportunity Cost"
+    }
+  ],
+  "marginal-thinking": [
+    {
+      "m": "m-concepts",
+      "n": "边际思维",
+      "nEn": "Marginal Thinking"
+    }
+  ],
+  "incentives": [
+    {
+      "m": "m-concepts",
+      "n": "激励",
+      "nEn": "Incentives"
+    }
+  ],
+  "sunk-cost": [
+    {
+      "m": "m-concepts",
+      "n": "沉没成本",
+      "nEn": "Sunk Cost"
+    }
+  ],
+  "supply-demand": [
+    {
+      "m": "m-concepts",
+      "n": "供给与需求",
+      "nEn": "Supply and Demand"
+    }
+  ],
+  "equilibrium": [
+    {
+      "m": "m-concepts",
+      "n": "均衡价格",
+      "nEn": "Market Equilibrium"
+    }
+  ],
+  "elasticity": [
+    {
+      "m": "m-concepts",
+      "n": "弹性",
+      "nEn": "Elasticity"
+    }
+  ],
+  "surplus-shortage": [
+    {
+      "m": "m-concepts",
+      "n": "过剩与短缺",
+      "nEn": "Surplus and Shortage"
+    }
+  ],
+  "externality": [
+    {
+      "m": "m-concepts",
+      "n": "外部性",
+      "nEn": "Externality"
+    }
+  ],
+  "public-goods": [
+    {
+      "m": "m-concepts",
+      "n": "公共品",
+      "nEn": "Public Goods"
+    }
+  ],
+  "market-structure": [
+    {
+      "m": "m-concepts",
+      "n": "市场结构",
+      "nEn": "Market Structure"
+    }
+  ],
+  "comparative-advantage": [
+    {
+      "m": "m-concepts",
+      "n": "比较优势",
+      "nEn": "Comparative Advantage"
+    }
+  ],
+  "gdp": [
+    {
+      "m": "m-concepts",
+      "n": "国内生产总值",
+      "nEn": "Gross Domestic Product"
+    },
+    {
+      "m": "m-glossary",
+      "n": "国内生产总值（GDP）",
+      "nEn": "Gross Domestic Product (GDP)"
+    }
+  ],
+  "inflation": [
+    {
+      "m": "m-concepts",
+      "n": "通货膨胀",
+      "nEn": "Inflation"
+    }
+  ],
+  "unemployment": [
+    {
+      "m": "m-concepts",
+      "n": "失业",
+      "nEn": "Unemployment"
+    }
+  ],
+  "economic-growth": [
+    {
+      "m": "m-concepts",
+      "n": "经济增长",
+      "nEn": "Economic Growth"
+    }
+  ],
+  "money": [
+    {
+      "m": "m-concepts",
+      "n": "货币",
+      "nEn": "Money"
+    }
+  ],
+  "interest-rate": [
+    {
+      "m": "m-concepts",
+      "n": "利率",
+      "nEn": "Interest Rate"
+    }
+  ],
+  "central-bank": [
+    {
+      "m": "m-concepts",
+      "n": "中央银行",
+      "nEn": "Central Bank"
+    }
+  ],
+  "nash-equilibrium": [
+    {
+      "m": "m-concepts",
+      "n": "纳什均衡",
+      "nEn": "Nash Equilibrium"
+    }
+  ],
+  "loss-aversion": [
+    {
+      "m": "m-concepts",
+      "n": "损失厌恶",
+      "nEn": "Loss Aversion"
+    }
+  ],
+  "tax-incidence": [
+    {
+      "m": "m-concepts",
+      "n": "税收归宿",
+      "nEn": "Tax Incidence"
+    }
+  ],
+  "tragedy-of-the-commons": [
+    {
+      "m": "m-concepts",
+      "n": "公地悲剧",
+      "nEn": "Tragedy of the Commons"
+    }
+  ],
+  "information-asymmetry": [
+    {
+      "m": "m-concepts",
+      "n": "信息不对称",
+      "nEn": "Information Asymmetry"
+    },
+    {
+      "m": "m-micro",
+      "n": "信息不对称",
+      "nEn": "Information Asymmetry"
+    }
+  ],
+  "cpi": [
+    {
+      "m": "m-glossary",
+      "n": "消费者价格指数（CPI）",
+      "nEn": "Consumer Price Index (CPI)"
+    }
+  ],
+  "inflation-rate": [
+    {
+      "m": "m-glossary",
+      "n": "通胀率",
+      "nEn": "Inflation Rate"
+    }
+  ],
+  "deflation": [
+    {
+      "m": "m-glossary",
+      "n": "通货紧缩",
+      "nEn": "Deflation"
+    }
+  ],
+  "stagflation": [
+    {
+      "m": "m-glossary",
+      "n": "滞胀",
+      "nEn": "Stagflation"
+    }
+  ],
+  "unemployment-rate": [
+    {
+      "m": "m-glossary",
+      "n": "失业率",
+      "nEn": "Unemployment Rate"
+    }
+  ],
+  "fiscal-policy": [
+    {
+      "m": "m-glossary",
+      "n": "财政政策",
+      "nEn": "Fiscal Policy"
+    }
+  ],
+  "monetary-policy": [
+    {
+      "m": "m-glossary",
+      "n": "货币政策",
+      "nEn": "Monetary Policy"
+    }
+  ],
+  "deficit": [
+    {
+      "m": "m-glossary",
+      "n": "财政赤字",
+      "nEn": "Fiscal Deficit"
+    }
+  ],
+  "government-debt": [
+    {
+      "m": "m-glossary",
+      "n": "政府债务",
+      "nEn": "Government Debt"
+    }
+  ],
+  "open-market-operation": [
+    {
+      "m": "m-glossary",
+      "n": "公开市场操作",
+      "nEn": "Open Market Operation"
+    }
+  ],
+  "reserve-requirement": [
+    {
+      "m": "m-glossary",
+      "n": "存款准备金率",
+      "nEn": "Reserve Requirement"
+    }
+  ],
+  "qe": [
+    {
+      "m": "m-glossary",
+      "n": "量化宽松（QE）",
+      "nEn": "Quantitative Easing (QE)"
+    }
+  ],
+  "liquidity": [
+    {
+      "m": "m-glossary",
+      "n": "流动性",
+      "nEn": "Liquidity"
+    }
+  ],
+  "yield-curve": [
+    {
+      "m": "m-glossary",
+      "n": "收益率曲线",
+      "nEn": "Yield Curve"
+    }
+  ],
+  "exchange-rate": [
+    {
+      "m": "m-glossary",
+      "n": "汇率",
+      "nEn": "Exchange Rate"
+    }
+  ],
+  "spread": [
+    {
+      "m": "m-glossary",
+      "n": "利差",
+      "nEn": "Spread"
+    }
+  ],
+  "leverage": [
+    {
+      "m": "m-glossary",
+      "n": "杠杆",
+      "nEn": "Leverage"
+    }
+  ],
+  "asset-bubble": [
+    {
+      "m": "m-glossary",
+      "n": "资产泡沫",
+      "nEn": "Asset Bubble"
+    }
+  ],
+  "systemic-risk": [
+    {
+      "m": "m-glossary",
+      "n": "系统性风险",
+      "nEn": "Systemic Risk"
+    }
+  ],
+  "central-bank-term": [
+    {
+      "m": "m-glossary",
+      "n": "央行",
+      "nEn": "Central Bank"
+    }
+  ],
+  "credit-rating": [
+    {
+      "m": "m-glossary",
+      "n": "信用评级",
+      "nEn": "Credit Rating"
+    }
+  ],
+  "interest-rate-term": [
+    {
+      "m": "m-glossary",
+      "n": "利率",
+      "nEn": "Interest Rate"
+    }
+  ],
+  "marginal-cost": [
+    {
+      "m": "m-glossary",
+      "n": "边际成本",
+      "nEn": "Marginal Cost"
+    }
+  ],
+  "economies-of-scale": [
+    {
+      "m": "m-glossary",
+      "n": "规模经济",
+      "nEn": "Economies of Scale"
+    }
+  ],
+  "price-discrimination": [
+    {
+      "m": "m-glossary",
+      "n": "价格歧视",
+      "nEn": "Price Discrimination"
+    }
+  ],
+  "consumer-surplus": [
+    {
+      "m": "m-glossary",
+      "n": "消费者剩余",
+      "nEn": "Consumer Surplus"
+    }
+  ],
+  "oligopoly": [
+    {
+      "m": "m-glossary",
+      "n": "寡头",
+      "nEn": "Oligopoly"
+    }
+  ],
+  "entry-barrier": [
+    {
+      "m": "m-glossary",
+      "n": "进入壁垒",
+      "nEn": "Barriers to Entry"
+    }
+  ],
+  "tariff": [
+    {
+      "m": "m-glossary",
+      "n": "关税",
+      "nEn": "Tariff"
+    }
+  ],
+  "trade-balance": [
+    {
+      "m": "m-glossary",
+      "n": "贸易差额",
+      "nEn": "Trade Balance"
+    }
+  ],
+  "supply-chain": [
+    {
+      "m": "m-glossary",
+      "n": "供应链",
+      "nEn": "Supply Chain"
+    }
+  ],
+  "comparative-advantage-term": [
+    {
+      "m": "m-glossary",
+      "n": "比较优势",
+      "nEn": "Comparative Advantage"
+    }
+  ],
+  "anchoring": [
+    {
+      "m": "m-glossary",
+      "n": "锚定效应",
+      "nEn": "Anchoring"
+    }
+  ],
+  "herding": [
+    {
+      "m": "m-glossary",
+      "n": "羊群效应",
+      "nEn": "Herding"
+    }
+  ],
+  "endowment-effect": [
+    {
+      "m": "m-glossary",
+      "n": "禀赋效应",
+      "nEn": "Endowment Effect"
+    }
+  ],
+  "gini": [
+    {
+      "m": "m-glossary",
+      "n": "基尼系数",
+      "nEn": "Gini Coefficient"
+    }
+  ],
+  "engel": [
+    {
+      "m": "m-glossary",
+      "n": "恩格尔系数",
+      "nEn": "Engel Coefficient"
+    }
+  ],
+  "ppp": [
+    {
+      "m": "m-glossary",
+      "n": "购买力平价（PPP）",
+      "nEn": "Purchasing Power Parity (PPP)"
+    }
+  ],
+  "nominal-real": [
+    {
+      "m": "m-glossary",
+      "n": "名义与实际",
+      "nEn": "Nominal vs Real"
+    }
+  ],
+  "ppi": [
+    {
+      "m": "m-glossary",
+      "n": "生产者价格指数（PPI）",
+      "nEn": "Producer Price Index (PPI)"
+    }
+  ],
+  "supply-demand-term": [
+    {
+      "m": "m-glossary",
+      "n": "供给与需求",
+      "nEn": "Supply and Demand"
+    }
+  ],
+  "nash-equilibrium-term": [
+    {
+      "m": "m-glossary",
+      "n": "纳什均衡",
+      "nEn": "Nash Equilibrium"
+    }
+  ],
+  "short-selling": [
+    {
+      "m": "m-glossary",
+      "n": "做空",
+      "nEn": "Short Selling"
+    }
+  ],
+  "gdp-measure": [
+    {
+      "m": "m-macro",
+      "n": "GDP 怎么算",
+      "nEn": "How GDP Is Measured"
+    }
+  ],
+  "inflation-causes": [
+    {
+      "m": "m-macro",
+      "n": "通胀从哪来",
+      "nEn": "Where Inflation Comes From"
+    }
+  ],
+  "monetary-transmission": [
+    {
+      "m": "m-macro",
+      "n": "货币政策如何传导",
+      "nEn": "How Monetary Policy Transmits"
+    }
+  ],
+  "fiscal-multiplier": [
+    {
+      "m": "m-macro",
+      "n": "财政政策的乘数与局限",
+      "nEn": "Fiscal Multipliers and Their Limits"
+    }
+  ],
+  "unemployment-types": [
+    {
+      "m": "m-macro",
+      "n": "失业的三种类型",
+      "nEn": "Three Kinds of Unemployment"
+    }
+  ],
+  "business-cycle": [
+    {
+      "m": "m-macro",
+      "n": "经济周期",
+      "nEn": "The Business Cycle"
+    }
+  ],
+  "demand-curve": [
+    {
+      "m": "m-micro",
+      "n": "需求曲线与它的移动",
+      "nEn": "The Demand Curve and Why It Moves"
+    }
+  ],
+  "elasticity-pricing": [
+    {
+      "m": "m-micro",
+      "n": "弹性与定价",
+      "nEn": "Elasticity and Pricing"
+    }
+  ],
+  "cost-structure": [
+    {
+      "m": "m-micro",
+      "n": "成本结构",
+      "nEn": "Cost Structure"
+    }
+  ],
+  "market-forms": [
+    {
+      "m": "m-micro",
+      "n": "四种市场形态",
+      "nEn": "Four Market Structures"
+    }
+  ],
+  "externality-policy": [
+    {
+      "m": "m-micro",
+      "n": "外部性的治理工具",
+      "nEn": "Tools for Externalities"
+    }
+  ],
+  "monetary-history": [
+    {
+      "m": "m-money",
+      "n": "货币简史",
+      "nEn": "A Short History of Money"
+    }
+  ],
+  "central-bank-tools": [
+    {
+      "m": "m-money",
+      "n": "央行工具箱",
+      "nEn": "The Central Bank Toolkit"
+    }
+  ],
+  "rate-system": [
+    {
+      "m": "m-money",
+      "n": "利率体系",
+      "nEn": "The Interest Rate System"
+    }
+  ],
+  "money-creation": [
+    {
+      "m": "m-money",
+      "n": "银行如何创造货币",
+      "nEn": "How Banks Create Money"
+    }
+  ],
+  "fx-regimes": [
+    {
+      "m": "m-money",
+      "n": "汇率制度",
+      "nEn": "Exchange Rate Regimes"
+    }
+  ],
+  "bubbles-crises": [
+    {
+      "m": "m-money",
+      "n": "泡沫与危机",
+      "nEn": "Bubbles and Crises"
+    }
+  ],
+  "adam-smith": [
+    {
+      "m": "m-thinkers",
+      "n": "亚当·斯密",
+      "nEn": "Adam Smith"
+    }
+  ],
+  "david-ricardo": [
+    {
+      "m": "m-thinkers",
+      "n": "大卫·李嘉图",
+      "nEn": "David Ricardo"
+    }
+  ],
+  "karl-marx": [
+    {
+      "m": "m-thinkers",
+      "n": "卡尔·马克思",
+      "nEn": "Karl Marx"
+    }
+  ],
+  "alfred-marshall": [
+    {
+      "m": "m-thinkers",
+      "n": "阿尔弗雷德·马歇尔",
+      "nEn": "Alfred Marshall"
+    }
+  ],
+  "john-maynard-keynes": [
+    {
+      "m": "m-thinkers",
+      "n": "约翰·梅纳德·凯恩斯",
+      "nEn": "John Maynard Keynes"
+    }
+  ],
+  "friedrich-hayek": [
+    {
+      "m": "m-thinkers",
+      "n": "弗里德里希·哈耶克",
+      "nEn": "Friedrich Hayek"
+    }
+  ],
+  "joseph-schumpeter": [
+    {
+      "m": "m-thinkers",
+      "n": "约瑟夫·熊彼特",
+      "nEn": "Joseph Schumpeter"
+    }
+  ],
+  "milton-friedman": [
+    {
+      "m": "m-thinkers",
+      "n": "米尔顿·弗里德曼",
+      "nEn": "Milton Friedman"
+    }
+  ],
+  "classical": [
+    {
+      "m": "m-schools",
+      "n": "古典经济学",
+      "nEn": "Classical Economics"
+    }
+  ],
+  "neoclassical": [
+    {
+      "m": "m-schools",
+      "n": "新古典经济学",
+      "nEn": "Neoclassical Economics"
+    }
+  ],
+  "keynesian": [
+    {
+      "m": "m-schools",
+      "n": "凯恩斯主义",
+      "nEn": "Keynesian Economics"
+    }
+  ],
+  "monetarism": [
+    {
+      "m": "m-schools",
+      "n": "货币主义",
+      "nEn": "Monetarism"
+    }
+  ],
+  "austrian": [
+    {
+      "m": "m-schools",
+      "n": "奥地利学派",
+      "nEn": "Austrian School"
+    }
+  ],
+  "new-institutional": [
+    {
+      "m": "m-schools",
+      "n": "制度与行为经济学",
+      "nEn": "Institutional and Behavioral Economics"
+    }
+  ],
+  "voc": [
+    {
+      "m": "m-events",
+      "n": "荷兰东印度公司成立",
+      "nEn": "Founding of the Dutch East India Company"
+    }
+  ],
+  "wealth-of-nations": [
+    {
+      "m": "m-events",
+      "n": "《国富论》出版",
+      "nEn": "The Wealth of Nations Is Published"
+    }
+  ],
+  "crisis-1825": [
+    {
+      "m": "m-events",
+      "n": "第一次现代经济危机",
+      "nEn": "The First Modern Economic Crisis"
+    }
+  ],
+  "gold-standard": [
+    {
+      "m": "m-events",
+      "n": "古典金本位形成",
+      "nEn": "The Classical Gold Standard Takes Shape"
+    }
+  ],
+  "great-depression": [
+    {
+      "m": "m-events",
+      "n": "大萧条",
+      "nEn": "The Great Depression"
+    }
+  ],
+  "general-theory": [
+    {
+      "m": "m-events",
+      "n": "《就业、利息和货币通论》出版",
+      "nEn": "The General Theory Is Published"
+    }
+  ],
+  "bretton-woods": [
+    {
+      "m": "m-events",
+      "n": "布雷顿森林体系确立",
+      "nEn": "The Bretton Woods System Is Established"
+    }
+  ],
+  "nixon-shock": [
+    {
+      "m": "m-events",
+      "n": "尼克松冲击：美元与黄金脱钩",
+      "nEn": "The Nixon Shock: the Dollar Leaves Gold"
+    }
+  ],
+  "oil-crisis": [
+    {
+      "m": "m-events",
+      "n": "第一次石油危机",
+      "nEn": "The First Oil Shock"
+    }
+  ],
+  "volcker-shock": [
+    {
+      "m": "m-events",
+      "n": "沃尔克紧缩",
+      "nEn": "The Volcker Disinflation"
+    }
+  ],
+  "plaza-accord": [
+    {
+      "m": "m-events",
+      "n": "广场协议",
+      "nEn": "The Plaza Accord"
+    }
+  ],
+  "asian-crisis": [
+    {
+      "m": "m-events",
+      "n": "亚洲金融危机",
+      "nEn": "The Asian Financial Crisis"
+    }
+  ],
+  "gfc-2008": [
+    {
+      "m": "m-events",
+      "n": "全球金融危机",
+      "nEn": "The Global Financial Crisis"
+    }
+  ],
+  "covid-shock": [
+    {
+      "m": "m-events",
+      "n": "疫情冲击与空前宽松",
+      "nEn": "The Pandemic Shock and Unprecedented Easing"
+    }
+  ],
+  "inflation-surge-2022": [
+    {
+      "m": "m-events",
+      "n": "全球通胀与快速加息",
+      "nEn": "The Global Inflation Surge and Rapid Hiking"
+    }
+  ],
+  "prospect-theory": [
+    {
+      "m": "m-behavioral",
+      "n": "前景理论",
+      "nEn": "Prospect Theory"
+    }
+  ],
+  "anchoring-effect": [
+    {
+      "m": "m-behavioral",
+      "n": "锚定效应",
+      "nEn": "Anchoring Effect"
+    }
+  ],
+  "loss-aversion-effect": [
+    {
+      "m": "m-behavioral",
+      "n": "损失厌恶",
+      "nEn": "Loss Aversion"
+    }
+  ],
+  "herding-effect": [
+    {
+      "m": "m-behavioral",
+      "n": "羊群效应",
+      "nEn": "Herding"
+    }
+  ],
+  "hyperbolic-discounting": [
+    {
+      "m": "m-behavioral",
+      "n": "双曲贴现",
+      "nEn": "Hyperbolic Discounting"
+    }
+  ],
+  "mental-accounting": [
+    {
+      "m": "m-behavioral",
+      "n": "心理账户",
+      "nEn": "Mental Accounting"
+    }
+  ],
+  "endowment-effect-behav": [
+    {
+      "m": "m-behavioral",
+      "n": "禀赋效应",
+      "nEn": "Endowment Effect"
+    }
+  ],
+  "prisoners-dilemma": [
+    {
+      "m": "m-game",
+      "n": "囚徒困境",
+      "nEn": "Prisoner's Dilemma"
+    }
+  ],
+  "nash-equilibrium-game": [
+    {
+      "m": "m-game",
+      "n": "纳什均衡",
+      "nEn": "Nash Equilibrium"
+    }
+  ],
+  "boxed-pigs": [
+    {
+      "m": "m-game",
+      "n": "智猪博弈",
+      "nEn": "Boxed Pigs"
+    }
+  ],
+  "commons-dilemma": [
+    {
+      "m": "m-game",
+      "n": "公地悲剧",
+      "nEn": "Tragedy of the Commons"
+    }
+  ],
+  "chicken-game": [
+    {
+      "m": "m-game",
+      "n": "胆小鬼博弈",
+      "nEn": "Chicken"
+    }
+  ],
+  "repeated-games": [
+    {
+      "m": "m-game",
+      "n": "重复博弈与合作",
+      "nEn": "Repeated Games and Cooperation"
+    }
+  ],
+  "gains-from-trade": [
+    {
+      "m": "m-trade",
+      "n": "贸易为什么不是零和",
+      "nEn": "Why Trade Is Not Zero-Sum"
+    }
+  ],
+  "tariff-war": [
+    {
+      "m": "m-trade",
+      "n": "关税与贸易战",
+      "nEn": "Tariffs and Trade Wars"
+    }
+  ],
+  "trade-deficit-meaning": [
+    {
+      "m": "m-trade",
+      "n": "贸易逆差意味着什么",
+      "nEn": "What a Trade Deficit Means"
+    }
+  ],
+  "global-supply-chain-risks": [
+    {
+      "m": "m-trade",
+      "n": "全球产业链的效率与脆弱",
+      "nEn": "Global Supply Chains: Efficiency and Fragility"
+    }
+  ],
+  "currency-and-trade": [
+    {
+      "m": "m-trade",
+      "n": "汇率如何影响贸易",
+      "nEn": "How Exchange Rates Affect Trade"
+    }
+  ],
+  "queueing": [
+    {
+      "m": "m-everyday",
+      "n": "网红店排队两小时，值得吗？",
+      "nEn": "Is two hours in a queue for a trendy shop worth it?"
+    }
+  ],
+  "housing-price": [
+    {
+      "m": "m-everyday",
+      "n": "大城市的房子为什么这么贵？",
+      "nEn": "Why is housing in big cities so expensive?"
+    }
+  ],
+  "ride-hailing-surge": [
+    {
+      "m": "m-everyday",
+      "n": "暴雨天打车，为什么价格翻倍？",
+      "nEn": "Why do ride-hailing prices double in a storm?"
+    }
+  ],
+  "price-of-ride-hailing": [
+    {
+      "m": "m-everyday",
+      "n": "平台先补贴后涨价，是套路吗？",
+      "nEn": "Platforms subsidise then raise prices — is that a trick?"
+    }
+  ],
+  "second-hand-market": [
+    {
+      "m": "m-everyday",
+      "n": "为什么二手市场总是难成交？",
+      "nEn": "Why is the second-hand market so hard to clear?"
+    }
+  ],
+  "education-signal": [
+    {
+      "m": "m-everyday",
+      "n": "名校文凭为什么值钱？",
+      "nEn": "Why are elite degrees worth so much?"
+    }
+  ],
+  "platform-economics": [
+    {
+      "m": "m-everyday",
+      "n": "外卖越来越贵，是谁在定价？",
+      "nEn": "Who is really setting the price as delivery gets pricier?"
+    }
+  ],
+  "global-growth": [
+    {
+      "m": "m-charts",
+      "n": "全球 GDP 增速（示意）",
+      "nEn": "Global GDP growth (illustrative)"
+    }
+  ],
+  "global-inflation": [
+    {
+      "m": "m-charts",
+      "n": "全球通胀率（示意）",
+      "nEn": "Global inflation (illustrative)"
+    }
+  ],
+  "unemployment-advanced": [
+    {
+      "m": "m-charts",
+      "n": "发达经济体失业率（示意）",
+      "nEn": "Advanced-economy unemployment (illustrative)"
+    }
+  ],
+  "policy-rate": [
+    {
+      "m": "m-charts",
+      "n": "美国联邦基金利率（示意）",
+      "nEn": "US federal funds rate (illustrative)"
+    }
+  ],
+  "usd-cny": [
+    {
+      "m": "m-charts",
+      "n": "美元兑人民币（示意）",
+      "nEn": "USD/CNY (illustrative)"
+    }
+  ],
+  "govt-debt": [
+    {
+      "m": "m-charts",
+      "n": "发达经济体政府债务占 GDP 比重（示意）",
+      "nEn": "Advanced-economy government debt to GDP (illustrative)"
+    }
+  ],
+  "inflation-always-bad": [
+    {
+      "m": "m-myths",
+      "n": "通货膨胀一定是坏事。",
+      "nEn": "Inflation is always bad."
+    }
+  ],
+  "trade-zero-sum": [
+    {
+      "m": "m-myths",
+      "n": "贸易是零和游戏：一方顺差，另一方就吃亏。",
+      "nEn": "Trade is zero-sum: one side's surplus means the other side's loss."
+    }
+  ],
+  "gdp-equals-wellbeing": [
+    {
+      "m": "m-myths",
+      "n": "GDP 增长就等于生活变好。",
+      "nEn": "Rising GDP means life is getting better."
+    }
+  ],
+  "printing-money": [
+    {
+      "m": "m-myths",
+      "n": "多印钱就能让所有人变富。",
+      "nEn": "Printing more money makes everyone richer."
+    }
+  ],
+  "robots-take-all-jobs": [
+    {
+      "m": "m-myths",
+      "n": "自动化会把工作全部消灭。",
+      "nEn": "Automation will eliminate all jobs."
+    }
+  ],
+  "minimum-wage": [
+    {
+      "m": "m-myths",
+      "n": "提高最低工资必然导致失业增加。",
+      "nEn": "Raising the minimum wage necessarily destroys jobs."
+    }
+  ],
+  "q-opportunity-cost": [
+    {
+      "m": "m-quiz",
+      "n": "你花一小时去看电影，机会成本最准确的理解是：",
+      "nEn": "You spend an hour at the cinema. The most accurate reading of opportunity cost is:"
+    }
+  ],
+  "q-elasticity": [
+    {
+      "m": "m-quiz",
+      "n": "某商品需求富有弹性，企业提价 10% 最可能的结果是：",
+      "nEn": "If demand for a product is elastic, a 10% price rise most likely leads to:"
+    }
+  ],
+  "q-gdp-excludes": [
+    {
+      "m": "m-quiz",
+      "n": "下列哪一项通常不计入 GDP？",
+      "nEn": "Which of the following is normally excluded from GDP?"
+    }
+  ],
+  "q-real-rate": [
+    {
+      "m": "m-quiz",
+      "n": "名义利率 5%，通胀率 6%，则实际利率大致为：",
+      "nEn": "With a 5% nominal rate and 6% inflation, the real rate is roughly:"
+    }
+  ],
+  "q-comparative-advantage": [
+    {
+      "m": "m-quiz",
+      "n": "比较优势的核心判断标准是：",
+      "nEn": "Comparative advantage is fundamentally judged by:"
+    }
+  ],
+  "q-prisoners-dilemma": [
+    {
+      "m": "m-quiz",
+      "n": "囚徒困境最核心的含义是：",
+      "nEn": "The central message of the prisoner's dilemma is:"
+    }
+  ],
+  "q-loss-aversion": [
+    {
+      "m": "m-quiz",
+      "n": "根据损失厌恶，投资者更可能：",
+      "nEn": "Given loss aversion, investors are more likely to:"
+    }
+  ],
+  "q-tax-incidence": [
+    {
+      "m": "m-quiz",
+      "n": "政府对卖方征税后，税负主要由谁承担？",
+      "nEn": "After a tax is levied on sellers, who mainly bears the burden?"
+    }
+  ],
+  "inflation-targeting": [
+    {
+      "m": "m-compare",
+      "n": "央行应该只盯通胀，还是也要管就业与资产价格？",
+      "nEn": "Should central banks target only inflation, or also employment and asset prices?"
+    }
+  ],
+  "housing-policy": [
+    {
+      "m": "m-compare",
+      "n": "解决住房问题：补贴需求，还是增加供给？",
+      "nEn": "Housing affordability: subsidise demand or expand supply?"
+    }
+  ],
+  "healthcare-financing": [
+    {
+      "m": "m-compare",
+      "n": "医疗钱该由税收、保险还是个人出？",
+      "nEn": "Should healthcare be funded by taxes, insurance or out of pocket?"
+    }
+  ],
+  "carbon-pricing": [
+    {
+      "m": "m-compare",
+      "n": "减碳用碳税，还是用碳交易？",
+      "nEn": "Carbon tax or emissions trading for decarbonisation?"
+    }
+  ]
+}

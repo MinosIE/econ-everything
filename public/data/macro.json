@@ -1,0 +1,164 @@
+[
+  {
+    "id": "gdp-measure",
+    "title": "GDP 怎么算",
+    "titleEn": "How GDP Is Measured",
+    "icon": "📐",
+    "category": "核算",
+    "categoryEn": "Accounting",
+    "level": 1,
+    "lead": "同一笔经济活动，可以从生产、收入、支出三个方向加总，结果必然相等。",
+    "leadEn": "The same activity can be added up from production, income or expenditure — and the totals must match.",
+    "points": [
+      { "k": "生产法", "kEn": "Production", "v": "各行业增加值之和＝总产出 − 中间投入，避免重复计算。", "vEn": "Sum of value added = gross output minus intermediate inputs, avoiding double counting." },
+      { "k": "收入法", "kEn": "Income", "v": "工资 + 利息 + 租金 + 利润 + 生产税净额，即各种要素拿到手的收入。", "vEn": "Wages + interest + rent + profit + net taxes on production: what factors of production receive." },
+      { "k": "支出法", "kEn": "Expenditure", "v": "C + I + G + NX，即消费、投资、政府支出与净出口。", "vEn": "C + I + G + NX: consumption, investment, government spending and net exports." },
+      { "k": "名义与实际", "kEn": "Nominal vs real", "v": "名义 GDP 用当期价格，实际 GDP 剔除物价变动，比较不同年份必须用实际值。", "vEn": "Nominal GDP uses current prices; real GDP strips out price changes and is the right basis for comparison." }
+    ],
+    "watch": [
+      "GDP 不统计家务劳动与志愿服务，也不扣除环境损耗，因此「增长」并不自动等于「变好」。",
+      "人均 GDP 上升而中位数收入停滞，说明增长成果集中，需另看分配数据。"
+    ],
+    "watchEn": [
+      "GDP excludes unpaid household work and volunteer activity, and does not deduct environmental damage, so growth is not automatically wellbeing.",
+      "Rising GDP per capita with stagnant median income means gains are concentrated; distribution data are needed."
+    ],
+    "related": ["economic-growth", "inflation", "unemployment"],
+    "sources": [{ "label": "联合国 SNA 2008 国民账户体系", "labelEn": "UN System of National Accounts 2008", "year": 2008 }]
+  },
+  {
+    "id": "inflation-causes",
+    "title": "通胀从哪来",
+    "titleEn": "Where Inflation Comes From",
+    "icon": "🔥",
+    "category": "物价",
+    "categoryEn": "Prices",
+    "level": 1,
+    "lead": "需求过旺、成本上升、货币过多与预期自我实现，是四条主要路径。",
+    "leadEn": "Excess demand, rising costs, too much money and self-fulfilling expectations are the four main routes.",
+    "points": [
+      { "k": "需求拉动", "kEn": "Demand-pull", "v": "总需求超过潜在产出，买家竞价推高价格。", "vEn": "Aggregate demand exceeds potential output, and buyers bid prices up." },
+      { "k": "成本推动", "kEn": "Cost-push", "v": "能源、原料、工资或汇率变动抬高生产成本，企业转嫁至售价。", "vEn": "Energy, input, wage or exchange-rate shocks raise costs, which firms pass on." },
+      { "k": "货币因素", "kEn": "Monetary", "v": "货币与信贷增速长期远超产出增速，最终表现为物价上涨。", "vEn": "Money and credit growing far faster than output eventually shows up in prices." },
+      { "k": "预期自我实现", "kEn": "Expectations", "v": "当人人预期涨价，就会提前囤货、要求加薪，把预期变成现实。", "vEn": "When everyone expects higher prices, they stock up and demand raises, turning expectation into fact." }
+    ],
+    "watch": [
+      "「通胀都是货币超发」是过度简化：供给冲击也能在货币稳定时推高物价。",
+      "核心通胀（剔除能源与食品）更能反映趋势，因为其波动小、粘性强。"
+    ],
+    "watchEn": [
+      "'Inflation is always just money printing' oversimplifies: supply shocks can raise prices even with stable money.",
+      "Core inflation (excluding energy and food) tracks the trend better because it is less volatile and more persistent."
+    ],
+    "related": ["gdp-measure", "monetary-transmission", "unemployment"],
+    "sources": [{ "label": "IMF《世界经济展望》通胀章节", "labelEn": "IMF World Economic Outlook, inflation chapter", "year": 2024 }]
+  },
+  {
+    "id": "monetary-transmission",
+    "title": "货币政策如何传导",
+    "titleEn": "How Monetary Policy Transmits",
+    "icon": "🧭",
+    "category": "政策",
+    "categoryEn": "Policy",
+    "level": 2,
+    "lead": "央行只调一个政策利率，效果却要经过银行、资产价格、汇率与预期四条渠道才能到达实体。",
+    "leadEn": "The central bank moves one policy rate, but the effect reaches the real economy through four channels.",
+    "points": [
+      { "k": "利率渠道", "kEn": "Interest rate", "v": "政策利率影响贷款与存款利率，进而影响投资与消费意愿。", "vEn": "The policy rate moves lending and deposit rates, shaping investment and consumption." },
+      { "k": "资产价格", "kEn": "Asset prices", "v": "利率下降抬高股票与房产估值，通过财富效应刺激支出。", "vEn": "Lower rates lift equity and property valuations, and wealth effects boost spending." },
+      { "k": "信贷渠道", "kEn": "Credit", "v": "银行的风险偏好与资本状况决定信贷能不能顺利投放。", "vEn": "Bank risk appetite and capital determine whether credit actually flows." },
+      { "k": "汇率渠道", "kEn": "Exchange rate", "v": "加息吸引资金流入、本币升值，进而影响出口竞争力。", "vEn": "Higher rates attract capital, appreciate the currency and affect export competitiveness." }
+    ],
+    "watch": [
+      "传导有滞后，通常需要几个季度才见效，所以政策要看前瞻而非当下数据。",
+      "当利率接近零、银行不愿放贷时，常规工具失效，需要非常规手段。"
+    ],
+    "watchEn": [
+      "Transmission lags by quarters, so policy should respond to the outlook rather than today's data.",
+      "Near zero rates with reluctant banks break conventional tools, requiring unconventional ones."
+    ],
+    "related": ["fiscal-multiplier", "inflation-causes", "business-cycle"],
+    "sources": [{ "label": "BIS 货币政策传导机制研究", "labelEn": "BIS research on monetary policy transmission", "year": 2023 }]
+  },
+  {
+    "id": "fiscal-multiplier",
+    "title": "财政政策的乘数与局限",
+    "titleEn": "Fiscal Multipliers and Their Limits",
+    "icon": "🏗️",
+    "category": "政策",
+    "categoryEn": "Policy",
+    "level": 2,
+    "lead": "政府多花一块钱，最终可能带动超过一块钱的产出，也可能被挤出私人支出而所剩无几。",
+    "leadEn": "One unit of government spending may generate more than one unit of output — or crowd out private spending and achieve little.",
+    "points": [
+      { "k": "乘数", "kEn": "Multiplier", "v": "支出变成他人收入，再被花掉，形成连锁反应，总效果大于初始金额。", "vEn": "Spending becomes someone's income, which is spent again, so the total exceeds the initial amount." },
+      { "k": "挤出效应", "kEn": "Crowding out", "v": "政府大量借债推高利率，可能压缩私人投资。", "vEn": "Heavy government borrowing can push rates up and displace private investment." },
+      { "k": "自动稳定器", "kEn": "Automatic stabilisers", "v": "累进税与失业救济在经济下行时自动扩大支出、上行时自动收缩。", "vEn": "Progressive taxes and unemployment benefits expand automatically in downturns and contract in booms." },
+      { "k": "时滞与效率", "kEn": "Lags and quality", "v": "识别、决策、执行三重时滞，加上项目质量差异，决定最终效果。", "vEn": "Recognition, decision and implementation lags, plus project quality, determine the outcome." }
+    ],
+    "watch": [
+      "乘数大小高度依赖经济是否已有闲置产能：满负荷时刺激多变成涨价。",
+      "长期看财政可持续性受债务利息负担约束，短期刺激与长期偿债需要权衡。"
+    ],
+    "watchEn": [
+      "Multipliers depend on slack: near full capacity, stimulus mostly becomes inflation.",
+      "Fiscal sustainability is bound by debt service, so short-run stimulus trades off against long-run repayment."
+    ],
+    "related": ["monetary-transmission", "unemployment", "business-cycle"],
+    "sources": [{ "label": "IMF 财政监测报告", "labelEn": "IMF Fiscal Monitor", "year": 2024 }]
+  },
+  {
+    "id": "unemployment-types",
+    "title": "失业的三种类型",
+    "titleEn": "Three Kinds of Unemployment",
+    "icon": "🧑‍💼",
+    "category": "就业",
+    "categoryEn": "Labour",
+    "level": 2,
+    "lead": "摩擦性、结构性、周期性失业的成因不同，对应政策也完全不同。",
+    "leadEn": "Frictional, structural and cyclical unemployment have different causes and need different policies.",
+    "points": [
+      { "k": "摩擦性", "kEn": "Frictional", "v": "换工作、找工作需要时间，属于正常的市场匹配过程。", "vEn": "Time needed to search and switch jobs: a normal matching process." },
+      { "k": "结构性", "kEn": "Structural", "v": "技术或产业变迁使技能与岗位错配，短期刺激无法解决。", "vEn": "Technology or industry shifts mismatch skills and vacancies; demand stimulus cannot fix it." },
+      { "k": "周期性", "kEn": "Cyclical", "v": "总需求不足导致企业裁员，需要财政与货币宽松来修复。", "vEn": "Weak aggregate demand causes layoffs; fiscal and monetary easing is the remedy." },
+      { "k": "自然失业率", "kEn": "Natural rate", "v": "即使经济正常运转也会存在的失业水平，由摩擦与结构因素决定。", "vEn": "The unemployment level that persists even in a healthy economy, set by frictional and structural factors." }
+    ],
+    "watch": [
+      "失业率下降可能只是因为人们放弃找工作退出劳动力，需同时看劳动参与率。",
+      "青年失业与长期失业的代价最高，因为技能与信心会随时间流失。"
+    ],
+    "watchEn": [
+      "A falling unemployment rate can simply reflect people leaving the labour force; watch participation too.",
+      "Youth and long-term unemployment are the costliest as skills and confidence erode."
+    ],
+    "related": ["business-cycle", "fiscal-multiplier", "gdp-measure"],
+    "sources": [{ "label": "ILO 就业与失业统计口径", "labelEn": "ILO definitions of employment and unemployment", "year": 2023 }]
+  },
+  {
+    "id": "business-cycle",
+    "title": "经济周期",
+    "titleEn": "The Business Cycle",
+    "icon": "🌊",
+    "category": "周期",
+    "categoryEn": "Cycles",
+    "level": 2,
+    "lead": "扩张与收缩交替出现，幅度与持续时间并不规则，但机制有几条常见线索。",
+    "leadEn": "Expansions and contractions alternate irregularly, yet a few mechanisms recur.",
+    "points": [
+      { "k": "信贷周期", "kEn": "Credit cycle", "v": "宽松时加杠杆推高资产价格，收紧时去杠杆放大下行。", "vEn": "Easy money leverages up asset prices; tightening deleverages and amplifies the downturn." },
+      { "k": "库存周期", "kEn": "Inventory", "v": "企业补库存与去库存的交替，短周期波动的主要来源。", "vEn": "Alternating inventory building and destocking drives short cycles." },
+      { "k": "投资周期", "kEn": "Investment", "v": "重大技术或基础设施投资形成多年一轮的荣枯。", "vEn": "Major technology or infrastructure waves create multi-year booms and busts." },
+      { "k": "政策反应", "kEn": "Policy response", "v": "逆周期调控可以平滑波动，也可能延后调整、积累风险。", "vEn": "Countercyclical policy can smooth swings, or delay adjustment and build risk." }
+    ],
+    "watch": [
+      "「周期可预测」的说法常被高估：转折点的精确定时几乎无人能持续做到。",
+      "平稳期越长，参与者越容易低估风险，杠杆与期限错配往往在此时积累。"
+    ],
+    "watchEn": [
+      "Claims that cycles are predictable are usually overstated: nobody reliably times turning points.",
+      "The longer the calm, the more risk is underestimated, and leverage and maturity mismatch accumulate."
+    ],
+    "related": ["monetary-transmission", "fiscal-multiplier", "unemployment-types"],
+    "sources": [{ "label": "NBER 商业周期测定说明", "labelEn": "NBER business cycle dating methodology", "year": 2023 }]
+  }
+]

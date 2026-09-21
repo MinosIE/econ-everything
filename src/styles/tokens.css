@@ -1,0 +1,80 @@
+/* ============================================================
+   设计令牌：颜色 / 圆角 / 阴影 / 排版
+   品牌色：深青（财经·冷静·可信）+ 琥珀金（价值·重点）
+   明暗两套变量必须成对维护。
+   ============================================================ */
+:root {
+  --brand: #0e7490;
+  --brand-d: #0b5e77;
+  --brand-l: #38a3bd;
+  --brand-50: #eaf6f9;
+  --brand-100: #d2ebf1;
+  --gold: #c79a3a;
+  --gold-d: #9a7523;
+  --gold-50: #fbf3e2;
+
+  --ink-900: #082f49;
+  --ink-700: #14506b;
+  --ink-500: #425466;
+  --ink-400: #697386;
+  --ink-300: #8792a2;
+  --ink-200: #c1c9d2;
+  --ink-100: #e3e8ee;
+  --ink-50: #f6f9fc;
+
+  --ok: #0f766e;
+  --ok-bg: #e6f5f2;
+  --no: #b3400f;
+  --no-bg: #fdeee7;
+
+  --r1: 8px;
+  --r2: 12px;
+  --r3: 16px;
+  --r4: 24px;
+
+  --bg: var(--ink-50);
+  --surface: #ffffff;
+  --surface-2: var(--ink-100);
+  --text: var(--ink-500);
+  --text-strong: var(--ink-900);
+  --text-soft: var(--ink-700);
+  --text-mute: var(--ink-400);
+  --border: var(--ink-100);
+  --chip-bg: var(--ink-50);
+  --mark-bg: #fdf0c9;
+
+  --s-soft: 0 1px 2px rgba(8, 47, 73, 0.04), 0 2px 8px rgba(8, 47, 73, 0.04);
+  --s-card: 0 1px 3px rgba(8, 47, 73, 0.06), 0 8px 24px rgba(8, 47, 73, 0.06);
+  --s-lift: 0 2px 4px rgba(8, 47, 73, 0.06), 0 16px 40px rgba(8, 47, 73, 0.1);
+
+  --hero: linear-gradient(158deg, #052230 0%, #0e7490 58%, #0b3f4a 100%);
+  --nav-h: 58px;
+}
+
+:root[data-theme='dark'] {
+  --bg: #0b1c26;
+  --surface: #122a35;
+  --surface-2: #183642;
+  --text: #a7bcc8;
+  --text-strong: #e9f3f7;
+  --text-soft: #c7d9e2;
+  --text-mute: #7e95a2;
+  --border: #1f3b48;
+  --chip-bg: #162f3a;
+  --mark-bg: #4a3c14;
+
+  --brand-50: #0d2a33;
+  --brand-100: #12414f;
+  --gold-50: #2a2311;
+  --ink-50: #0b1c26;
+  --ink-100: #1b3540;
+
+  --ok-bg: #0f2e2a;
+  --no-bg: #33190f;
+
+  --s-soft: 0 1px 2px rgba(0, 0, 0, 0.2), 0 2px 8px rgba(0, 0, 0, 0.25);
+  --s-card: 0 1px 3px rgba(0, 0, 0, 0.3), 0 8px 24px rgba(0, 0, 0, 0.35);
+  --s-lift: 0 2px 4px rgba(0, 0, 0, 0.3), 0 16px 40px rgba(0, 0, 0, 0.45);
+
+  --hero: linear-gradient(158deg, #041a24 0%, #0a5568 58%, #072b33 100%);
+}

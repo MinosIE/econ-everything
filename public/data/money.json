@@ -1,0 +1,164 @@
+[
+  {
+    "id": "monetary-history",
+    "title": "货币简史",
+    "titleEn": "A Short History of Money",
+    "icon": "🪙",
+    "category": "货币",
+    "categoryEn": "Money",
+    "level": 1,
+    "lead": "从实物、金属、可兑换纸币到信用货币，每一次切换都源于信任载体的变化。",
+    "leadEn": "From commodities to metal, convertible notes and fiat money, each switch followed a change in what carries trust.",
+    "points": [
+      { "k": "实物与金属", "kEn": "Commodity and metal", "v": "贝壳、盐、白银、黄金因稀缺与易分割而被选为货币。", "vEn": "Shells, salt, silver and gold were chosen for scarcity and divisibility." },
+      { "k": "可兑换纸币", "kEn": "Convertible notes", "v": "钱庄与银行发行的票据，承诺可换金属，降低了携带成本。", "vEn": "Bank notes promising metal on demand cut the cost of carrying value." },
+      { "k": "金本位与崩溃", "kEn": "Gold standard and its end", "v": "固定兑换限制了政策空间，大萧条与战争迫使各国相继脱钩。", "vEn": "Fixed convertibility limited policy space; depression and war pushed countries off it." },
+      { "k": "信用货币", "kEn": "Fiat money", "v": "价值来自国家信用与法定清偿地位，货币政策获得更大空间，也承担更大责任。", "vEn": "Value rests on state credibility and legal tender status: more policy room, and more responsibility." }
+    ],
+    "watch": [
+      "「货币必须有内在价值」是一种常见直觉，但现代货币的锚是制度与预期，而非金属。",
+      "超发摧毁货币信用有大量历史案例，因此央行独立性被视为关键制度安排。"
+    ],
+    "watchEn": [
+      "'Money must have intrinsic value' is intuitive but modern money is anchored by institutions and expectations, not metal.",
+      "History is full of currencies destroyed by over-issuance, which is why central bank independence matters."
+    ],
+    "related": ["central-bank-tools", "money-creation", "bubbles-crises"],
+    "sources": [{ "label": "米什金《货币金融学》", "labelEn": "Mishkin, The Economics of Money, Banking and Financial Markets", "year": 2019 }]
+  },
+  {
+    "id": "central-bank-tools",
+    "title": "央行工具箱",
+    "titleEn": "The Central Bank Toolkit",
+    "icon": "🧰",
+    "category": "央行",
+    "categoryEn": "Central bank",
+    "level": 2,
+    "lead": "政策利率、公开市场操作、准备金要求与资产购买，是调节货币条件的主要工具。",
+    "leadEn": "Policy rates, open market operations, reserve requirements and asset purchases are the main levers.",
+    "points": [
+      { "k": "政策利率", "kEn": "Policy rate", "v": "最常用的信号工具，直接改变短端资金价格。", "vEn": "The most used signal, directly moving the price of short-term funds." },
+      { "k": "公开市场操作", "kEn": "Open market operations", "v": "买卖证券调节银行体系流动性，让市场利率贴近目标。", "vEn": "Buying and selling securities to keep market rates near target." },
+      { "k": "准备金与宏观审慎", "kEn": "Reserves and macroprudential", "v": "准备金率、资本缓冲、贷款价值比等工具直接约束信贷扩张。", "vEn": "Reserve ratios, capital buffers and loan-to-value caps directly constrain credit growth." },
+      { "k": "资产购买与前瞻指引", "kEn": "Asset purchases and guidance", "v": "利率触底后压降长端利率，并用沟通管理预期。", "vEn": "With rates at the floor, buying assets pushes long yields down while communication steers expectations." }
+    ],
+    "watch": [
+      "央行面对的是「物价稳定」与「金融稳定」的潜在冲突：长期低利率可能催生资产泡沫。",
+      "可信度是政策效力的一部分：市场相信央行，紧缩所需的幅度就更小。"
+    ],
+    "watchEn": [
+      "Central banks face a tension between price stability and financial stability: prolonged low rates can breed bubbles.",
+      "Credibility is part of policy power: if markets believe the bank, less tightening is needed."
+    ],
+    "related": ["monetary-history", "rate-system", "money-creation"],
+    "sources": [{ "label": "BIS 年度经济报告 央行工具章节", "labelEn": "BIS Annual Economic Report, central bank tools", "year": 2024 }]
+  },
+  {
+    "id": "rate-system",
+    "title": "利率体系",
+    "titleEn": "The Interest Rate System",
+    "icon": "📏",
+    "category": "利率",
+    "categoryEn": "Rates",
+    "level": 3,
+    "lead": "从政策利率到货币市场利率、国债收益率、信贷利率，构成一条层层加价的传导链。",
+    "leadEn": "From the policy rate to money-market rates, government yields and lending rates, rates form a chain of mark-ups.",
+    "points": [
+      { "k": "无风险利率", "kEn": "Risk-free rate", "v": "通常以国债收益率为基准，是其他资产定价的锚。", "vEn": "Usually the government yield, the anchor for pricing other assets." },
+      { "k": "期限溢价", "kEn": "Term premium", "v": "期限越长不确定性越大，投资者要求额外补偿，形成上倾曲线。", "vEn": "Longer maturities carry more uncertainty, so investors demand extra compensation, sloping the curve up." },
+      { "k": "信用溢价", "kEn": "Credit spread", "v": "违约风险越高，借款利率相对无风险利率的加点越大。", "vEn": "Higher default risk means a larger spread over the risk-free rate." },
+      { "k": "期限错配", "kEn": "Maturity mismatch", "v": "短借长贷是银行盈利模式，也是流动性风险的根源。", "vEn": "Borrowing short and lending long is the banking business model and the root of liquidity risk." }
+    ],
+    "watch": [
+      "收益率曲线倒挂常被当作衰退前兆，但它只是概率信号，不是必然预言。",
+      "「实际利率」才影响真实决策：名义利率 5% 而通胀 6%，实际是负利率。"
+    ],
+    "watchEn": [
+      "An inverted yield curve is often read as a recession signal, but it is a probability, not a prophecy.",
+      "Real rates drive real decisions: 5% nominal with 6% inflation is a negative real rate."
+    ],
+    "related": ["central-bank-tools", "money-creation", "fx-regimes"],
+    "sources": [{ "label": "美联储 H.15 利率统计说明", "labelEn": "US Federal Reserve H.15 selected interest rates", "year": 2024 }]
+  },
+  {
+    "id": "money-creation",
+    "title": "银行如何创造货币",
+    "titleEn": "How Banks Create Money",
+    "icon": "🏦",
+    "category": "银行",
+    "categoryEn": "Banking",
+    "level": 3,
+    "lead": "银行不是把存款贷出去，而是「先放贷、后创存款」，货币因此内生扩张。",
+    "leadEn": "Banks do not lend out deposits; they lend first and create the deposit, so money expands endogenously.",
+    "points": [
+      { "k": "贷款创造存款", "kEn": "Loans create deposits", "v": "发放贷款时同时在借款人账户记账，货币总量随即增加。", "vEn": "Making a loan simultaneously credits the borrower's account, so the money stock rises." },
+      { "k": "准备金约束", "kEn": "Reserve constraint", "v": "准备金与资本充足率限制扩张上限，但通常不是日常最紧的约束。", "vEn": "Reserves and capital ratios cap expansion but are rarely the binding constraint day to day." },
+      { "k": "货币乘数", "kEn": "Money multiplier", "v": "教科书以准备金率倒推乘数，现实中受信贷需求与银行风险偏好影响。", "vEn": "Textbooks derive a multiplier from reserve ratios; in practice credit demand and bank risk appetite dominate." },
+      { "k": "影子银行", "kEn": "Shadow banking", "v": "非银机构承担信用中介功能，扩张了货币与信用，也带来监管盲区。", "vEn": "Non-bank intermediaries extend credit and money, expanding both and creating regulatory blind spots." }
+    ],
+    "watch": [
+      "「存款来自储蓄」是常见的直觉错误：在信用货币体系中，贷款先创造存款。",
+      "信贷扩张与资产价格相互强化，是理解金融周期与危机的关键机制。"
+    ],
+    "watchEn": [
+      "'Deposits come from savings' is a common intuition error: in a credit-money system lending creates deposits first.",
+      "Credit expansion and asset prices reinforce each other, the key mechanism behind financial cycles."
+    ],
+    "related": ["central-bank-tools", "bubbles-crises", "rate-system"],
+    "sources": [{ "label": "英格兰银行《现代经济中的货币创造》", "labelEn": "Bank of England, Money creation in the modern economy", "year": 2014 }]
+  },
+  {
+    "id": "fx-regimes",
+    "title": "汇率制度",
+    "titleEn": "Exchange Rate Regimes",
+    "icon": "🌐",
+    "category": "汇率",
+    "categoryEn": "Foreign exchange",
+    "level": 2,
+    "lead": "固定、浮动与有管理的浮动各有利弊，核心权衡是「稳定」与「政策自主」不可兼得。",
+    "leadEn": "Fixed, floating and managed floats trade off stability against policy autonomy.",
+    "points": [
+      { "k": "固定汇率", "kEn": "Fixed", "v": "锚定他国货币，降低贸易与投资不确定性，但需消耗外储并让渡货币政策。", "vEn": "Pegging to another currency reduces trade uncertainty but costs reserves and monetary autonomy." },
+      { "k": "浮动汇率", "kEn": "Floating", "v": "由市场决定，货币政策独立，但汇率波动增加企业风险管理成本。", "vEn": "Market-determined rates preserve policy independence but raise hedging costs for firms." },
+      { "k": "有管理浮动", "kEn": "Managed float", "v": "以市场为主、必要时干预，实践中大多数经济体处于这一区间。", "vEn": "Mostly market-driven with occasional intervention: where most economies actually sit." },
+      { "k": "不可能三角", "kEn": "Impossible trinity", "v": "资本自由流动、固定汇率、独立货币政策，三者最多同时实现两个。", "vEn": "Free capital flows, a fixed rate and independent policy: at most two of the three." }
+    ],
+    "watch": [
+      "「操纵汇率」在国际规则中需具体证据界定，不宜作为泛化指控。",
+      "外储规模决定干预能力上限，耗尽后往往被迫一次性重估。"
+    ],
+    "watchEn": [
+      "'Currency manipulation' requires specific evidence under international rules and should not be a blanket accusation.",
+      "Reserves cap intervention capacity; depletion often forces a one-off revaluation."
+    ],
+    "related": ["rate-system", "money-creation", "bubbles-crises"],
+    "sources": [{ "label": "IMF 汇率安排与汇率限制年报", "labelEn": "IMF Annual Report on Exchange Arrangements and Exchange Restrictions", "year": 2023 }]
+  },
+  {
+    "id": "bubbles-crises",
+    "title": "泡沫与危机",
+    "titleEn": "Bubbles and Crises",
+    "icon": "💥",
+    "category": "金融稳定",
+    "categoryEn": "Financial stability",
+    "level": 3,
+    "lead": "泡沫的典型配方是宽松资金 + 新叙事 + 杠杆 + 错配，破裂则通过资产负债表传染。",
+    "leadEn": "Bubbles typically combine easy money, a new story, leverage and mismatch; the crash spreads through balance sheets.",
+    "points": [
+      { "k": "形成条件", "kEn": "Conditions", "v": "低利率、金融创新、新叙事（新技术/新市场）与羊群行为共同推高价格。", "vEn": "Low rates, financial innovation, a new story and herding push prices up together." },
+      { "k": "传染路径", "kEn": "Contagion", "v": "资产价格下跌触发追缴保证金与抛售，抵押品价值下降压缩信贷。", "vEn": "Falling prices trigger margin calls and selling; collateral values drop and credit contracts." },
+      { "k": "政策应对", "kEn": "Policy response", "v": "降息、流动性支持、担保与资本注入，优先阻断系统性传染。", "vEn": "Rate cuts, liquidity support, guarantees and recapitalisation aim to stop systemic contagion." },
+      { "k": "事后代价", "kEn": "Aftermath", "v": "去杠杆导致长期低增长与失业上升，恢复往往以年计。", "vEn": "Deleveraging brings prolonged weak growth and higher unemployment; recovery takes years." }
+    ],
+    "watch": [
+      "「识别泡沫」在事前极难：事后看似明显，事前与「基本面改善」难以区分。",
+      "宏观审慎工具的作用是降低破裂后果，而不是精确戳破泡沫。"
+    ],
+    "watchEn": [
+      "Identifying bubbles ex ante is extremely hard: ex post they look obvious, ex ante they resemble improving fundamentals.",
+      "Macroprudential tools aim to soften the aftermath, not to precisely prick bubbles."
+    ],
+    "related": ["money-creation", "central-bank-tools", "fx-regimes"],
+    "sources": [{ "label": "IMF《全球金融稳定报告》", "labelEn": "IMF Global Financial Stability Report", "year": 2024 }]
+  }
+]

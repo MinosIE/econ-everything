@@ -1,0 +1,149 @@
+[
+  {
+    "label": "曼昆《经济学原理》（第 9 版）",
+    "labelEn": "Mankiw, Principles of Economics (9th ed.)",
+    "type": "教材",
+    "typeEn": "Textbook",
+    "year": 2020
+  },
+  {
+    "label": "马歇尔《经济学原理》",
+    "labelEn": "Marshall, Principles of Economics",
+    "type": "经典著作",
+    "typeEn": "Classic",
+    "year": 1890
+  },
+  {
+    "label": "斯密《国富论》",
+    "labelEn": "Smith, The Wealth of Nations",
+    "type": "经典著作",
+    "typeEn": "Classic",
+    "year": 1776
+  },
+  {
+    "label": "李嘉图《政治经济学及赋税原理》",
+    "labelEn": "Ricardo, On the Principles of Political Economy and Taxation",
+    "type": "经典著作",
+    "typeEn": "Classic",
+    "year": 1817
+  },
+  {
+    "label": "凯恩斯《就业、利息和货币通论》",
+    "labelEn": "Keynes, The General Theory of Employment, Interest and Money",
+    "type": "经典著作",
+    "typeEn": "Classic",
+    "year": 1936
+  },
+  {
+    "label": "哈耶克《知识在社会中的运用》",
+    "labelEn": "Hayek, The Use of Knowledge in Society",
+    "type": "经典论文",
+    "typeEn": "Classic paper",
+    "year": 1945
+  },
+  {
+    "label": "弗里德曼、施瓦茨《美国货币史》",
+    "labelEn": "Friedman & Schwartz, A Monetary History of the United States",
+    "type": "经典著作",
+    "typeEn": "Classic",
+    "year": 1963
+  },
+  {
+    "label": "卡尼曼、特沃斯基《前景理论》",
+    "labelEn": "Kahneman & Tversky, Prospect Theory",
+    "type": "经典论文",
+    "typeEn": "Classic paper",
+    "year": 1979
+  },
+  {
+    "label": "塞勒《错误的行为》",
+    "labelEn": "Thaler, Misbehaving",
+    "type": "著作",
+    "typeEn": "Book",
+    "year": 2015
+  },
+  {
+    "label": "阿克洛夫《柠檬市场》",
+    "labelEn": "Akerlof, The Market for Lemons",
+    "type": "经典论文",
+    "typeEn": "Classic paper",
+    "year": 1970
+  },
+  {
+    "label": "奥斯特罗姆《公共事物的治理之道》",
+    "labelEn": "Ostrom, Governing the Commons",
+    "type": "著作",
+    "typeEn": "Book",
+    "year": 1990
+  },
+  {
+    "label": "米什金《货币金融学》（第 12 版）",
+    "labelEn": "Mishkin, The Economics of Money, Banking and Financial Markets (12th ed.)",
+    "type": "教材",
+    "typeEn": "Textbook",
+    "year": 2019
+  },
+  {
+    "label": "IMF《世界经济展望》",
+    "labelEn": "IMF World Economic Outlook",
+    "type": "数据报告",
+    "typeEn": "Data report",
+    "url": "https://www.imf.org/en/Publications/WEO",
+    "year": 2024
+  },
+  {
+    "label": "IMF《财政监测报告》",
+    "labelEn": "IMF Fiscal Monitor",
+    "type": "数据报告",
+    "typeEn": "Data report",
+    "url": "https://www.imf.org/en/Publications/FM",
+    "year": 2024
+  },
+  {
+    "label": "国际清算银行（BIS）年度经济报告",
+    "labelEn": "BIS Annual Economic Report",
+    "type": "研究",
+    "typeEn": "Research",
+    "url": "https://www.bis.org/publ/arpdf/",
+    "year": 2024
+  },
+  {
+    "label": "世界银行 世界发展指标",
+    "labelEn": "World Bank World Development Indicators",
+    "type": "数据集",
+    "typeEn": "Dataset",
+    "url": "https://databank.worldbank.org/source/world-development-indicators",
+    "year": 2024
+  },
+  {
+    "label": "联合国 SNA 2008 国民账户体系",
+    "labelEn": "UN System of National Accounts 2008",
+    "type": "统计标准",
+    "typeEn": "Statistical standard",
+    "year": 2008
+  },
+  {
+    "label": "ILO 就业与失业统计口径",
+    "labelEn": "ILO definitions of employment and unemployment",
+    "type": "统计标准",
+    "typeEn": "Statistical standard",
+    "url": "https://ilostat.ilo.org/",
+    "year": 2023
+  },
+  {
+    "label": "OECD 经济展望与就业展望",
+    "labelEn": "OECD Economic Outlook and Employment Outlook",
+    "type": "数据报告",
+    "typeEn": "Data report",
+    "url": "https://www.oecd.org/economic-outlook/",
+    "year": 2024
+  },
+  {
+    "label": "WTO 世界贸易报告与贸易政策审议",
+    "labelEn": "WTO World Trade Report and Trade Policy Reviews",
+    "type": "数据报告",
+    "typeEn": "Data report",
+    "url": "https://www.wto.org/english/res_e/reser_e/wtr_e.htm",
+    "year": 2024
+  }
+]

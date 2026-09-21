@@ -1,0 +1,31 @@
+{
+  "version": "0.1.0",
+  "counts": {
+    "concepts": 26,
+    "glossary": 44,
+    "thinkers": 8,
+    "events": 15
+  },
+  "kpis": [
+    {
+      "key": "concepts",
+      "icon": "💡",
+      "value": 26
+    },
+    {
+      "key": "glossary",
+      "icon": "📖",
+      "value": 44
+    },
+    {
+      "key": "thinkers",
+      "icon": "👤",
+      "value": 8
+    },
+    {
+      "key": "events",
+      "icon": "🗓️",
+      "value": 15
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+[
+  {
+    "id": "global-growth",
+    "title": "全球 GDP 增速（示意）",
+    "titleEn": "Global GDP growth (illustrative)",
+    "unit": "%",
+    "unitEn": "%",
+    "level": 1,
+    "note": "示意性年度近似值，用于展示长期趋势与波动幅度，非实时数据。2020 年深度下滑反映疫情冲击，2021 年为低基数反弹。具体数值请以 IMF 等官方发布为准。",
+    "noteEn": "Illustrative annual approximations showing long-run trend and volatility, not real-time data. The 2020 slump reflects the pandemic and 2021 is a base-effect rebound. Consult official IMF releases for exact figures.",
+    "series": [
+      { "y": 2015, "v": 2.9 },
+      { "y": 2016, "v": 2.7 },
+      { "y": 2017, "v": 3.3 },
+      { "y": 2018, "v": 3.1 },
+      { "y": 2019, "v": 2.6 },
+      { "y": 2020, "v": -3.1 },
+      { "y": 2021, "v": 6.0 },
+      { "y": 2022, "v": 3.5 },
+      { "y": 2023, "v": 3.3 },
+      { "y": 2024, "v": 3.2 }
+    ],
+    "sources": [{ "label": "IMF《世界经济展望》（近似整理）", "labelEn": "IMF World Economic Outlook (approximated)", "year": 2024 }]
+  },
+  {
+    "id": "global-inflation",
+    "title": "全球通胀率（示意）",
+    "titleEn": "Global inflation (illustrative)",
+    "unit": "%",
+    "unitEn": "%",
+    "level": 1,
+    "note": "示意性年度近似值。2021–2023 年出现数十年未见的高位，主要来自供给冲击、需求结构变化与劳动力紧张，随后随政策收紧回落。",
+    "noteEn": "Illustrative annual approximations. The 2021–2023 spike was the highest in decades, driven by supply shocks, demand shifts and tight labour markets, then eased as policy tightened.",
+    "series": [
+      { "y": 2015, "v": 2.8 },
+      { "y": 2016, "v": 2.5 },
+      { "y": 2017, "v": 2.9 },
+      { "y": 2018, "v": 3.0 },
+      { "y": 2019, "v": 3.0 },
+      { "y": 2020, "v": 2.8 },
+      { "y": 2021, "v": 4.7 },
+      { "y": 2022, "v": 8.7 },
+      { "y": 2023, "v": 6.8 },
+      { "y": 2024, "v": 5.9 }
+    ],
+    "sources": [{ "label": "IMF《世界经济展望》通胀数据（近似整理）", "labelEn": "IMF World Economic Outlook inflation data (approximated)", "year": 2024 }]
+  },
+  {
+    "id": "unemployment-advanced",
+    "title": "发达经济体失业率（示意）",
+    "titleEn": "Advanced-economy unemployment (illustrative)",
+    "unit": "%",
+    "unitEn": "%",
+    "level": 2,
+    "note": "示意性年度近似值。2020 年因统计口径差异（部分经济体将停薪留职计入就业）实际冲击可能被低估，解读时需注意口径。",
+    "noteEn": "Illustrative annual approximations. In 2020 differing definitions — some economies counted furloughed workers as employed — may understate the real shock, so definitions matter.",
+    "series": [
+      { "y": 2015, "v": 6.8 },
+      { "y": 2016, "v": 6.3 },
+      { "y": 2017, "v": 5.8 },
+      { "y": 2018, "v": 5.2 },
+      { "y": 2019, "v": 4.8 },
+      { "y": 2020, "v": 6.9 },
+      { "y": 2021, "v": 5.4 },
+      { "y": 2022, "v": 4.5 },
+      { "y": 2023, "v": 4.2 },
+      { "y": 2024, "v": 4.3 }
+    ],
+    "sources": [{ "label": "ILO / OECD 就业统计（近似整理）", "labelEn": "ILO / OECD employment statistics (approximated)", "year": 2024 }]
+  },
+  {
+    "id": "policy-rate",
+    "title": "美国联邦基金利率（示意）",
+    "titleEn": "US federal funds rate (illustrative)",
+    "unit": "%",
+    "unitEn": "%",
+    "level": 2,
+    "note": "示意性年度近似值（取年末区间上沿）。2020–2021 年接近零利率下限，2022–2023 年为四十年来最快加息周期。",
+    "noteEn": "Illustrative annual approximations using the upper bound at year end. Rates sat at the zero lower bound in 2020–2021, followed by the fastest hiking cycle in forty years in 2022–2023.",
+    "series": [
+      { "y": 2015, "v": 0.5 },
+      { "y": 2016, "v": 0.75 },
+      { "y": 2017, "v": 1.5 },
+      { "y": 2018, "v": 2.5 },
+      { "y": 2019, "v": 1.75 },
+      { "y": 2020, "v": 0.25 },
+      { "y": 2021, "v": 0.25 },
+      { "y": 2022, "v": 4.5 },
+      { "y": 2023, "v": 5.5 },
+      { "y": 2024, "v": 4.5 }
+    ],
+    "sources": [{ "label": "美联储公开市场委员会利率决议（近似整理）", "labelEn": "FOMC rate decisions (approximated)", "year": 2024 }]
+  },
+  {
+    "id": "usd-cny",
+    "title": "美元兑人民币（示意）",
+    "titleEn": "USD/CNY (illustrative)",
+    "unit": "CNY / USD",
+    "unitEn": "CNY / USD",
+    "level": 2,
+    "note": "示意性年度近似值（年末中间价附近）。曲线上行表示美元升值、人民币相对贬值。汇率受利率差、贸易与资本流动共同影响，不由单一因素决定。",
+    "noteEn": "Illustrative year-end approximations. A rising line means a stronger dollar and a relatively weaker renminbi. Rates reflect rate differentials, trade and capital flows together, not one factor alone.",
+    "series": [
+      { "y": 2015, "v": 6.49 },
+      { "y": 2016, "v": 6.94 },
+      { "y": 2017, "v": 6.51 },
+      { "y": 2018, "v": 6.88 },
+      { "y": 2019, "v": 6.96 },
+      { "y": 2020, "v": 6.52 },
+      { "y": 2021, "v": 6.37 },
+      { "y": 2022, "v": 6.9 },
+      { "y": 2023, "v": 7.1 },
+      { "y": 2024, "v": 7.3 }
+    ],
+    "sources": [{ "label": "中国外汇交易中心 / 公开汇率数据（近似整理）", "labelEn": "CFETS / public exchange rate data (approximated)", "year": 2024 }]
+  },
+  {
+    "id": "govt-debt",
+    "title": "发达经济体政府债务占 GDP 比重（示意）",
+    "titleEn": "Advanced-economy government debt to GDP (illustrative)",
+    "unit": "% of GDP",
+    "unitEn": "% of GDP",
+    "level": 3,
+    "note": "示意性年度近似值。2020 年跳升来自疫情支出与产出下滑的「分母效应」，此后随通胀与名义增长部分回落，但绝对水平仍高于疫情前。",
+    "noteEn": "Illustrative annual approximations. The 2020 jump came from pandemic spending plus a smaller denominator; inflation and nominal growth brought it down somewhat, yet levels remain above pre-pandemic.",
+    "series": [
+      { "y": 2015, "v": 104 },
+      { "y": 2016, "v": 105 },
+      { "y": 2017, "v": 104 },
+      { "y": 2018, "v": 104 },
+      { "y": 2019, "v": 104 },
+      { "y": 2020, "v": 122 },
+      { "y": 2021, "v": 121 },
+      { "y": 2022, "v": 115 },
+      { "y": 2023, "v": 113 },
+      { "y": 2024, "v": 112 }
+    ],
+    "sources": [{ "label": "IMF 财政监测（近似整理）", "labelEn": "IMF Fiscal Monitor (approximated)", "year": 2024 }]
+  }
+]

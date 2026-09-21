@@ -1,0 +1,833 @@
+# Economics of Everything — Full Text
+
+> Complete plain-text dump of all structured data from a bilingual, ad-free educational site on economics. For LLM ingestion and citation.
+
+Source: https://MinosIE.github.io/econ-everything/
+
+## Core Concepts
+
+### Scarcity（Foundations，level 1）
+- In one line：Resources are limited while wants are not, so choices must be made.
+- Details：Scarcity is where economics begins. It does not mean goods are rare; it means that relative to all human wants, no resource is ever enough. Time, attention, land and clean air are all scarce, so using a resource one way means it cannot be used another way. Economics studies how allocation happens under scarcity.
+- Example：A monthly salary of 10,000: paying rent means less saving, buying a laptop means one less trip. Money is scarce, so priorities are needed.
+
+
+### Trade-off（Foundations，level 1）
+- In one line：To get one thing, you usually have to give up another.
+- Details：Because of scarcity, every choice is a trade-off: individuals trade work against leisure, firms trade cost against quality, governments trade efficiency against equity. Acknowledging trade-offs is the first defence against promises that everything can be had at once.
+- Example：Choosing an economics elective means missing the photography class in the same slot; one more hour of sleep is one hour less of revision.
+
+
+### Opportunity Cost（Foundations，level 1）
+- In one line：The value of the best alternative you give up.
+- Details：Opportunity cost is not the money spent but the best forgone alternative — including time, effort, mood and future options. Good decisions compare doing this against doing the best alternative, not merely against the cash outlay.
+- Example：The cost of an hour of gaming is the money, learning or rest that hour could have produced.
+
+
+### Marginal Thinking（Foundations，level 1）
+- In one line：Decisions hinge on the extra benefit and cost of one more unit.
+- Details：Rational choice is rarely all-or-nothing: it asks whether to do one more unit. Keep going while marginal benefit exceeds marginal cost, and stop when it does not. This is why a low average cost does not automatically justify expanding.
+- Example：At a buffet you have already got your money's worth; whether to take one more plate depends on whether the extra bite beats the discomfort.
+
+
+### Incentives（Foundations，level 1）
+- In one line：People respond to rewards and penalties; change the rules and behaviour changes.
+- Details：Incentives are among the most powerful explanatory tools in economics: prices, taxes, fines and KPIs are all incentive designs. The hard part is unintended adaptation — paying per line of code simply produces more lines of code.
+- Example：Charging for plastic bags cuts their use; paying by hours worked keeps desks occupied after hours.
+
+
+### Sunk Cost（Foundations，level 1）
+- In one line：Costs already spent and unrecoverable should not drive the next decision.
+- Details：Rational decisions compare only future costs and benefits. Because waste feels bad, people keep investing because of what is already spent — the sunk-cost fallacy. The test: if I started from zero today, would I still choose this path?
+- Example：A bad film plus a bought ticket keeps people seated for two hours: the ticket is sunk, the time is not.
+
+
+### Supply and Demand（Supply & Demand，level 1）
+- In one line：Higher prices bring more sellers and fewer buyers.
+- Details：Demand slopes down: the cheaper it is, the more is bought. Supply slopes up: the higher the price, the more is offered. Their intersection sets price and quantity, making supply and demand the first lens for nearly any price puzzle, from rent to airfare to vegetables.
+- Example：Holiday airfares jump because travel demand spikes while seats are fixed.
+
+
+### Market Equilibrium（Supply & Demand，level 1）
+- In one line：The price at which quantity supplied equals quantity demanded.
+- Details：Above equilibrium, unsold stock forces sellers to cut prices; below it, queues let buyers bid up. This self-correction is the everyday version of the invisible hand. Real markets have frictions — information, regulation, monopoly — so equilibrium is a direction, not an exact landing point.
+- Example：An overpriced phone on a second-hand platform attracts no messages until the seller cuts the price.
+
+
+### Elasticity（Supply & Demand，level 2）
+- In one line：How much quantity responds to a price change: a big response means elastic.
+- Details：Elasticity measures sensitivity. Goods with many substitutes, that are discretionary or take a large share of spending tend to be elastic; goods with few substitutes and inelastic demand — insulin, petrol in the short run — are not. Elasticity decides whether a price rise actually raises revenue.
+- Example：Raising metro fares barely changes ridership (inelastic), while a milk-tea brand raising prices can lose most of its sales (elastic).
+
+
+### Surplus and Shortage（Supply & Demand，level 2）
+- In one line：Hold price away from equilibrium and you get either unsold stock or queues.
+- Details：Price above equilibrium creates surplus; below it creates shortage. Price controls, subsidies and caps can generate either, and markets compensate in other ways: queues, scalpers, rationing, favours, or lower quality.
+- Example：Ticket price caps breed scalpers; long-standing rent controls reduce maintenance and shrink the rental stock.
+
+
+### Externality（Market Structure，level 2）
+- In one line：Your action affects a third party without payment or compensation.
+- Details：Negative externalities (pollution, noise, congestion) make social cost exceed private cost, so markets overproduce; positive ones (vaccines, education, R&D) make social benefit exceed private benefit, so markets underproduce. Common remedies: taxes, subsidies, property rights, regulation.
+- Example：A factory saves money by dumping waste while downstream residents bear the health cost — the case for pollution taxes or permit trading.
+
+
+### Public Goods（Market Structure，level 2）
+- In one line：Goods everyone can use and no one can easily be excluded from.
+- Details：Public goods are non-excludable and non-rival: national defence, street lights, basic research, public broadcasting. Since free-riding cannot be stopped, private provision is scarce and governments or collective action step in. The hard part is eliciting true willingness to pay.
+- Example：No single resident will fund CCTV alone, yet once installed every household benefits.
+
+
+### Market Structure（Market Structure，level 2）
+- In one line：From perfect competition to monopoly, the number of sellers sets pricing power.
+- Details：In perfect competition many small sellers of identical goods are price takers; a monopolist sets price but is limited by demand. Reality is mostly monopolistic competition and oligopoly — differentiation plus a few players. Concentration, entry barriers and differentiation are the key variables.
+- Example：Street food stalls have almost no pricing power, while mobile operating systems have long had only two main players.
+
+
+### Comparative Advantage（Trade & Globalization，level 2）
+- In one line：Even if you are worse at everything, specialising where your relative cost is lowest benefits both sides.
+- Details：Comparative advantage compares opportunity costs, not absolute productivity. Ricardo showed that whenever two countries face different relative costs, specialisation plus exchange raises total output — the core argument for mutual gains from trade, and the most misread one.
+- Example：A lawyer may type faster than an assistant, but every hour typing costs an hour of billable advice — delegating makes both better off.
+
+
+### Gross Domestic Product（Macro，level 1）
+- In one line：The total value of final goods and services produced within a country in a year.
+- Details：GDP can be computed three equivalent ways: production, income, or expenditure (C+I+G+NX). It is a flow, not a stock — output, not wealth or wellbeing. GDP per capita is a rough proxy for development that ignores unpaid work, environmental damage and distribution.
+- Example：Cooking at home is not counted in GDP; buying the same meal at a restaurant is, because a market transaction occurs.
+
+
+### Inflation（Macro，level 1）
+- In one line：A sustained rise in the general price level, eroding the value of money.
+- Details：Moderate inflation (many central banks target around 2%) usually accompanies growth; hyperinflation destroys a currency's credibility. Common drivers are demand-pull, cost-push and monetary factors. Inflation hurts savers and fixed-income earners and helps borrowers — it redistributes wealth.
+- Example：Ten yuan once bought lunch and now buys a drink: the meal did not get fancier, the money got thinner.
+
+
+### Unemployment（Macro，level 2）
+- In one line：The share of people able and willing to work who cannot find a job.
+- Details：Unemployment is frictional (between jobs), structural (skills mismatch) or cyclical (weak demand). Definitions matter: people who stop looking are excluded, so a falling rate is not always good news. Okun's law links unemployment to output empirically.
+- Example：When a plant automates, former assembly-line workers no longer match available jobs — structural unemployment.
+
+
+### Economic Growth（Macro，level 2）
+- In one line：A long-run rise in output per person, driven mainly by productivity and technology.
+- Details：Long-run growth comes not from working more but from producing more with the same input. Capital accumulation, human capital, technology and institutional quality are the four sources. Because of compounding, a few percentage points of annual growth becomes a vastly different standard of living within decades.
+- Example：Over 30 years, 7% annual growth multiplies output about 7.6 times versus 1.8 times at 2%.
+
+
+### Money（Money & Finance，level 1）
+- In one line：A generally accepted medium of exchange, unit of account and store of value.
+- Details：Money performs three functions: as a medium of exchange it solves the double coincidence of wants; as a unit of account it lowers comparison costs; as a store of value it separates earning from spending. Most modern money is fiat, backed by state credibility rather than gold.
+- Example：Without money a baker must find a shoemaker who wants bread right now; with money no coincidence is needed.
+
+
+### Interest Rate（Money & Finance，level 1）
+- In one line：The price of funds, and the discount rate that translates future money into today's value.
+- Details：The Fisher equation splits nominal rates into real rates plus expected inflation. Higher rates discourage borrowing and investment, attract capital and compress valuations; lower rates do the reverse. Central banks move a policy rate that transmits to mortgages, corporate funding and exchange rates.
+- Example：A mortgage rate rising from 4% to 6% noticeably raises monthly payments, cooling housing demand.
+
+
+### Central Bank（Money & Finance，level 2）
+- In one line：The institution that issues money, sets interest rates and acts as lender of last resort.
+- Details：Central banks usually target price stability, with mandates that often include employment and financial stability. Tools include the policy rate, open market operations, reserve requirements and quantitative easing. Independence and credibility matter: if markets believe inflation will be controlled, less tightening is needed.
+- Example：In a crisis a central bank injects liquidity into the banking system so a run does not become a systemic collapse.
+
+
+### Nash Equilibrium（Behavior & Games，level 3）
+- In one line：A set of strategies where no player gains by changing alone.
+- Details：Nash equilibrium is a stable state, but not necessarily a good one: the prisoner's dilemma equilibrium is worse for both. Nor is it always unique — with multiple equilibria, who moves first, how players communicate and shared habits decide which one is reached.
+- Example：Two firms both holding prices is an equilibrium; if each fears the other will cut, pre-emptive cutting can be an equilibrium too.
+
+
+### Loss Aversion（Behavior & Games，level 2）
+- In one line：Losing hurts more than gaining the same amount feels good.
+- Details：A central finding of prospect theory: losses carry roughly 1.5–2.5 times the psychological weight of equivalent gains. This explains holding losing positions, the power of limited-time discounts, and why reforms meet fierce resistance — losses to vested interests loom larger.
+- Example：Finding 100 feels lighter than losing 100 feels heavy, which pushes people towards excessive risk aversion.
+
+
+### Tax Incidence（Micro，level 3）
+- In one line：Who is taxed by law and who bears the burden in practice are different questions.
+- Details：The burden splits according to elasticity: the less elastic side — the one that can less easily substitute — bears more. Taxing sellers can raise prices paid by buyers; taxing buyers can cut net prices received by sellers. So 'making firms pay' does not mean firms truly bear it.
+- Example：Taxing landlords shifts more of the burden onto them when housing supply is inelastic; otherwise it can reappear as higher rent.
+
+
+### Tragedy of the Commons（Market Structure，level 2）
+- In one line：Resources open to all and owned by none are overused until depleted.
+- Details：When benefits are private and costs are shared, individually rational use adds up to collective ruin: overgrazing, depleted fisheries, falling water tables. Ostrom showed that beyond privatisation and state control, community-designed rules can govern common-pool resources well.
+- Example：Early dockless bike-sharing saw unlimited dumping and private locking, ending in extreme damage rates and market exit.
+
+
+### Information Asymmetry（Market Structure，level 2）
+- In one line：When one side knows more, markets can shrink as bad products drive out good ones.
+- Details：Two forms: adverse selection before contracting (buyers cannot judge quality and pay an average price) and moral hazard after (protection makes behaviour riskier). Remedies include signalling (credentials, certification, warranties), screening (deductibles, tiered pricing) and third-party verification (ratings, inspection, platform guarantees).
+- Example：In used cars the seller knows the condition, buyers discount, good cars exit and the market fills with lemons.
+
+
+## Glossary
+- **Gross Domestic Product**（GDP）［Macro indicators］：The market value of all final goods and services produced within a country in a period. Plainly：Add up everything newly produced in the country in a year at market prices.
+- **Consumer Price Index**（CPI）［Macro indicators］：An index tracking the price of a fixed basket of household goods and services; the standard inflation gauge. Plainly：Track the total cost of a typical household shopping basket and see how much it rose.
+- **Inflation Rate**［Macro indicators］：The percentage change in the price level versus a year earlier, usually measured by CPI year-on-year. Plainly：How many percent more expensive things are than a year ago.
+- **Deflation**［Macro indicators］：A sustained fall in the general price level, often accompanied by weak demand and heavier real debt. Plainly：Prices keep falling — sounds good, until everyone waits for cheaper and business gets harder.
+- **Stagflation**［Macro indicators］：High inflation occurring together with stagnation — weak growth and high unemployment. Plainly：Jobs are scarce and prices keep rising: the worst combination.
+- **Unemployment Rate**［Macro indicators］：Unemployed people as a share of the labour force (employed plus actively job-seeking). Plainly：The share of people who want and can work but have no job, out of all who want to work.
+- **Fiscal Policy**［Macro policy］：Government use of spending and taxation to influence aggregate demand and activity. Plainly：The government spends or taxes more or less to speed up or slow down the economy.
+- **Monetary Policy**［Macro policy］：Central bank actions on interest rates, reserves and asset purchases to steer money and credit conditions. Plainly：The central bank decides how expensive borrowing is, which shapes whether people borrow and spend.
+- **Fiscal Deficit**［Macro policy］：The excess of annual government spending over revenue, usually financed by issuing bonds. Plainly：When the government spends more than it collects in a year, it borrows the difference.
+- **Government Debt**［Macro policy］：The accumulated stock of government borrowing outstanding, usually scaled by GDP. Plainly：How much the government owes in total, usually expressed as a share of annual output.
+- **Open Market Operation**［Central bank tools］：Central bank purchases or sales of securities to inject or drain liquidity and steer short-term rates. Plainly：When the central bank buys bonds it puts money into the system; selling takes money out.
+- **Reserve Requirement**［Central bank tools］：The share of deposits banks must hold as reserves; a higher ratio means less to lend. Plainly：For every 100 in deposits, banks must keep part aside and cannot lend it out.
+- **Quantitative Easing**（QE）［Central bank tools］：Unconventional large-scale purchases of longer-term assets to push down long rates and inject liquidity when policy rates are near zero. Plainly：With rates already near zero, the central bank buys assets directly to keep easing.
+- **Liquidity**［Finance concepts］：How quickly an asset can be sold near its fair value; also how abundant funds are in a market. Plainly：If you can sell quickly without a price discount, liquidity is good.
+- **Yield Curve**［Finance concepts］：Yields on comparable bonds across maturities, reflecting expectations for rates and growth. Plainly：Plot the interest on 1-, 5- and 10-year government debt to read what the market expects.
+- **Exchange Rate**［Finance concepts］：The price of one currency in another, set by supply, demand, rate differentials and policy. Plainly：How much foreign currency one unit of your money buys.
+- **Spread**［Finance concepts］：The difference between two rates or prices, often read as a risk premium or stress gauge. Plainly：The gap between two interest rates; a wider gap signals more perceived risk.
+- **Leverage**［Finance concepts］：Using borrowed money to enlarge a position, magnifying both gains and losses. Plainly：Borrowing against your own money to invest more: bigger gains, faster losses.
+- **Asset Bubble**［Finance concepts］：Prices far above fundamental value, driven mainly by speculation that they will rise further. Plainly：People buy not because it is worth that much, but because they expect it to rise more.
+- **Systemic Risk**［Finance concepts］：The risk that one shock propagates through interconnections and disables the whole financial system. Plainly：One failure drags others down until the whole system breaks.
+- **Central Bank**［Finance concepts］：The public institution that issues currency, sets monetary policy and lends last resort in crises. Plainly：The master switch for money: issuing currency, setting rates and providing liquidity in crises.
+- **Credit Rating**［Finance concepts］：An agency's graded judgement of default risk, which directly affects borrowing cost. Plainly：A score for borrowers: higher score, cheaper borrowing.
+- **Interest Rate**［Finance concepts］：The price of loanable funds, also used to discount future cash flows to the present. Plainly：The price of borrowing, and the ruler converting next year's money into today's value.
+- **Marginal Cost**［Micro concepts］：The increase in total cost from producing one more unit. Plainly：How much more it costs in total to make one extra unit.
+- **Economies of Scale**［Micro concepts］：Falling unit cost as output grows, driven by spreading fixed costs and specialisation. Plainly：The more you make, the cheaper each unit — which favours larger producers.
+- **Price Discrimination**［Micro concepts］：Charging different prices for the same good to different buyers or under different conditions. Plainly：Student discounts, last-minute sales and higher prices for loyal users are all this.
+- **Consumer Surplus**［Micro concepts］：The gap between the most a consumer would pay and what they actually pay. Plainly：You would have paid 50 but paid 30 — the 20 is your surplus.
+- **Oligopoly**［Micro concepts］：A market dominated by a few large firms whose decisions depend heavily on each other. Plainly：Only a few big sellers, and each thinks about whether rivals will follow a price cut.
+- **Barriers to Entry**［Micro concepts］：Factors that make it hard for new firms to enter and compete: licences, patents, scale, network effects. Plainly：High walls keep newcomers out, letting incumbents keep prices high.
+- **Tariff**［Trade concepts］：A tax on imports that raises their price, shields domestic producers and can invite retaliation. Plainly：Foreign goods pay a fee at the border, making them more expensive.
+- **Trade Balance**［Trade concepts］：Exports minus imports over a period: a surplus if positive, a deficit if negative. Plainly：Whether the country sold more abroad than it bought.
+- **Supply Chain**［Trade concepts］：The sequence of cross-border steps converting raw materials into a delivered product. Plainly：All the countries and factories a product passes through before reaching you.
+- **Comparative Advantage**［Trade concepts］：The ability to produce a good at lower opportunity cost, the basis of mutual gains from trade. Plainly：Not what you are best at, but what you give up least to do.
+- **Anchoring**［Behavioural concepts］：Over-reliance on the first number or cue encountered, with insufficient adjustment. Plainly：After seeing 'was 999', the 'now 499' looks like a bargain.
+- **Herding**［Behavioural concepts］：The tendency to abandon private judgement and follow the crowd, often amplifying swings. Plainly：Everyone buys so I buy; everyone runs so I run.
+- **Endowment Effect**［Behavioural concepts］：Once you own something, you value it noticeably more than you would if you did not. Plainly：The same ticket: you would pay 100 to buy it, but would not sell it for under 200.
+- **Gini Coefficient**［Statistical indicators］：A measure of inequality from 0 (perfect equality) to 1 (one person takes all). Plainly：A number between 0 and 1: closer to 1 means bigger gaps.
+- **Engel Coefficient**［Statistical indicators］：Food spending as a share of total household consumption, typically falling as income rises. Plainly：The share of spending that goes to food — usually higher when income is lower.
+- **Purchasing Power Parity**（PPP）［Statistical indicators］：An exchange-rate measure adjusted for price levels, used to compare real costs and output across countries. Plainly：Not the market rate, but how much the same money actually buys locally.
+- **Nominal vs Real**［Statistical indicators］：Nominal values use current prices; real values strip out price changes to show purchasing power. Plainly：Wages up 5% with prices up 6% means you are actually worse off.
+- **Producer Price Index**（PPI）［Macro indicators］：An index of factory-gate prices, often seen as a leading indicator for CPI. Plainly：Factory prices move first; shop prices tend to follow later.
+- **Supply and Demand**［Micro concepts］：The framework in which price and quantity emerge from sellers' willingness to supply and buyers' willingness to buy. Plainly：Sellers and buyers together determine the price.
+- **Nash Equilibrium**［Game theory concepts］：A stable state where all players have chosen strategies and no one gains by changing alone. Plainly：The standoff where anyone who moves alone ends up worse off.
+- **Short Selling**［Finance concepts］：A strategy of borrowing an asset to sell it now, then buying it back cheaper after a price fall to return to the lender and keep the difference; profit is capped by a full drop, while losses rise without a hard ceiling as the price climbs. Plainly：You think a stock will fall, so you borrow and sell it now; if it drops you buy back cheap, return it and keep the gap. But if it rises instead, you must buy back higher to return it — and the loss grows the higher it climbs, with no cap.
+
+## Macroeconomics
+
+### How GDP Is Measured（Accounting）
+- Summary：The same activity can be added up from production, income or expenditure — and the totals must match.
+- Production：Sum of value added = gross output minus intermediate inputs, avoiding double counting.
+- Income：Wages + interest + rent + profit + net taxes on production: what factors of production receive.
+- Expenditure：C + I + G + NX: consumption, investment, government spending and net exports.
+- Nominal vs real：Nominal GDP uses current prices; real GDP strips out price changes and is the right basis for comparison.
+- Worth thinking about：GDP excludes unpaid household work and volunteer activity, and does not deduct environmental damage, so growth is not automatically wellbeing.；Rising GDP per capita with stagnant median income means gains are concentrated; distribution data are needed.
+
+### Where Inflation Comes From（Prices）
+- Summary：Excess demand, rising costs, too much money and self-fulfilling expectations are the four main routes.
+- Demand-pull：Aggregate demand exceeds potential output, and buyers bid prices up.
+- Cost-push：Energy, input, wage or exchange-rate shocks raise costs, which firms pass on.
+- Monetary：Money and credit growing far faster than output eventually shows up in prices.
+- Expectations：When everyone expects higher prices, they stock up and demand raises, turning expectation into fact.
+- Worth thinking about：'Inflation is always just money printing' oversimplifies: supply shocks can raise prices even with stable money.；Core inflation (excluding energy and food) tracks the trend better because it is less volatile and more persistent.
+
+### How Monetary Policy Transmits（Policy）
+- Summary：The central bank moves one policy rate, but the effect reaches the real economy through four channels.
+- Interest rate：The policy rate moves lending and deposit rates, shaping investment and consumption.
+- Asset prices：Lower rates lift equity and property valuations, and wealth effects boost spending.
+- Credit：Bank risk appetite and capital determine whether credit actually flows.
+- Exchange rate：Higher rates attract capital, appreciate the currency and affect export competitiveness.
+- Worth thinking about：Transmission lags by quarters, so policy should respond to the outlook rather than today's data.；Near zero rates with reluctant banks break conventional tools, requiring unconventional ones.
+
+### Fiscal Multipliers and Their Limits（Policy）
+- Summary：One unit of government spending may generate more than one unit of output — or crowd out private spending and achieve little.
+- Multiplier：Spending becomes someone's income, which is spent again, so the total exceeds the initial amount.
+- Crowding out：Heavy government borrowing can push rates up and displace private investment.
+- Automatic stabilisers：Progressive taxes and unemployment benefits expand automatically in downturns and contract in booms.
+- Lags and quality：Recognition, decision and implementation lags, plus project quality, determine the outcome.
+- Worth thinking about：Multipliers depend on slack: near full capacity, stimulus mostly becomes inflation.；Fiscal sustainability is bound by debt service, so short-run stimulus trades off against long-run repayment.
+
+### Three Kinds of Unemployment（Labour）
+- Summary：Frictional, structural and cyclical unemployment have different causes and need different policies.
+- Frictional：Time needed to search and switch jobs: a normal matching process.
+- Structural：Technology or industry shifts mismatch skills and vacancies; demand stimulus cannot fix it.
+- Cyclical：Weak aggregate demand causes layoffs; fiscal and monetary easing is the remedy.
+- Natural rate：The unemployment level that persists even in a healthy economy, set by frictional and structural factors.
+- Worth thinking about：A falling unemployment rate can simply reflect people leaving the labour force; watch participation too.；Youth and long-term unemployment are the costliest as skills and confidence erode.
+
+### The Business Cycle（Cycles）
+- Summary：Expansions and contractions alternate irregularly, yet a few mechanisms recur.
+- Credit cycle：Easy money leverages up asset prices; tightening deleverages and amplifies the downturn.
+- Inventory：Alternating inventory building and destocking drives short cycles.
+- Investment：Major technology or infrastructure waves create multi-year booms and busts.
+- Policy response：Countercyclical policy can smooth swings, or delay adjustment and build risk.
+- Worth thinking about：Claims that cycles are predictable are usually overstated: nobody reliably times turning points.；The longer the calm, the more risk is underestimated, and leverage and maturity mismatch accumulate.
+
+## Microeconomics
+
+### The Demand Curve and Why It Moves（Demand & supply）
+- Summary：A price change moves you along the curve; income, tastes or substitute prices shift the whole curve.
+- Movement along：Only the good's own price changes quantity demanded, holding everything else constant.
+- Shift right：Higher income, shifting tastes, pricier substitutes or more buyers all raise demand.
+- Shift left：Pricier complements, expectations of future discounts or cheaper substitutes reduce demand.
+- Demand vs quantity：Demand is the whole curve; quantity demanded is the amount at a given price.
+- Worth thinking about：Confusing 'higher price reduces demand' with 'lower demand reduces price' is a common reversal of causation.；Price and quantity rising together usually means a curve shifted, not that the law of demand failed.
+
+### Elasticity and Pricing（Demand & supply）
+- Summary：Whether a price rise raises revenue depends on elasticity: below 1 it helps, above 1 it hurts.
+- Inelastic：Necessities with few substitutes and a small budget share lose few sales, so revenue rises.
+- Elastic：Discretionary goods with many substitutes lose sales sharply, so revenue can fall.
+- More elastic over time：Habits adjust slowly: over time people can switch cars or suppliers, raising elasticity.
+- Pricing lesson：Separating groups by elasticity — student fares, early-bird rates — is the standard way to raise revenue.
+- Worth thinking about：'Raising price always raises revenue' holds only when demand is inelastic; many firms get this wrong.；Elasticity is an estimate, not a constant: it varies by period and market.
+
+### Cost Structure（The firm）
+- Summary：Fixed, variable and marginal costs determine a firm's break-even point and optimal output.
+- Fixed：Independent of output (plants, software development, licences) and spread thinner as volume grows.
+- Variable：Scales with output: materials, piece-rate wages, freight.
+- Marginal：The extra cost of one more unit: while price exceeds it, producing on is rational in the short run.
+- Break-even：The output at which total contribution (price minus variable cost) covers fixed cost.
+- Worth thinking about：Industries with high fixed and low marginal costs (software, content, airlines) naturally concentrate and cut prices.；Treating spent fixed cost as a reason to continue is the sunk-cost fallacy.
+
+### Four Market Structures（Market structure）
+- Summary：From perfect competition to monopoly, seller count and differentiation determine pricing power and welfare.
+- Perfect competition：Many small sellers of identical goods with free entry: long-run profit tends to zero.
+- Monopolistic competition：Differentiated products (restaurants, apparel) give short-run pricing power that erodes with entry.
+- Oligopoly：A few interdependent players: strategic interaction can sustain high prices tacitly.
+- Monopoly：A single seller can set price, limited by demand; if sustained by barriers, regulation follows.
+- Worth thinking about：Falling concentration does not guarantee competition: geographic, channel or data barriers may persist.；Monopoly is not always harmful: in natural monopolies (grids, water networks) one provider is cheapest.
+
+### Tools for Externalities（Market failure）
+- Summary：Pigouvian taxes, permit trading, Coasean property rights and direct regulation each fit different conditions.
+- Pigouvian tax：Taxing the marginal external cost internalises it, yet the right rate is hard to know.
+- Cap and trade：Cap the total and let the market allocate permits: cheap abaters cut more, costly ones buy.
+- Property rights：With clear rights and low transaction costs, parties can bargain to an efficient outcome (Coase).
+- Regulation：Standards, bans and technology mandates are certain to enforce but inflexible and often costlier.
+- Worth thinking about：Coase's premises — clear rights and low transaction costs — often fail, so 'leave it to the market' is not universal.；Under a cap, how permits are initially allocated decides who wins and who loses.
+
+### Information Asymmetry（Market failure）
+- Summary：When one side knows more, markets can shrink or vanish as good products are driven out.
+- Adverse selection：Before contracting, the less informed side pays an average price, so high-quality sellers exit.
+- Moral hazard：After contracting, protection changes behaviour, such as taking fewer health precautions once insured.
+- Signalling：Costly, hard-to-fake signals (degrees, certification, warranties) rebuild trust.
+- Screening：The less informed side designs menus that make types reveal themselves, such as deductibles.
+- Worth thinking about：Used cars, insurance, credit, hiring and healthcare are the five classic arenas.；Platform ratings and third-party certification are modern signals, but fake reviews erode them.
+
+## Money & Finance
+
+### A Short History of Money（Money）
+- Summary：From commodities to metal, convertible notes and fiat money, each switch followed a change in what carries trust.
+- Commodity and metal：Shells, salt, silver and gold were chosen for scarcity and divisibility.
+- Convertible notes：Bank notes promising metal on demand cut the cost of carrying value.
+- Gold standard and its end：Fixed convertibility limited policy space; depression and war pushed countries off it.
+- Fiat money：Value rests on state credibility and legal tender status: more policy room, and more responsibility.
+- Worth thinking about：'Money must have intrinsic value' is intuitive but modern money is anchored by institutions and expectations, not metal.；History is full of currencies destroyed by over-issuance, which is why central bank independence matters.
+
+### The Central Bank Toolkit（Central bank）
+- Summary：Policy rates, open market operations, reserve requirements and asset purchases are the main levers.
+- Policy rate：The most used signal, directly moving the price of short-term funds.
+- Open market operations：Buying and selling securities to keep market rates near target.
+- Reserves and macroprudential：Reserve ratios, capital buffers and loan-to-value caps directly constrain credit growth.
+- Asset purchases and guidance：With rates at the floor, buying assets pushes long yields down while communication steers expectations.
+- Worth thinking about：Central banks face a tension between price stability and financial stability: prolonged low rates can breed bubbles.；Credibility is part of policy power: if markets believe the bank, less tightening is needed.
+
+### The Interest Rate System（Rates）
+- Summary：From the policy rate to money-market rates, government yields and lending rates, rates form a chain of mark-ups.
+- Risk-free rate：Usually the government yield, the anchor for pricing other assets.
+- Term premium：Longer maturities carry more uncertainty, so investors demand extra compensation, sloping the curve up.
+- Credit spread：Higher default risk means a larger spread over the risk-free rate.
+- Maturity mismatch：Borrowing short and lending long is the banking business model and the root of liquidity risk.
+- Worth thinking about：An inverted yield curve is often read as a recession signal, but it is a probability, not a prophecy.；Real rates drive real decisions: 5% nominal with 6% inflation is a negative real rate.
+
+### How Banks Create Money（Banking）
+- Summary：Banks do not lend out deposits; they lend first and create the deposit, so money expands endogenously.
+- Loans create deposits：Making a loan simultaneously credits the borrower's account, so the money stock rises.
+- Reserve constraint：Reserves and capital ratios cap expansion but are rarely the binding constraint day to day.
+- Money multiplier：Textbooks derive a multiplier from reserve ratios; in practice credit demand and bank risk appetite dominate.
+- Shadow banking：Non-bank intermediaries extend credit and money, expanding both and creating regulatory blind spots.
+- Worth thinking about：'Deposits come from savings' is a common intuition error: in a credit-money system lending creates deposits first.；Credit expansion and asset prices reinforce each other, the key mechanism behind financial cycles.
+
+### Exchange Rate Regimes（Foreign exchange）
+- Summary：Fixed, floating and managed floats trade off stability against policy autonomy.
+- Fixed：Pegging to another currency reduces trade uncertainty but costs reserves and monetary autonomy.
+- Floating：Market-determined rates preserve policy independence but raise hedging costs for firms.
+- Managed float：Mostly market-driven with occasional intervention: where most economies actually sit.
+- Impossible trinity：Free capital flows, a fixed rate and independent policy: at most two of the three.
+- Worth thinking about：'Currency manipulation' requires specific evidence under international rules and should not be a blanket accusation.；Reserves cap intervention capacity; depletion often forces a one-off revaluation.
+
+### Bubbles and Crises（Financial stability）
+- Summary：Bubbles typically combine easy money, a new story, leverage and mismatch; the crash spreads through balance sheets.
+- Conditions：Low rates, financial innovation, a new story and herding push prices up together.
+- Contagion：Falling prices trigger margin calls and selling; collateral values drop and credit contracts.
+- Policy response：Rate cuts, liquidity support, guarantees and recapitalisation aim to stop systemic contagion.
+- Aftermath：Deleveraging brings prolonged weak growth and higher unemployment; recovery takes years.
+- Worth thinking about：Identifying bubbles ex ante is extremely hard: ex post they look obvious, ex ante they resemble improving fundamentals.；Macroprudential tools aim to soften the aftermath, not to precisely prick bubbles.
+
+## Thinkers
+
+### Adam Smith（1723–1790，Classical，Scotland）
+- In one line：Showed how self-interest, under division of labour and markets, can produce public benefit.
+- Profile：Smith turned economics into a discipline of its own. The Wealth of Nations set out division of labour, the extent of markets, price formation and free trade, and used the 'invisible hand' to link private pursuit with public order. He also stressed that institutions, justice and education underpin markets.
+- Division of labour：Specialisation raises output per worker, and is limited by the extent of the market.
+- Invisible hand：Price signals coordinate dispersed decisions without central direction.
+- Free trade：A critique of mercantilist zero-sum thinking: nations gain by trading on their strengths.
+- Institutional preconditions：Rule of law, property rights and education are necessary conditions for markets, not natural givens.
+- Major works：《The Wealth of Nations》(1776)；《The Theory of Moral Sentiments》(1759)
+- Quotes：“It is not from the benevolence of the butcher, the brewer, or the baker that we expect our dinner, but from their regard to their own interest.”
+
+### David Ricardo（1772–1823，Classical，United Kingdom）
+- In one line：Pushed economics towards rigorous reasoning with comparative advantage and rent theory.
+- Profile：A stockbroker turned theorist, Ricardo excelled at abstract models that isolate mechanisms. His comparative advantage remains the cornerstone of trade theory, while his rent theory explains how landlords can absorb the gains from technical progress. He also analysed tax incidence and public debt burdens.
+- Comparative advantage：Specialise by relative opportunity cost: both sides gain even if one is worse at everything.
+- Differential rent：Rent arises from fertility differences and rises with grain prices, potentially squeezing profit.
+- Tax incidence：The legal taxpayer is not always the real bearer; elasticity decides.
+- Debt vs tax：Financing spending by tax or by debt may not differ fundamentally in the long run.
+- Major works：《On the Principles of Political Economy and Taxation》(1817)
+- Quotes：“Under a system of perfectly free commerce, each country naturally devotes its capital and labour to such employments as are most beneficial to each.”
+
+### Karl Marx（1818–1883，Critique of classical political economy，Germany）
+- In one line：Analysed capitalism's internal contradictions and crisis tendencies through accumulation and class relations.
+- Profile：Marx inherited and criticised classical economics, placing ownership of the relations of production at the centre. Capital examined value, surplus value, the organic composition of capital and falling profit rates, and foresaw cyclical crises. His analytical approach still informs economic history, institutional economics and inequality research.
+- Surplus value：Workers create value beyond their wage, and the difference funds capital accumulation.
+- Accumulation：Competition forces continual reinvestment, so capacity expands while consumption lags.
+- Crisis tendency：Socialised production versus private appropriation produces recurring crises of overproduction.
+- Falling profit rate：A rising organic composition of capital is argued to depress long-run profit rates — still debated.
+- Major works：《Capital》(1867)；《The Communist Manifesto》(1848)
+- Quotes：“The philosophers have only interpreted the world in various ways; the point is to change it.”
+
+### Alfred Marshall（1842–1924，Neoclassical，United Kingdom）
+- In one line：Integrated supply, demand, elasticity and marginal analysis into modern microeconomics.
+- Profile：Marshall founded modern microeconomics. His scissors analogy showed supply and demand determining price jointly, and he introduced elasticity, consumer surplus and the short-run versus long-run distinction, moving economics from prose to computable analysis. He also cared about poverty and education.
+- Both blades cut：Price is set neither by cost alone nor utility alone, but by both together.
+- Elasticity：Measuring quantity response to price became a standard policy tool.
+- Short vs long run：Capacity is fixed in the short run and adjustable in the long run, so shocks play out differently.
+- Consumer surplus：Willingness to pay minus actual payment, a quantitative basis for welfare evaluation.
+- Major works：《Principles of Economics》(1890)
+- Quotes：“Economics is a study of mankind in the ordinary business of life.”
+
+### John Maynard Keynes（1883–1946，Keynesian，United Kingdom）
+- In one line：Argued that insufficient aggregate demand causes persistent unemployment, so government must act.
+- Profile：Facing the Great Depression, Keynes argued economies do not automatically return to full employment because wages and prices adjust slowly and expectations are unstable. He advocated fiscal and monetary action to fill the demand gap and helped design the Bretton Woods system, laying the foundation for modern macroeconomics and countercyclical policy.
+- Effective demand：Output and employment are demand-determined, so equilibrium can settle at high unemployment.
+- Animal spirits：Investment depends on confidence and expectations, not pure calculation, so swings are unavoidable.
+- Multiplier：Government spending becomes income that is spent again, so the total exceeds the initial outlay.
+- Countercyclical policy：Tighten in booms and ease in downturns to smooth cycles rather than balance annually.
+- Major works：《The General Theory of Employment, Interest and Money》(1936)；《The Economic Consequences of the Peace》(1919)
+- Quotes：“In the long run we are all dead.”；“Markets can remain irrational longer than you can remain solvent.”
+
+### Friedrich Hayek（1899–1992，Austrian，Austria / UK）
+- In one line：Emphasised dispersed knowledge and price signals, warning of the information problem in central planning.
+- Profile：Hayek's central insight: the knowledge needed to run an economy is dispersed across millions and cannot be centralised. Prices compress and transmit that knowledge. Hence his opposition to comprehensive planning and his criticism that excessive stimulus distorts interest-rate signals and misallocates resources. His debate with Keynes over demand management continues.
+- Knowledge problem：Crucial knowledge is local and tacit, beyond any planner's reach.
+- Prices as signals：Prices transmit scarcity information at very low cost, coordinating strangers.
+- Spontaneous order：Complex order can emerge bottom-up without being designed.
+- Monetary critique：Prolonged low rates misdirect capital, eventually corrected through crisis.
+- Major works：《The Road to Serfdom》(1944)；《Individualism and Economic Order》(1948)
+- Quotes：“The road to hell is paved with good intentions.”
+
+### Joseph Schumpeter（1883–1950，Innovation and evolutionary economics，Austria / USA）
+- In one line：Placed entrepreneurial innovation and creative destruction at the core of capitalist growth.
+- Profile：For Schumpeter static equilibrium was beside the point: the real subject was how technological and organisational innovation breaks old structures. Entrepreneurs introduce new combinations; innovation yields monopoly profits and is then destroyed by the next wave — creative destruction. His ideas underpin innovation policy, industry evolution and antitrust debates.
+- Creative destruction：Growth comes from continuously replacing old structures, not static efficiency gains.
+- Entrepreneur：Innovation is implementing new combinations: products, processes, markets, organisation.
+- Temporary monopoly：Innovators' excess profits are the incentive and the next round's target.
+- Credit：Bank credit supplies the purchasing power that makes innovation possible.
+- Major works：《The Theory of Economic Development》(1911)；《Capitalism, Socialism and Democracy》(1942)
+- Quotes：“The process of creative destruction is the essential fact about capitalism.”
+
+### Milton Friedman（1912–2006，Monetarism / Chicago，USA）
+- In one line：Argued that inflation is always and everywhere a monetary phenomenon, favouring rules over discretion.
+- Profile：Friedman revived the quantity theory, arguing that long-run inflation is set by money growth and that fiscal stimulus cannot raise output permanently. His reinterpretation of the Great Depression as a monetary policy failure reshaped academia and central banking and helped bring inflation targeting and central bank independence. Capitalism and Freedom shaped public policy debates.
+- Quantity theory：In the long run money growth determines prices while real factors determine output.
+- Natural rate：Expansion cannot hold unemployment below its natural rate without accelerating inflation.
+- Rules over discretion：Predictable rules stabilise expectations better than frequent discretionary actions.
+- Permanent income：Consumption tracks expected long-run income, so one-off transfers are largely saved.
+- Major works：《Capitalism and Freedom》(1962)；《A Monetary History of the United States (with A. Schwartz)》(1963)
+- Quotes：“Inflation is always and everywhere a monetary phenomenon.”
+
+## Schools of Thought
+
+### Classical Economics（1776–1870s）
+- Core claim：Markets self-adjust; growth comes from division of labour, capital accumulation and free trade, so government should do little.
+- Key figures：Adam Smith、David Ricardo、Thomas Malthus、John Stuart Mill
+- Labour theory of value: value derives from labour input
+- Comparative advantage makes trade mutually beneficial
+- Say's law: supply creates its own demand
+- Long-run pessimism from population growth and diminishing returns
+- Why it persuades：First systematic account of price mechanisms and division of labour, setting modern economics' language and agenda.
+- Criticisms：Underestimated persistent demand deficiency and unemployment; the labour theory of value struggles with relative prices; too optimistic about self-correction.
+
+### Neoclassical Economics（1870s–1930s）
+- Core claim：Price comes from supply and demand together; individuals maximise utility under constraints, and marginal analysis becomes the general tool.
+- Key figures：Alfred Marshall、Léon Walras、William Jevons、Vilfredo Pareto
+- Diminishing marginal utility drives demand
+- General equilibrium: all markets clear simultaneously
+- Quantitative tools such as elasticity and consumer surplus
+- Pareto efficiency as the welfare benchmark
+- Why it persuades：Turned economics into a deductive, computable system with far greater explanatory and operational power.
+- Criticisms：Assumes perfect information and rationality; says little about aggregate demand and unemployment, which the Depression exposed.
+
+### Keynesian Economics（1936–1970s, later revived as New Keynesian）
+- Core claim：Insufficient aggregate demand causes persistent unemployment, so government should fill the gap with fiscal and monetary policy.
+- Key figures：John Maynard Keynes、Paul Samuelson、James Tobin、John Hicks
+- Effective demand determines output and employment
+- Sticky wages and prices slow adjustment
+- The multiplier amplifies fiscal spending
+- Countercyclical policy can smooth cycles
+- Why it persuades：Explained the Great Depression and guided two decades of fast growth with low unemployment after 1945.
+- Criticisms：The 1970s stagflation exposed its inflation blind spot; long-run deficit sustainability is questioned; policy lags and political cycles are problematic.
+
+### Monetarism（1956–present）
+- Core claim：Long-run inflation is set by money growth, so policy should follow predictable rules for stable money growth.
+- Key figures：Milton Friedman、Anna Schwartz、Karl Brunner、Allan Meltzer
+- Inflation is fundamentally a monetary phenomenon
+- The natural rate: expansion cannot lower unemployment permanently
+- Rules beat discretion
+- Monetary policy works with long and variable lags
+- Why it persuades：Diagnosed 1970s inflation effectively and helped make inflation targeting and central bank independence mainstream.
+- Criticisms：Money demand is unstable, and the link between narrow money growth and inflation weakened with financial innovation; limited guidance for post-2008 unconventional policy.
+
+### Austrian School（1871–present）
+- Core claim：The economy is a dynamic process under dispersed knowledge; price signals and entrepreneurial discovery are central, so intervention should be limited.
+- Key figures：Carl Menger、Ludwig von Mises、Friedrich Hayek、Israel Kirzner
+- Subjective value: value reflects individual valuation
+- The knowledge and price-signal problem
+- Capital structure and rate distortions cause misallocation
+- Entrepreneurial discovery drives the market process
+- Why it persuades：Deep analysis of dispersed knowledge, institutional constraints and monetary distortion influenced transition economies and institutional economics.
+- Criticisms：Overly optimistic about self-correction; offers few testable macro predictions; understates the need for liquidity support in crises.
+
+### Institutional and Behavioral Economics（1937–present）
+- Core claim：Institutions and real psychological processes determine outcomes; neither transaction costs nor cognitive bias can be ignored.
+- Key figures：Ronald Coase、Douglass North、Elinor Ostrom、Daniel Kahneman、Richard Thaler
+- Transaction costs set the boundary between firm and market
+- Property rights and institutional quality shape long-run growth
+- Common-pool resources can be governed by community rules
+- Prospect theory: loss aversion and reference dependence
+- Why it persuades：Brings institutions and real human behaviour into analysis, explaining much that standard models cannot and making policy more workable.
+- Criticisms：Less unified than mainstream frameworks; the long-run effect and scalability of behavioural interventions remain contested.
+
+## Economic History
+
+### 1602　Founding of the Dutch East India Company（Netherlands）
+- What happened：The first multinational joint-stock company to issue publicly tradable shares was founded.
+- Why：Long-distance trade was risky and capital-hungry beyond partnership capacity, so limited liability and share transfer emerged.
+- Impact：It spawned the Amsterdam stock exchange and modern capital markets, planting the seeds of corporate governance, audit and disclosure.
+
+### 1776　The Wealth of Nations Is Published（United Kingdom）
+- What happened：Adam Smith set out division of labour, market mechanisms and free trade, founding economics as a discipline.
+- Why：On the eve of industrialisation, mercantilist controls prevailed and a new framework for the sources of wealth was needed.
+- Impact：Established the core proposition that markets coordinate dispersed decisions, shaping economic policy and trade for two centuries.
+
+### 1825　The First Modern Economic Crisis（United Kingdom）
+- What happened：Speculative investment and credit expansion collapsed abruptly, banks failed and unemployment and bankruptcies rose together.
+- Why：For the first time the new banking system and stock market linked credit, investment and sentiment into an amplifying loop.
+- Impact：Proved crises are a regular feature of industrial financial systems, prompting debate on company law, bank regulation and a lender of last resort.
+
+### 1870s　The Classical Gold Standard Takes Shape（Europe and North America）
+- What happened：Major economies pegged their currencies to gold, creating a de facto fixed-rate system.
+- Why：Expanding trade and investment needed exchange-rate stability, and gold was seen as an anchor beyond state credit.
+- Impact：It boosted trade and capital flows while restricting countercyclical policy, and it fell apart under depression and war.
+
+### 1929　The Great Depression（United States → global）
+- What happened：After the crash, credit contracted and banks failed in chains; global output and prices fell deeply and unemployment soared.
+- Why：Monetary tightening, the gold standard, bank runs and protectionism reinforced each other, and policy errors amplified the shock.
+- Impact：It produced the Keynesian revolution, deposit insurance, securities regulation and Bretton Woods, reshaping macro policy for eighty years.
+
+### 1936　The General Theory Is Published（United Kingdom）
+- What happened：Keynes argued insufficient aggregate demand causes persistent unemployment, and macroeconomics was born.
+- Why：Classical theory could not explain persistent mass unemployment, so a framework centred on aggregate demand was needed.
+- Impact：For three decades fiscal and monetary policy became routine tools, evolving into today's New Keynesian models.
+
+### 1944　The Bretton Woods System Is Established（New Hampshire, USA）
+- What happened：A fixed-rate system pegged the dollar to gold and other currencies to the dollar, with the IMF and World Bank created.
+- Why：Reconstruction needed stable rates and financing while avoiding a repeat of 1930s competitive devaluation.
+- Impact：It delivered nearly three decades of trade expansion and relative stability and established IMF-centred monetary coordination.
+
+### 1971　The Nixon Shock: the Dollar Leaves Gold（United States）
+- What happened：The United States suspended dollar convertibility into gold, destroying the fixed-rate basis of Bretton Woods.
+- Why：Persistent deficits and overseas dollar liabilities left gold reserves unable to honour convertibility.
+- Impact：The world entered the fiat-money and floating-rate era: more monetary room and higher inflation risk.
+
+### 1973　The First Oil Shock（Middle East → global）
+- What happened：An oil embargo and a multi-fold price rise hit industrial economies with inflation and stagnation at once.
+- Why：Geopolitical conflict cut supply while demand was inelastic in the short run, transmitting price pressure across supply chains.
+- Impact：'Stagflation' became real, Keynesian demand management failed and thinking turned to monetarism and supply-side policy.
+
+### 1979–1982　The Volcker Disinflation（United States）
+- What happened：The Federal Reserve raised policy rates towards 20%, accepting a deep two-year recession to break inflation.
+- Why：Inflation expectations had become entrenched, so only decisively severe tightening could rebuild credibility.
+- Impact：Expectations were anchored, establishing a forty-year consensus on central bank independence and inflation targeting.
+
+### 1985　The Plaza Accord（New York, USA）
+- What happened：Five countries jointly intervened in currency markets, driving a sharp depreciation of the dollar against the yen and mark.
+- Why：With a widening US trade deficit and rising protectionism, exchange-rate adjustment was preferred to tariffs.
+- Impact：The yen's rapid appreciation shaped Japanese industry and asset prices, making it a classic case in exchange-rate coordination and bubbles.
+
+### 1997　The Asian Financial Crisis（Southeast Asia → East Asia）
+- What happened：Currencies and asset prices collapsed, short-term foreign debt could not be rolled over and countries sought international rescue.
+- Why：Pegged rates, large short-term foreign borrowing and local-currency assets created currency and maturity mismatch that unravelled on outflows.
+- Impact：Many Asian economies moved to floating rates and reserve accumulation, and IMF conditionality came under intense debate and reform.
+
+### 2008　The Global Financial Crisis（United States → global）
+- What happened：Subprime defaults crashed mortgage securities, major institutions failed or were rescued, and global credit markets froze.
+- Why：High leverage, complex securitisation, maturity mismatch and regulatory blind spots amplified local mortgage risk into systemic risk.
+- Impact：It produced macroprudential regulation, stress testing and Basel III, and opened a decade-long era of low rates and quantitative easing.
+
+### 2020　The Pandemic Shock and Unprecedented Easing（Global）
+- What happened：Supply and demand halted together, and governments launched unprecedented fiscal transfers and asset purchases.
+- Why：Lockdowns cut supply while income collapse hit demand, requiring direct-to-household fiscal support to prevent balance-sheet collapse.
+- Impact：It avoided a debt-deflationary slump but left higher inflation, larger public debt and greatly expanded central bank balance sheets.
+
+### 2022–2024　The Global Inflation Surge and Rapid Hiking（Global）
+- What happened：Inflation hit multi-decade highs in many countries and major central banks hiked at historic speed, pressuring valuations and housing.
+- Why：Supply shocks, shifted demand composition and tight labour markets spread inflation from individual categories into core measures.
+- Impact：It re-confirmed the importance of credibility and expectation management and returned stagflation risk to policy debate.
+
+## Behavioral Economics
+
+### Prospect Theory（Core theory）
+- In one line：People judge gains and losses relative to a reference point, and losses loom far larger.
+- Details：Kahneman and Tversky showed people are risk-averse over gains and risk-seeking over losses. The value function is S-shaped around a reference point, steeper for losses and flattening for gains — which explains why a rise followed by a fall feels worse than a flat path.
+- Classic experiment：In coin-flip experiments, participants typically demanded a 200 gain to accept a 100 loss, implying roughly double weight on losses.
+- Everyday example：'Save 200' converts better than '10% off', because one reads as a gain and the other as a smaller loss.
+
+### Anchoring Effect（Judgement bias）
+- In one line：The first information encountered drags subsequent judgements towards it.
+- Details：Even random, irrelevant anchors shift estimates materially. Anchoring persists because people adjust insufficiently from the anchor and tend to seek confirming evidence. Negotiations, pricing and valuations are all shaped by it.
+- Classic experiment：After a wheel landed on 10 or 65, participants estimated the share of African countries in the UN at about 25% versus 45% respectively.
+- Everyday example：A 'was 1299, now 599' tag makes 599 look cheap purely because of the supplied anchor.
+
+### Loss Aversion（Core theory）
+- In one line：Losing 100 hurts more than gaining 100 pleases, so gains must exceed losses to compensate.
+- Details：Loss aversion is the central parameter of prospect theory, empirically around 1.5–2.5 times gains. It produces predictable consequences: reluctance to realise losses, over-insurance, resistance to reform, and higher valuations for what one already owns.
+- Classic experiment：Investors hold losing positions notably longer than winners — the disposition effect — because selling makes the loss real.
+- Everyday example：Cancellation flows are deliberately buried: giving up an existing service is harder than never signing up.
+
+### Herding（Group behaviour）
+- In one line：Following the crowd even when private information says otherwise.
+- Details：Imitating others can be rational if they might know more, but information cascades can swamp private signals and produce collective error — as in momentum trading, fast-moving consumer fads and firms piling into the same sector.
+- Classic experiment：In Asch's line experiment about a third of participants conformed to a clearly wrong majority answer.
+- Everyday example：A long restaurant queue signals earlier diners, not necessarily better food.
+
+### Hyperbolic Discounting（Time preference）
+- In one line：Immediate rewards are over-weighted, producing plans today and broken promises tomorrow.
+- Details：Standard models assume a constant discount rate, but behaviourally the rate is very high for the near term and drops off quickly. This explains procrastination, undersaving and abandoned fitness plans, and why commitment devices — auto-enrolment, term deposits, penalties — work.
+- Classic experiment：Many prefer 100 today over 120 in a year, yet choose 120 in a year and a day over 120 in a year: preference reversal.
+- Everyday example：Late-night purchases regretted next morning; removing shopping apps from the home screen or imposing a 24-hour rule is self-commitment.
+
+### Mental Accounting（Judgement bias）
+- In one line：The same money sits in separate mental accounts that are not interchangeable.
+- Details：People label money by source and purpose — salary, bonus, windfall, gift — and spend each by different rules. As a result, the same 100 has different marginal propensities to consume, and 'saved' money is not psychologically equal to 'earned' money.
+- Classic experiment：For the same show, whether a ticket was bought or gifted changes refund behaviour and willingness to rebuy, despite identical value.
+- Everyday example：Year-end bonuses are spent more freely than monthly salary, which tends to be budgeted carefully.
+
+### Endowment Effect（Core theory）
+- In one line：Owning something immediately raises its perceived value.
+- Details：In classic experiments, randomly assigned mug owners asked about twice what non-owners offered. Loss aversion explains it: selling is coded as a loss. It also produces buy-sell spreads, high conversion from free trials and sluggish second-hand markets.
+- Classic experiment：In the Cornell mug experiment, median willingness to accept was $5.25 versus willingness to pay of $2.25.
+- Everyday example：Free-trial return rates are lower than expected: once in use, giving it back feels like a loss.
+
+## Game Theory
+
+### Prisoner's Dilemma（Classic games）
+- In one line：Each player choosing their best response leaves both worse off.
+- Details：Two suspects interrogated separately both find confessing (defecting) strictly better whatever the other does, so both confess and both get heavier sentences — whereas mutual silence is better. The structure models price wars, arms races, overuse of common resources and climate negotiations. Individual rationality is not collective rationality.
+- Example：Two firms both cut prices to win share; industry profit falls and neither does better than under tacit price discipline.
+- Cooperation stabilises with repetition, observability and punishment
+- Institutional design usually changes payoffs rather than human nature
+
+### Nash Equilibrium（Core concept）
+- In one line：Everyone has chosen, and no one gains by changing alone.
+- Details：Nash equilibrium is the basic solution concept, but it need not be unique or efficient. With multiple equilibria, who moves first, how players communicate and history decide the outcome — a coordination problem. Mixed-strategy equilibria imply rational players deliberately randomise to stay unpredictable.
+- Example：Keyboard layouts, charging standards and driving sides are all coordination outcomes among multiple equilibria.
+- Predicting outcomes needs extra information: history, communication and beliefs
+- Coordination failure is a real cost, so standards and conventions have economic value
+
+### Boxed Pigs（Classic games）
+- In one line：The strong press the button while the weak free-ride — and that can be stable.
+- Details：In the boxed-pigs setup, pressing the lever brings food but costs effort. The big pig eats more and must act or starve; the small pig cannot win the scramble and does best waiting. The equilibrium has the small pig free-riding and the big pig bearing cost — mirroring how large firms fund industry public goods while smaller ones follow.
+- Example：A market leader funds standards and compliance work while smaller firms simply adopt them.
+- Free-riding is often an equilibrium of payoffs, not a moral choice
+- The strong can redesign rules — licensing, thresholds — to share the cost
+
+### Tragedy of the Commons（Classic games）
+- In one line：When benefits are private and costs shared, resources are overused.
+- Details：Each herder gains fully from one more animal while degradation costs are shared, so everyone expands until the pasture is ruined: a multi-player prisoner's dilemma. Solutions include privatisation, quotas and taxes, and the bottom-up community rules documented by Ostrom.
+- Example：Unlimited dockless bikes, depleted high-seas fisheries and falling water tables share the same structure.
+- 'Shared' does not mean 'unowned': rule design determines sustainability
+- Quantity caps are often more direct than price-only intervention
+
+### Chicken（Classic games）
+- In one line：Both holding firm ends in mutual ruin, yet whoever swerves 'loses'.
+- Details：Two cars drive at each other; whoever swerves first is the coward. Because conceding is costly but colliding is worse, players raise credibility by removing their own retreat — public commitments, scrapping spare capacity, third-party witnesses. It explains brinkmanship and aspects of trade and geopolitical confrontation.
+- Example：Publicly declaring 'no deal below X' voluntarily removes your room to concede, raising the credibility of your threat.
+- Credible commitment needs real cost, or it is not believed
+- Sometimes removing your own options is the strategy
+
+### Repeated Games and Cooperation（Mechanisms）
+- In one line：When the game continues, cooperation can become a stable strategy.
+- Details：Axelrod's tournaments showed tit-for-tat — cooperate first, then mirror the opponent's last move — performs excellently in repeated play: nice, retaliatory, forgiving and clear. The preconditions are that the future matters enough, actions are observable and defection can be punished.
+- Example：Long-standing shops on the same street keep their word because they must live with their neighbours; tourist traps behave differently.
+- A stable relationship is itself an enforcement device, partly replacing formal regulation
+- Anonymity and one-off transactions undermine the basis of cooperation
+
+## Trade & Globalization
+
+### Why Trade Is Not Zero-Sum
+- In one line：Each side specialises where relative cost is lowest, and exchange raises total output and welfare.
+- Details：Comparative advantage says trade rests not on who is stronger but on differing relative opportunity costs. Even a country less efficient in everything gains by specialising where its relative disadvantage is smallest. The gain is aggregate, but distribution within a country is uneven — losers are real and need adjustment policies.
+- Example：Two countries specialise in what costs them least to forgo, and both can consume a larger bundle.
+- Mainstream view：Trade raises output, lowers prices and widens choice, benefiting most people over time.
+- Critiques：Uneven distribution, deindustrialisation and security dependence are real, so aggregate arguments alone are insufficient.
+
+### Tariffs and Trade Wars
+- In one line：Tariffs raise import prices and shield domestic producers, but domestic consumers and downstream firms usually pay.
+- Details：Tariffs cut imports and raise domestic prices. Benefits accrue to protected producers and the treasury, while costs spread across many consumers and firms using imported inputs. Retaliation hurts exporters, and over time supply chains may be reconfigured and technology decoupled, with costs beyond the headline trade volumes.
+- Example：After tariffs on imported washing machines, domestic prices rose too, so consumers bore much of the cost.
+- Case for：Protecting infant industries, securing supply chains, and countering unfair subsidies or dumping.
+- Case against：Raising domestic costs, inviting retaliation, protecting inefficiency and ultimately taxing local consumers.
+
+### What a Trade Deficit Means
+- In one line：A deficit means imports exceed exports; on its own it signals neither loss nor gain.
+- Details：In the national accounts the trade balance equals the saving-investment gap: when domestic saving is below investment, foreign capital flows in and a trade deficit appears. Deficits therefore accompany capital inflows, strong consumption or strong investment, for different reasons. What matters is debt structure, use of funds and industrial competitiveness.
+- Example：Importing machinery to expand capacity widens a deficit temporarily; borrowing to fund consumption is a different matter entirely.
+- Not alarming per se：A deficit can reflect investment attractiveness and global division of labour: a mirror of the saving-investment balance.
+- Worth watching：If driven by debt-financed consumption, it can accumulate external debt risk and currency fragility.
+
+### Global Supply Chains: Efficiency and Fragility
+- In one line：Fine-grained specialisation lowers cost while turning a single failure into a global stall.
+- Details：Just-in-time production and single sourcing cut inventory costs but proved fragile to pandemics, disasters and geopolitics. Responses include supplier diversification, strategic inventory, near-shoring and friend-shoring — each raising cost. Efficiency and resilience are themselves a trade-off.
+- Example：A shortage of a chip costing a few dollars halted car plants, with losses in the billions.
+- Efficiency first：Specialisation and scale cut costs sharply; excessive redundancy erodes long-run competitiveness.
+- Resilience first：In critical sectors, disruption costs are extreme, so some redundancy is necessary insurance.
+
+### How Exchange Rates Affect Trade
+- In one line：Depreciation cheapens exports and raises import costs, but the trade balance adjusts only with a lag.
+- Details：Exchange rates move relative prices first and quantities later. Contracts, capacity and habits adjust slowly, so in the early phase import costs rise faster than exports grow and the trade balance may worsen first — the J-curve. Rates also respond to interest differentials and capital flows, not trade alone.
+- Example：After depreciation, overseas travel and imports get pricier while export orders pick up only quarters later.
+- Depreciation helps exports：Price competitiveness improves and export volumes and jobs may rise.
+- Costs and limits：It raises import costs and imported inflation, and matters little when supply chains depend heavily on imports.
+
+## Everyday Economics
+
+### Is two hours in a queue for a trendy shop worth it?
+- Economic reading：Queues substitute time for price: when price is held down, people compete by waiting.
+- Details：If the shop could raise prices the queue would shorten, since some would not pay more; with price constrained, excess demand shows up as queues, purchase limits or scalpers. Waiting time is a hidden price. Whether it is worth it depends on your opportunity cost for those two hours, not on what others do.
+
+### Why is housing in big cities so expensive?
+- Economic reading：High demand meets inelastic supply: prime locations cannot be replicated, so supply is nearly vertical.
+- Details：Prices reflect location land value, construction cost and expectations. The commute, schools and services of a prime location cannot be replicated elsewhere, and supply is constrained by land and planning, so demand growth shows up mainly as prices. Adding supply far from the centre therefore does little for core prices.
+
+### Why do ride-hailing prices double in a storm?
+- Economic reading：Surge pricing allocates scarce capacity to those who need it most when demand spikes.
+- Details：Seats are fixed in the short run while a storm spikes demand. With a frozen price the result is unavailability or very long waits; raising prices both discourages marginal trips and attracts drivers. The objection is that it burdens price-sensitive users, so subsidies and supply dispatch usually accompany it.
+
+### Platforms subsidise then raise prices — is that a trick?
+- Economic reading：Subsidies buy share and network effects; higher prices later monetise the pricing power that share creates.
+- Details：On two-sided platforms more users means better matching and winner-take-most dynamics, so burning cash for scale early is rational investment. Once scale becomes a barrier, however, price rises are hard to constrain without effective competition or substitutes. The test is how high entry barriers and switching costs really are.
+
+### Why is the second-hand market so hard to clear?
+- Economic reading：Information asymmetry creates a market for lemons: buyers pay an average price and good items exit.
+- Details：Sellers know the condition, buyers do not, so buyers bid the average. Owners of genuinely good items feel undervalued and withdraw, the remaining pool worsens, and buyers discount further — a downward spiral. Platforms respond with inspection, escrow, ratings and returns to fill the information gap.
+
+### Why are elite degrees worth so much?
+- Economic reading：A degree both builds skill and acts as a costly signal of ability to employers.
+- Details：Signalling theory holds that if only high-ability people can bear the cost of a degree, the degree screens effectively. Part of the return to education therefore comes from sorting rather than teaching, which helps explain the prestige premium and credential inflation in some occupations.
+
+### Who is really setting the price as delivery gets pricier?
+- Economic reading：A platform is a two-sided market that allocates costs and benefits across merchants, riders and consumers.
+- Details：A platform faces three groups at once, and changes to commissions and delivery fees shift costs between them. Higher commissions squeeze merchants, lower delivery pay reduces rider supply, and higher delivery fees land on consumers. So the real question is which side bears the cost — and what alternatives exist.
+
+## Data & Charts
+- **Global GDP growth (illustrative)**（unit：%）：Illustrative annual approximations showing long-run trend and volatility, not real-time data. The 2020 slump reflects the pandemic and 2021 is a base-effect rebound. Consult official IMF releases for exact figures.
+  Data points：2015=2.9, 2016=2.7, 2017=3.3, 2018=3.1, 2019=2.6, 2020=-3.1, 2021=6, 2022=3.5, 2023=3.3, 2024=3.2
+- **Global inflation (illustrative)**（unit：%）：Illustrative annual approximations. The 2021–2023 spike was the highest in decades, driven by supply shocks, demand shifts and tight labour markets, then eased as policy tightened.
+  Data points：2015=2.8, 2016=2.5, 2017=2.9, 2018=3, 2019=3, 2020=2.8, 2021=4.7, 2022=8.7, 2023=6.8, 2024=5.9
+- **Advanced-economy unemployment (illustrative)**（unit：%）：Illustrative annual approximations. In 2020 differing definitions — some economies counted furloughed workers as employed — may understate the real shock, so definitions matter.
+  Data points：2015=6.8, 2016=6.3, 2017=5.8, 2018=5.2, 2019=4.8, 2020=6.9, 2021=5.4, 2022=4.5, 2023=4.2, 2024=4.3
+- **US federal funds rate (illustrative)**（unit：%）：Illustrative annual approximations using the upper bound at year end. Rates sat at the zero lower bound in 2020–2021, followed by the fastest hiking cycle in forty years in 2022–2023.
+  Data points：2015=0.5, 2016=0.75, 2017=1.5, 2018=2.5, 2019=1.75, 2020=0.25, 2021=0.25, 2022=4.5, 2023=5.5, 2024=4.5
+- **USD/CNY (illustrative)**（unit：CNY / USD）：Illustrative year-end approximations. A rising line means a stronger dollar and a relatively weaker renminbi. Rates reflect rate differentials, trade and capital flows together, not one factor alone.
+  Data points：2015=6.49, 2016=6.94, 2017=6.51, 2018=6.88, 2019=6.96, 2020=6.52, 2021=6.37, 2022=6.9, 2023=7.1, 2024=7.3
+- **Advanced-economy government debt to GDP (illustrative)**（unit：% of GDP）：Illustrative annual approximations. The 2020 jump came from pandemic spending plus a smaller denominator; inflation and nominal growth brought it down somewhat, yet levels remain above pre-pandemic.
+  Data points：2015=104, 2016=105, 2017=104, 2018=104, 2019=104, 2020=122, 2021=121, 2022=115, 2023=113, 2024=112
+
+## Myths Busted
+
+### Inflation is always bad.
+- More accurate version：Moderate, predictable inflation is generally considered healthy: it leaves room for relative price adjustments and lightens real debt. What harms is high, volatile and unpredictable inflation.
+- Why it is tempting：Price rises are felt acutely while income gains are noticed less, and media prefer dramatic stories. Deflation is equally dangerous but harder to perceive, so 'inflation is bad' becomes intuition.
+
+### Trade is zero-sum: one side's surplus means the other side's loss.
+- More accurate version：Trade rests on comparative advantage, expanding total output and the consumption bundle for both sides. Trade balances reflect saving-investment gaps and capital flows, not a scoreboard.
+- Why it is tempting：Gains are diffuse and gradual — cheaper goods and more choice — while losses are concentrated and visible: closed plants and laid-off workers. The asymmetry drives the misreading.
+
+### Rising GDP means life is getting better.
+- More accurate version：GDP measures a flow of market output and ignores distribution, environmental damage, unpaid work and health. Growth is one necessary condition for better lives, far from sufficient, and must be read with median income, inequality and life expectancy.
+- Why it is tempting：A single GDP number is easy to communicate and compare, and correlates strongly with living standards over time, so it gets used as a full medical report.
+
+### Printing more money makes everyone richer.
+- More accurate version：Money is a medium of exchange, not wealth itself. Over-issuance changes prices and distribution: with output unable to keep pace, the result is inflation and asset price rises, and those who receive it first gain most.
+- Why it is tempting：'Printing' sounds like costless creation, while inflation and currency depreciation unfold slowly and diffusely, obscuring the causal link.
+
+### Automation will eliminate all jobs.
+- More accurate version：Technology replaces tasks and creates new ones. Total employment has not vanished historically, but the structure changes sharply: skill mismatch, regional decline and painful transition are real, so adjustment policy matters more than predicting mass unemployment.
+- Why it is tempting：Displaced jobs are specific, concentrated and visible, while new jobs are scattered, not yet existing and hard to name, so the displacement narrative dominates.
+
+### Raising the minimum wage necessarily destroys jobs.
+- More accurate version：Textbook models predict lower low-skill employment, but empirical findings differ: in monopsonistic labour markets or with moderate increases the effect can be small or even positive, while large rises above market equilibrium hurt more visibly.
+- Why it is tempting：The 'higher price, lower demand' chain is intuitive and gets applied to labour markets while ignoring that employers are not perfectly competitive buyers.
+
+## Quiz
+1. You spend an hour at the cinema. The most accurate reading of opportunity cost is: A. The price of the ticket B. The most valuable alternative you gave up in that hour C. The ticket price plus the value of the hour D. How much you regret it —— Answer：B。Opportunity cost is the best forgone alternative. The ticket is an explicit outlay, and simply summing it is not the definition; regret is subjective and not part of it.
+2. If demand for a product is elastic, a 10% price rise most likely leads to: A. Higher total revenue B. Lower total revenue C. Unchanged total revenue D. Impossible to tell —— Answer：B。Elastic demand means quantity falls proportionally more than price rises, so revenue falls. Only with inelastic demand does a price rise raise revenue.
+3. Which of the following is normally excluded from GDP? A. A lunch sold at a restaurant B. Cooking the same meal at home C. New equipment bought by a firm D. A road built by the government —— Answer：B。GDP counts final goods and services that pass through markets. Unpaid household work has no market price, so it is excluded — a classic reason GDP understates welfare.
+4. With a 5% nominal rate and 6% inflation, the real rate is roughly: A. +11% B. +1% C. −1% D. 0% —— Answer：C。Approximately real = nominal − inflation = 5% − 6% = −1%. A negative real rate erodes the purchasing power of a claim, favouring borrowers over savers.
+5. Comparative advantage is fundamentally judged by: A. Who has higher absolute productivity B. Who has lower opportunity cost C. Who has lower wages D. Who has a larger market —— Answer：B。It compares opportunity cost, not absolute efficiency. Even if one side is more productive in everything, differing relative costs make specialisation and exchange mutually beneficial.
+6. The central message of the prisoner's dilemma is: A. Individually rational choices can produce collectively worse outcomes B. Defecting is always optimal C. Cooperation is most stable in one-off games D. More information always improves outcomes —— Answer：A。In a one-off game each choosing the dominant strategy leaves both worse off. Stable cooperation usually requires repetition, observability and credible punishment.
+7. Given loss aversion, investors are more likely to: A. Sell winners too early and hold losers too long B. Sell losers too early and hold winners too long C. React symmetrically to gains and losses D. Ignore sunk costs entirely —— Answer：A。Realising a gain feels like locking in a win, while selling a loser makes the loss real, which feels costlier — the disposition effect.
+8. After a tax is levied on sellers, who mainly bears the burden? A. Sellers bear it all B. Buyers bear it all C. Whichever side is less elastic bears more D. The tax authority bears it —— Answer：C。The legal taxpayer is not the real bearer. The burden splits by elasticity: the side that can less easily substitute absorbs more.
+
+## Compare
+
+### Should central banks target only inflation, or also employment and asset prices?
+- Inflation targeters (New Zealand, UK, ECB)：An explicit inflation target (often around 2%) as the primary nominal anchor, emphasising rules, credibility and transparent communication.
+- Dual mandate (US Federal Reserve)：Statutory goals for both price stability and maximum employment, trading off between them: more flexibility, harder expectation management.
+- Multi-goal frameworks including financial stability：Beyond prices and jobs, macroprudential tools address credit and asset-price risk so that rates are not overloaded.
+- Takeaway：More goals mean blurrier rules and less stable expectations. The question is not which framework is right, but whether goals can be communicated clearly, tools match them and credibility survives.
+
+### Housing affordability: subsidise demand or expand supply?
+- Demand-side support (subsidies, cheap credit, tax relief)：Fast and politically easy, but where supply is constrained the benefit capitalises into higher prices.
+- Supply-side reform (zoning, density, public housing)：Directly adds dwellings and dampens long-run prices, but is slow, clashes with incumbent interests and faces fierce resistance.
+- Tenancy protection and rent control：Strongly protects sitting tenants but over time can shrink rental supply and maintenance, worsening conditions for new tenants.
+- Takeaway：Housing is both consumption and asset, so every policy leaves traces in who gains, who loses and how soon. At minimum ask how elastic supply is and who ultimately captures the benefit.
+
+### Should healthcare be funded by taxes, insurance or out of pocket?
+- Tax-funded universal systems (e.g. UK NHS)：Broad coverage, low administrative cost and the largest risk pool, but often queues and underinvestment, with quality tied to fiscal cycles.
+- Social insurance systems (Germany, Japan)：Mandatory participation with multiple payers: coverage plus choice, at the cost of higher administration and cross-fund equity questions.
+- Insurance-dominated systems (US)：Rich choice and innovation with short waits, but large exposure for the uninsured and the highest spending share without leading on every health outcome.
+- Takeaway：Healthcare faces a trilemma: broad coverage, low cost and wide choice cannot all be maximised. Countries simply choose different combinations and pay different prices.
+
+### Carbon tax or emissions trading for decarbonisation?
+- Carbon tax (Sweden, parts of Canada)：A certain price, simple administration and predictable planning, but an uncertain total reduction and politically framed as a new tax.
+- Emissions trading (EU ETS)：A certain quantity with market-discovered prices, so low-cost abaters cut most; prices are volatile and initial allocation shapes fairness and results.
+- Standards and subsidies (mandates, green subsidies)：Direct and able to target specific technologies, but usually costlier, less flexible and a source of trade friction.
+- Takeaway：The core choice is a certain price versus a certain quantity, and how the carbon cost is split between government, firm margins and consumer prices — which decides the real impact on industry and households.
+
+## References
+- Mankiw, Principles of Economics (9th ed.)（2020）
+- Marshall, Principles of Economics（1890）
+- Smith, The Wealth of Nations（1776）
+- Ricardo, On the Principles of Political Economy and Taxation（1817）
+- Keynes, The General Theory of Employment, Interest and Money（1936）
+- Hayek, The Use of Knowledge in Society（1945）
+- Friedman & Schwartz, A Monetary History of the United States（1963）
+- Kahneman & Tversky, Prospect Theory（1979）
+- Thaler, Misbehaving（2015）
+- Akerlof, The Market for Lemons（1970）
+- Ostrom, Governing the Commons（1990）
+- Mishkin, The Economics of Money, Banking and Financial Markets (12th ed.)（2019）
+- IMF World Economic Outlook（2024）
+- IMF Fiscal Monitor（2024）
+- BIS Annual Economic Report（2024）
+- World Bank World Development Indicators（2024）
+- UN System of National Accounts 2008（2008）
+- ILO definitions of employment and unemployment（2023）
+- OECD Economic Outlook and Employment Outlook（2024）
+- WTO World Trade Report and Trade Policy Reviews（2024）

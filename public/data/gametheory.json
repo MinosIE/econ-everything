@@ -1,0 +1,146 @@
+[
+  {
+    "id": "prisoners-dilemma",
+    "name": "囚徒困境",
+    "nameEn": "Prisoner's Dilemma",
+    "category": "经典博弈",
+    "categoryEn": "Classic games",
+    "level": 1,
+    "oneLiner": "各自选择对己最优的策略，结果却对双方都更差。",
+    "oneLinerEn": "Each player choosing their best response leaves both worse off.",
+    "detail": "两名嫌疑人分开审讯，无论对方怎么选，认罪（背叛）都是自己的最优策略，于是双方都认罪并被重判——而如果都沉默，惩罚更轻。这个结构刻画了价格战、军备竞赛、公共资源过度使用与减排谈判等大量现实困境。关键在于：个体理性不等于集体理性。",
+    "detailEn": "Two suspects interrogated separately both find confessing (defecting) strictly better whatever the other does, so both confess and both get heavier sentences — whereas mutual silence is better. The structure models price wars, arms races, overuse of common resources and climate negotiations. Individual rationality is not collective rationality.",
+    "example": "两家公司都降价抢份额，最终行业利润整体下滑，谁都不比默契维持价格时更好。",
+    "exampleEn": "Two firms both cut prices to win share; industry profit falls and neither does better than under tacit price discipline.",
+    "takeaways": [
+      "需要重复博弈、可观察行为与惩罚机制，合作才可能稳定",
+      "制度设计的目标常常是改变收益结构，而非改变人性"
+    ],
+    "takeawaysEn": [
+      "Cooperation stabilises with repetition, observability and punishment",
+      "Institutional design usually changes payoffs rather than human nature"
+    ],
+    "related": ["commons-dilemma", "nash-equilibrium-game", "repeated-games"],
+    "sources": [{ "label": "阿克塞尔罗德《合作的进化》", "labelEn": "Axelrod, The Evolution of Cooperation", "year": 1984 }]
+  },
+  {
+    "id": "nash-equilibrium-game",
+    "name": "纳什均衡",
+    "nameEn": "Nash Equilibrium",
+    "category": "核心概念",
+    "categoryEn": "Core concept",
+    "level": 3,
+    "oneLiner": "人人都已选定策略，且无人能靠单方面改变而获益。",
+    "oneLinerEn": "Everyone has chosen, and no one gains by changing alone.",
+    "detail": "纳什均衡是博弈解的基本概念，但它既不一定唯一，也不一定高效。多个均衡并存时，「谁先行动、如何沟通、历史与习惯」决定最终落点，这就是「协调问题」。混合策略均衡还意味着理性玩家会主动随机化，让对手无法预测。",
+    "detailEn": "Nash equilibrium is the basic solution concept, but it need not be unique or efficient. With multiple equilibria, who moves first, how players communicate and history decide the outcome — a coordination problem. Mixed-strategy equilibria imply rational players deliberately randomise to stay unpredictable.",
+    "example": "键盘布局、充电接口标准、靠左还是靠右行驶，都是「多个均衡中选了一个」的协调结果。",
+    "exampleEn": "Keyboard layouts, charging standards and driving sides are all coordination outcomes among multiple equilibria.",
+    "takeaways": [
+      "预测博弈结果需要额外信息：历史、沟通与信念",
+      "协调失败是真实成本，标准与惯例因此具有经济价值"
+    ],
+    "takeawaysEn": [
+      "Predicting outcomes needs extra information: history, communication and beliefs",
+      "Coordination failure is a real cost, so standards and conventions have economic value"
+    ],
+    "related": ["prisoners-dilemma", "chicken-game", "repeated-games"],
+    "sources": [{ "label": "纳什《n 人博弈的均衡点》", "labelEn": "Nash, Equilibrium Points in n-Person Games", "year": 1950 }]
+  },
+  {
+    "id": "boxed-pigs",
+    "name": "智猪博弈",
+    "nameEn": "Boxed Pigs",
+    "category": "经典博弈",
+    "categoryEn": "Classic games",
+    "level": 2,
+    "oneLiner": "强者去按按钮、弱者坐享其成，也会是稳定结果。",
+    "oneLinerEn": "The strong press the button while the weak free-ride — and that can be stable.",
+    "detail": "在一个猪圈里，按按钮会带来食物但要付出成本。大猪食量大、抢食能力强，若不按就没得吃；小猪反正抢不过，最佳选择是等在食槽边。结果是「小猪搭便车、大猪承担成本」。这解释了为什么大企业常承担行业公共品（标准、渠道、政策游说），而小企业跟随。",
+    "detailEn": "In the boxed-pigs setup, pressing the lever brings food but costs effort. The big pig eats more and must act or starve; the small pig cannot win the scramble and does best waiting. The equilibrium has the small pig free-riding and the big pig bearing cost — mirroring how large firms fund industry public goods while smaller ones follow.",
+    "example": "行业龙头发起标准化与合规建设，中小企业直接沿用，成本由龙头承担。",
+    "exampleEn": "A market leader funds standards and compliance work while smaller firms simply adopt them.",
+    "takeaways": [
+      "「搭便车」不总是道德问题，而是收益结构决定的均衡",
+      "强者可通过改变规则（如许可、门槛）让弱者分担成本"
+    ],
+    "takeawaysEn": [
+      "Free-riding is often an equilibrium of payoffs, not a moral choice",
+      "The strong can redesign rules — licensing, thresholds — to share the cost"
+    ],
+    "related": ["prisoners-dilemma", "commons-dilemma", "nash-equilibrium-game"],
+    "sources": [{ "label": "张维迎《博弈与社会》", "labelEn": "Zhang Weiying, Games and Society", "year": 2013 }]
+  },
+  {
+    "id": "commons-dilemma",
+    "name": "公地悲剧",
+    "nameEn": "Tragedy of the Commons",
+    "category": "经典博弈",
+    "categoryEn": "Classic games",
+    "level": 2,
+    "oneLiner": "收益归个人、成本由群体分担时，资源会被过度使用。",
+    "oneLinerEn": "When benefits are private and costs shared, resources are overused.",
+    "detail": "牧场上每户多放一头牛，收益全归自己，草场退化成本由所有人分摊，于是每户都倾向增加放牧直到草场毁掉。这是多人版囚徒困境。出路包括私有权界定、配额与税费、以及奥斯特罗姆记录的自下而上的社区自治规则。",
+    "detailEn": "Each herder gains fully from one more animal while degradation costs are shared, so everyone expands until the pasture is ruined: a multi-player prisoner's dilemma. Solutions include privatisation, quotas and taxes, and the bottom-up community rules documented by Ostrom.",
+    "example": "共享单车无约束投放、公海渔业枯竭、地下水超采，都是同一结构。",
+    "exampleEn": "Unlimited dockless bikes, depleted high-seas fisheries and falling water tables share the same structure.",
+    "takeaways": [
+      "「共有」不等于「无主」，规则设计决定资源能否持续",
+      "总量控制（配额）往往比单纯价格干预更直接"
+    ],
+    "takeawaysEn": [
+      "'Shared' does not mean 'unowned': rule design determines sustainability",
+      "Quantity caps are often more direct than price-only intervention"
+    ],
+    "related": ["prisoners-dilemma", "boxed-pigs", "repeated-games"],
+    "sources": [{ "label": "哈丁《公地悲剧》", "labelEn": "Hardin, The Tragedy of the Commons", "year": 1968 }]
+  },
+  {
+    "id": "chicken-game",
+    "name": "胆小鬼博弈",
+    "nameEn": "Chicken",
+    "category": "经典博弈",
+    "categoryEn": "Classic games",
+    "level": 3,
+    "oneLiner": "双方都硬撑到底就会同归于尽，先退让的一方反而「输」。",
+    "oneLinerEn": "Both holding firm ends in mutual ruin, yet whoever swerves 'loses'.",
+    "detail": "两车对撞，先转向者被看作胆小鬼。由于让步代价高、相撞代价更高，玩家会用「自断退路」来提升可信度——例如公开承诺、销毁多余产能、让第三方见证。这也解释了危机边缘政策（brinkmanship）与部分贸易与地缘对抗。",
+    "detailEn": "Two cars drive at each other; whoever swerves first is the coward. Because conceding is costly but colliding is worse, players raise credibility by removing their own retreat — public commitments, scrapping spare capacity, third-party witnesses. It explains brinkmanship and aspects of trade and geopolitical confrontation.",
+    "example": "谈判中公开宣称「绝不接受低于 X 的方案」，就是主动放弃让步空间，以提高威胁的可信度。",
+    "exampleEn": "Publicly declaring 'no deal below X' voluntarily removes your room to concede, raising the credibility of your threat.",
+    "takeaways": [
+      "可信承诺需要真实成本，否则不被相信",
+      "博弈中「让自己没得选」有时是一种策略"
+    ],
+    "takeawaysEn": [
+      "Credible commitment needs real cost, or it is not believed",
+      "Sometimes removing your own options is the strategy"
+    ],
+    "related": ["nash-equilibrium-game", "prisoners-dilemma", "repeated-games"],
+    "sources": [{ "label": "谢林《冲突的战略》", "labelEn": "Schelling, The Strategy of Conflict", "year": 1960 }]
+  },
+  {
+    "id": "repeated-games",
+    "name": "重复博弈与合作",
+    "nameEn": "Repeated Games and Cooperation",
+    "category": "机制",
+    "categoryEn": "Mechanisms",
+    "level": 3,
+    "oneLiner": "当博弈会继续下去，合作就能成为稳定策略。",
+    "oneLinerEn": "When the game continues, cooperation can become a stable strategy.",
+    "detail": "阿克塞尔罗德竞赛显示，「以牙还牙」——首轮合作、之后复制对方上一步——在长期重复博弈中表现极佳：它善意、可报复、可原谅且规则清晰。关键前提是未来足够重要（贴现因子高）、行为可观察、背叛会被惩罚。",
+    "detailEn": "Axelrod's tournaments showed tit-for-tat — cooperate first, then mirror the opponent's last move — performs excellently in repeated play: nice, retaliatory, forgiving and clear. The preconditions are that the future matters enough, actions are observable and defection can be punished.",
+    "example": "同一条街上的老店更讲信用，因为还要长期做邻居；一次性旅游区的宰客则是另一种均衡。",
+    "exampleEn": "Long-standing shops on the same street keep their word because they must live with their neighbours; tourist traps behave differently.",
+    "takeaways": [
+      "稳定关系本身就是一种执行力，能替代部分正式监管",
+      "匿名化、一次性交易会破坏合作的基础"
+    ],
+    "takeawaysEn": [
+      "A stable relationship is itself an enforcement device, partly replacing formal regulation",
+      "Anonymity and one-off transactions undermine the basis of cooperation"
+    ],
+    "related": ["prisoners-dilemma", "nash-equilibrium-game", "boxed-pigs"],
+    "sources": [{ "label": "阿克塞尔罗德《合作的进化》", "labelEn": "Axelrod, The Evolution of Cooperation", "year": 1984 }]
+  }
+]

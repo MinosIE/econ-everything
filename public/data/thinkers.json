@@ -1,0 +1,253 @@
+[
+  {
+    "id": "adam-smith",
+    "order": 1,
+    "name": "亚当·斯密",
+    "nameEn": "Adam Smith",
+    "life": "1723–1790",
+    "lifeEn": "1723–1790",
+    "country": "苏格兰",
+    "countryEn": "Scotland",
+    "school": "古典经济学",
+    "schoolEn": "Classical",
+    "level": 1,
+    "oneLiner": "论证了自利行为在分工与市场机制下可以带来公共福利。",
+    "oneLinerEn": "Showed how self-interest, under division of labour and markets, can produce public benefit.",
+    "bio": "斯密把经济学从道德哲学的附庸变成独立学科。《国富论》系统论述了分工、市场范围、价格机制与自由贸易，并用「看不见的手」说明个体逐利与整体秩序之间的关系。他也强调制度、司法与教育是市场运转的前提。",
+    "bioEn": "Smith turned economics into a discipline of its own. The Wealth of Nations set out division of labour, the extent of markets, price formation and free trade, and used the 'invisible hand' to link private pursuit with public order. He also stressed that institutions, justice and education underpin markets.",
+    "ideas": [
+      { "k": "分工提高生产率", "kEn": "Division of labour", "v": "分工受市场范围限制，专业化程度越高，单位产出效率越高。", "vEn": "Specialisation raises output per worker, and is limited by the extent of the market." },
+      { "k": "看不见的手", "kEn": "Invisible hand", "v": "价格信号协调分散决策，无需中央指挥即可实现资源配置。", "vEn": "Price signals coordinate dispersed decisions without central direction." },
+      { "k": "自由贸易", "kEn": "Free trade", "v": "反对重商主义的零和观，主张各国按自身优势参与交换。", "vEn": "A critique of mercantilist zero-sum thinking: nations gain by trading on their strengths." },
+      { "k": "制度前提", "kEn": "Institutional preconditions", "v": "法治、产权与教育是市场有效运作的必要条件，而非自然存在。", "vEn": "Rule of law, property rights and education are necessary conditions for markets, not natural givens." }
+    ],
+    "works": [
+      { "title": "国富论", "titleEn": "The Wealth of Nations", "year": 1776 },
+      { "title": "道德情操论", "titleEn": "The Theory of Moral Sentiments", "year": 1759 }
+    ],
+    "quotes": [
+      { "q": "我们的晚餐并非来自屠夫、酿酒师或面包师的恩惠，而是他们对自身利益的关切。", "qEn": "It is not from the benevolence of the butcher, the brewer, or the baker that we expect our dinner, but from their regard to their own interest." }
+    ],
+    "related": ["david-ricardo", "alfred-marshall"],
+    "sources": [{ "label": "斯密《国富论》", "labelEn": "Smith, The Wealth of Nations", "year": 1776 }]
+  },
+  {
+    "id": "david-ricardo",
+    "order": 2,
+    "name": "大卫·李嘉图",
+    "nameEn": "David Ricardo",
+    "life": "1772–1823",
+    "lifeEn": "1772–1823",
+    "country": "英国",
+    "countryEn": "United Kingdom",
+    "school": "古典经济学",
+    "schoolEn": "Classical",
+    "level": 2,
+    "oneLiner": "用比较优势与地租理论把经济学推向更严密的推理。",
+    "oneLinerEn": "Pushed economics towards rigorous reasoning with comparative advantage and rent theory.",
+    "bio": "李嘉图是证券交易员出身的理论家，擅长用抽象模型抓住核心机制。他提出的比较优势至今是国际贸易理论的基石，地租理论则解释了为何技术进步的好处可能被土地所有者吸收。他还讨论了税收归宿与公债负担。",
+    "bioEn": "A stockbroker turned theorist, Ricardo excelled at abstract models that isolate mechanisms. His comparative advantage remains the cornerstone of trade theory, while his rent theory explains how landlords can absorb the gains from technical progress. He also analysed tax incidence and public debt burdens.",
+    "ideas": [
+      { "k": "比较优势", "kEn": "Comparative advantage", "v": "按相对机会成本分工，即便一方全面落后，双方仍可从贸易中获益。", "vEn": "Specialise by relative opportunity cost: both sides gain even if one is worse at everything." },
+      { "k": "级差地租", "kEn": "Differential rent", "v": "地租来自土地肥力差异，随粮价上升而上涨，可能吞掉利润。", "vEn": "Rent arises from fertility differences and rises with grain prices, potentially squeezing profit." },
+      { "k": "税收归宿", "kEn": "Tax incidence", "v": "名义纳税人未必是实际负担者，负担取决于供需弹性。", "vEn": "The legal taxpayer is not always the real bearer; elasticity decides." },
+      { "k": "等价定理雏形", "kEn": "Debt vs tax", "v": "政府用征税还是借债融资，长期看对居民负担可能并无本质差别。", "vEn": "Financing spending by tax or by debt may not differ fundamentally in the long run." }
+    ],
+    "works": [{ "title": "政治经济学及赋税原理", "titleEn": "On the Principles of Political Economy and Taxation", "year": 1817 }],
+    "quotes": [
+      { "q": "在完全自由贸易下，各国自然会把资本与劳动投向最有利的用途。", "qEn": "Under a system of perfectly free commerce, each country naturally devotes its capital and labour to such employments as are most beneficial to each." }
+    ],
+    "related": ["adam-smith", "john-maynard-keynes"],
+    "sources": [{ "label": "李嘉图《政治经济学及赋税原理》", "labelEn": "Ricardo, On the Principles of Political Economy and Taxation", "year": 1817 }]
+  },
+  {
+    "id": "karl-marx",
+    "order": 3,
+    "name": "卡尔·马克思",
+    "nameEn": "Karl Marx",
+    "life": "1818–1883",
+    "lifeEn": "1818–1883",
+    "country": "德国",
+    "countryEn": "Germany",
+    "school": "古典政治经济学批判",
+    "schoolEn": "Critique of classical political economy",
+    "level": 3,
+    "oneLiner": "从资本积累与阶级关系出发，分析资本主义的内在矛盾与危机倾向。",
+    "oneLinerEn": "Analysed capitalism's internal contradictions and crisis tendencies through accumulation and class relations.",
+    "bio": "马克思继承并批判古典经济学，把生产关系的所有权结构放在分析中心。《资本论》讨论了价值、剩余价值、资本有机构成与利润率下降趋势，并预言周期性危机。其分析方法对经济史、制度经济学与不平等研究都有持续影响。",
+    "bioEn": "Marx inherited and criticised classical economics, placing ownership of the relations of production at the centre. Capital examined value, surplus value, the organic composition of capital and falling profit rates, and foresaw cyclical crises. His analytical approach still informs economic history, institutional economics and inequality research.",
+    "ideas": [
+      { "k": "剩余价值", "kEn": "Surplus value", "v": "工人创造的价值超过其工资部分，差额构成资本积累来源。", "vEn": "Workers create value beyond their wage, and the difference funds capital accumulation." },
+      { "k": "资本积累", "kEn": "Accumulation", "v": "竞争迫使资本不断再投资，生产能力扩张与消费能力不足并存。", "vEn": "Competition forces continual reinvestment, so capacity expands while consumption lags." },
+      { "k": "周期性危机", "kEn": "Crisis tendency", "v": "生产社会化与占有私人化之间的矛盾导致周期性过剩危机。", "vEn": "Socialised production versus private appropriation produces recurring crises of overproduction." },
+      { "k": "利润率下降", "kEn": "Falling profit rate", "v": "资本有机构成提高被认为会压低长期利润率，引发争议至今。", "vEn": "A rising organic composition of capital is argued to depress long-run profit rates — still debated." }
+    ],
+    "works": [
+      { "title": "资本论", "titleEn": "Capital", "year": 1867 },
+      { "title": "共产党宣言", "titleEn": "The Communist Manifesto", "year": 1848 }
+    ],
+    "quotes": [
+      { "q": "哲学家们只是用不同的方式解释世界，而问题在于改变世界。", "qEn": "The philosophers have only interpreted the world in various ways; the point is to change it." }
+    ],
+    "related": ["adam-smith", "friedrich-hayek"],
+    "sources": [{ "label": "马克思《资本论》第一卷", "labelEn": "Marx, Capital, Volume I", "year": 1867 }]
+  },
+  {
+    "id": "alfred-marshall",
+    "order": 4,
+    "name": "阿尔弗雷德·马歇尔",
+    "nameEn": "Alfred Marshall",
+    "life": "1842–1924",
+    "lifeEn": "1842–1924",
+    "country": "英国",
+    "countryEn": "United Kingdom",
+    "school": "新古典经济学",
+    "schoolEn": "Neoclassical",
+    "level": 2,
+    "oneLiner": "把供需曲线、弹性与边际分析整合成现代微观经济学的基本框架。",
+    "oneLinerEn": "Integrated supply, demand, elasticity and marginal analysis into modern microeconomics.",
+    "bio": "马歇尔是微观经济学的奠基者，他用「剪刀」比喻供给与需求共同决定价格，提出弹性、消费者剩余、短期与长期区分等概念与工具，使经济学从文字论述转向可计算的分析。他也关注贫困与教育问题。",
+    "bioEn": "Marshall founded modern microeconomics. His scissors analogy showed supply and demand determining price jointly, and he introduced elasticity, consumer surplus and the short-run versus long-run distinction, moving economics from prose to computable analysis. He also cared about poverty and education.",
+    "ideas": [
+      { "k": "供需共同定价", "kEn": "Both blades cut", "v": "价格既不单由成本决定也不单由效用决定，而由两者共同决定。", "vEn": "Price is set neither by cost alone nor utility alone, but by both together." },
+      { "k": "弹性", "kEn": "Elasticity", "v": "用数量对价格的敏感度衡量市场反应，成为政策分析的常用工具。", "vEn": "Measuring quantity response to price became a standard policy tool." },
+      { "k": "短期与长期", "kEn": "Short vs long run", "v": "短期产能固定、长期可调整，同一冲击在两个时间尺度上结果不同。", "vEn": "Capacity is fixed in the short run and adjustable in the long run, so shocks play out differently." },
+      { "k": "消费者剩余", "kEn": "Consumer surplus", "v": "愿意支付与实际支付之差，为评估政策福利提供量化基础。", "vEn": "Willingness to pay minus actual payment, a quantitative basis for welfare evaluation." }
+    ],
+    "works": [{ "title": "经济学原理", "titleEn": "Principles of Economics", "year": 1890 }],
+    "quotes": [
+      { "q": "经济学是一门研究人类日常生活的学问。", "qEn": "Economics is a study of mankind in the ordinary business of life." }
+    ],
+    "related": ["adam-smith", "john-maynard-keynes"],
+    "sources": [{ "label": "马歇尔《经济学原理》", "labelEn": "Marshall, Principles of Economics", "year": 1890 }]
+  },
+  {
+    "id": "john-maynard-keynes",
+    "order": 5,
+    "name": "约翰·梅纳德·凯恩斯",
+    "nameEn": "John Maynard Keynes",
+    "life": "1883–1946",
+    "lifeEn": "1883–1946",
+    "country": "英国",
+    "countryEn": "United Kingdom",
+    "school": "凯恩斯主义",
+    "schoolEn": "Keynesian",
+    "level": 1,
+    "oneLiner": "论证总需求不足会导致长期失业，政府应主动出手稳定经济。",
+    "oneLinerEn": "Argued that insufficient aggregate demand causes persistent unemployment, so government must act.",
+    "bio": "面对大萧条，凯恩斯指出经济不会自动回到充分就业，因为工资与价格调整缓慢、预期不稳定。他主张以财政与货币政策补足需求，并参与设计战后布雷顿森林体系。他的框架奠定了现代宏观经济学与反周期调控的基础。",
+    "bioEn": "Facing the Great Depression, Keynes argued economies do not automatically return to full employment because wages and prices adjust slowly and expectations are unstable. He advocated fiscal and monetary action to fill the demand gap and helped design the Bretton Woods system, laying the foundation for modern macroeconomics and countercyclical policy.",
+    "ideas": [
+      { "k": "有效需求", "kEn": "Effective demand", "v": "产出与就业由总需求决定，需求不足时均衡可以停留在高失业状态。", "vEn": "Output and employment are demand-determined, so equilibrium can settle at high unemployment." },
+      { "k": "动物精神", "kEn": "Animal spirits", "v": "投资取决于信心与预期，而非纯粹的理性计算，因此波动难以避免。", "vEn": "Investment depends on confidence and expectations, not pure calculation, so swings are unavoidable." },
+      { "k": "乘数效应", "kEn": "Multiplier", "v": "政府支出转化为收入再被消费，总效果大于初始支出。", "vEn": "Government spending becomes income that is spent again, so the total exceeds the initial outlay." },
+      { "k": "逆周期调节", "kEn": "Countercyclical policy", "v": "繁荣时收紧、衰退时扩张，以平抑波动而非追求年度平衡。", "vEn": "Tighten in booms and ease in downturns to smooth cycles rather than balance annually." }
+    ],
+    "works": [
+      { "title": "就业、利息和货币通论", "titleEn": "The General Theory of Employment, Interest and Money", "year": 1936 },
+      { "title": "和约的经济后果", "titleEn": "The Economic Consequences of the Peace", "year": 1919 }
+    ],
+    "quotes": [
+      { "q": "长期来看，我们都死了。", "qEn": "In the long run we are all dead." },
+      { "q": "市场保持非理性的时间，可能比你保持不破产的时间更长。", "qEn": "Markets can remain irrational longer than you can remain solvent." }
+    ],
+    "related": ["alfred-marshall", "milton-friedman", "friedrich-hayek"],
+    "sources": [{ "label": "凯恩斯《就业、利息和货币通论》", "labelEn": "Keynes, The General Theory of Employment, Interest and Money", "year": 1936 }]
+  },
+  {
+    "id": "friedrich-hayek",
+    "order": 6,
+    "name": "弗里德里希·哈耶克",
+    "nameEn": "Friedrich Hayek",
+    "life": "1899–1992",
+    "lifeEn": "1899–1992",
+    "country": "奥地利 / 英国",
+    "countryEn": "Austria / UK",
+    "school": "奥地利学派",
+    "schoolEn": "Austrian",
+    "level": 3,
+    "oneLiner": "强调知识分散与价格信号的作用，警惕中央计划的信息难题。",
+    "oneLinerEn": "Emphasised dispersed knowledge and price signals, warning of the information problem in central planning.",
+    "bio": "哈耶克的核心洞见是：经济运行所需的知识分散在无数个体手中，无法集中。价格是压缩并传递这些信息的机制。因此他反对全面计划，也批评过度刺激扭曲利率信号、引发资源错配。他与凯恩斯关于需求管理的争论延续至今。",
+    "bioEn": "Hayek's central insight: the knowledge needed to run an economy is dispersed across millions and cannot be centralised. Prices compress and transmit that knowledge. Hence his opposition to comprehensive planning and his criticism that excessive stimulus distorts interest-rate signals and misallocates resources. His debate with Keynes over demand management continues.",
+    "ideas": [
+      { "k": "知识问题", "kEn": "Knowledge problem", "v": "关键知识是局部、隐性的，中央计划者无法完整获取。", "vEn": "Crucial knowledge is local and tacit, beyond any planner's reach." },
+      { "k": "价格即信号", "kEn": "Prices as signals", "v": "价格以极低成本传递稀缺信息，协调陌生人的行动。", "vEn": "Prices transmit scarcity information at very low cost, coordinating strangers." },
+      { "k": "自发秩序", "kEn": "Spontaneous order", "v": "复杂秩序可以自下而上形成，不必由谁设计。", "vEn": "Complex order can emerge bottom-up without being designed." },
+      { "k": "货币政策批评", "kEn": "Monetary critique", "v": "长期低利率会误导资本投向，最终以危机方式清算。", "vEn": "Prolonged low rates misdirect capital, eventually corrected through crisis." }
+    ],
+    "works": [
+      { "title": "通往奴役之路", "titleEn": "The Road to Serfdom", "year": 1944 },
+      { "title": "个人主义与经济秩序", "titleEn": "Individualism and Economic Order", "year": 1948 }
+    ],
+    "quotes": [
+      { "q": "通往地狱的路，往往由善意铺成。", "qEn": "The road to hell is paved with good intentions." }
+    ],
+    "related": ["milton-friedman", "john-maynard-keynes", "karl-marx"],
+    "sources": [{ "label": "哈耶克《知识在社会中的运用》", "labelEn": "Hayek, The Use of Knowledge in Society", "year": 1945 }]
+  },
+  {
+    "id": "joseph-schumpeter",
+    "order": 7,
+    "name": "约瑟夫·熊彼特",
+    "nameEn": "Joseph Schumpeter",
+    "life": "1883–1950",
+    "lifeEn": "1883–1950",
+    "country": "奥地利 / 美国",
+    "countryEn": "Austria / USA",
+    "school": "创新与演化经济学",
+    "schoolEn": "Innovation and evolutionary economics",
+    "level": 2,
+    "oneLiner": "把企业家创新与「创造性破坏」视为资本主义增长的核心动力。",
+    "oneLinerEn": "Placed entrepreneurial innovation and creative destruction at the core of capitalist growth.",
+    "bio": "熊彼特认为静态均衡不是重点，真正的主题是技术与组织创新如何打破旧结构。企业家是引入新组合的人，创新会带来垄断利润，也会被下一轮创新摧毁——这就是「创造性破坏」。他的思想是创新政策、产业演化与反垄断讨论的重要来源。",
+    "bioEn": "For Schumpeter static equilibrium was beside the point: the real subject was how technological and organisational innovation breaks old structures. Entrepreneurs introduce new combinations; innovation yields monopoly profits and is then destroyed by the next wave — creative destruction. His ideas underpin innovation policy, industry evolution and antitrust debates.",
+    "ideas": [
+      { "k": "创造性破坏", "kEn": "Creative destruction", "v": "增长来自新旧结构的持续替换，而非静态效率改进。", "vEn": "Growth comes from continuously replacing old structures, not static efficiency gains." },
+      { "k": "企业家与创新", "kEn": "Entrepreneur", "v": "创新是「新组合」的落地：新产品、新工艺、新市场、新组织。", "vEn": "Innovation is implementing new combinations: products, processes, markets, organisation." },
+      { "k": "暂时垄断", "kEn": "Temporary monopoly", "v": "创新者获得的超额利润是激励，也是下一轮竞争的目标。", "vEn": "Innovators' excess profits are the incentive and the next round's target." },
+      { "k": "信贷与创新", "kEn": "Credit", "v": "银行信贷为创新提供购买力，是创新得以实现的必要条件。", "vEn": "Bank credit supplies the purchasing power that makes innovation possible." }
+    ],
+    "works": [
+      { "title": "经济发展理论", "titleEn": "The Theory of Economic Development", "year": 1911 },
+      { "title": "资本主义、社会主义与民主", "titleEn": "Capitalism, Socialism and Democracy", "year": 1942 }
+    ],
+    "quotes": [
+      { "q": "创造性破坏的过程，是资本主义的本质性事实。", "qEn": "The process of creative destruction is the essential fact about capitalism." }
+    ],
+    "related": ["adam-smith", "friedrich-hayek"],
+    "sources": [{ "label": "熊彼特《经济发展理论》", "labelEn": "Schumpeter, The Theory of Economic Development", "year": 1911 }]
+  },
+  {
+    "id": "milton-friedman",
+    "order": 8,
+    "name": "米尔顿·弗里德曼",
+    "nameEn": "Milton Friedman",
+    "life": "1912–2006",
+    "lifeEn": "1912–2006",
+    "country": "美国",
+    "countryEn": "USA",
+    "school": "货币主义 / 芝加哥学派",
+    "schoolEn": "Monetarism / Chicago",
+    "level": 2,
+    "oneLiner": "主张「通胀在任何时候任何地方都是货币现象」，并强调规则优于相机抉择。",
+    "oneLinerEn": "Argued that inflation is always and everywhere a monetary phenomenon, favouring rules over discretion.",
+    "bio": "弗里德曼重建了货币数量论，认为长期通胀由货币增速决定，财政刺激无法持续提高产出。他对大萧条的解释（货币政策失误）改变了学界与央行的认知，也推动了通胀目标制与央行独立性。他还以《资本主义与自由》影响公共政策辩论。",
+    "bioEn": "Friedman revived the quantity theory, arguing that long-run inflation is set by money growth and that fiscal stimulus cannot raise output permanently. His reinterpretation of the Great Depression as a monetary policy failure reshaped academia and central banking and helped bring inflation targeting and central bank independence. Capitalism and Freedom shaped public policy debates.",
+    "ideas": [
+      { "k": "货币数量论", "kEn": "Quantity theory", "v": "长期看货币增速决定物价水平，产出由实体因素决定。", "vEn": "In the long run money growth determines prices while real factors determine output." },
+      { "k": "自然失业率", "kEn": "Natural rate", "v": "扩张政策无法长期压低失业率，只会推高通胀。", "vEn": "Expansion cannot hold unemployment below its natural rate without accelerating inflation." },
+      { "k": "规则而非相机", "kEn": "Rules over discretion", "v": "可预期的固定规则比频繁干预更能稳定预期。", "vEn": "Predictable rules stabilise expectations better than frequent discretionary actions." },
+      { "k": "永久收入假说", "kEn": "Permanent income", "v": "消费取决于长期收入预期，一次性补贴多半被存起来。", "vEn": "Consumption tracks expected long-run income, so one-off transfers are largely saved." }
+    ],
+    "works": [
+      { "title": "资本主义与自由", "titleEn": "Capitalism and Freedom", "year": 1962 },
+      { "title": "美国货币史（合著）", "titleEn": "A Monetary History of the United States (with A. Schwartz)", "year": 1963 }
+    ],
+    "quotes": [
+      { "q": "通货膨胀在任何时候任何地方都是一种货币现象。", "qEn": "Inflation is always and everywhere a monetary phenomenon." }
+    ],
+    "related": ["john-maynard-keynes", "friedrich-hayek"],
+    "sources": [{ "label": "弗里德曼、施瓦茨《美国货币史》", "labelEn": "Friedman & Schwartz, A Monetary History of the United States", "year": 1963 }]
+  }
+]
