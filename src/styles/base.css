@@ -361,6 +361,7 @@ mark {
 /* ---------------- 模块容器 ---------------- */
 .module {
   display: none;
+  position: relative;
   scroll-margin-top: calc(var(--nav-h) + 16px);
 }
 .module.active {

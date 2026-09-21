@@ -36,14 +36,23 @@ function updateMailLinks(): void {
 
 /* ---------------- 模块切换 / 加载提示 ---------------- */
 
-const loadingEl = need('#loading');
-function showLoading(): void {
+const loadingEl = document.createElement('div');
+loadingEl.id = 'loading';
+loadingEl.className = 'loading-overlay';
+loadingEl.hidden = true;
+loadingEl.innerHTML =
+  '<span class="spinner" aria-hidden="true"></span><span class="loading-text"></span>';
+
+function showLoading(def: ModuleDef): void {
   const label = loadingEl.querySelector<HTMLElement>('.loading-text');
   if (label) label.textContent = t('ui.loading');
+  const root = document.getElementById(def.id);
+  if (root) root.appendChild(loadingEl);
   loadingEl.hidden = false;
 }
 function hideLoading(): void {
   loadingEl.hidden = true;
+  loadingEl.remove();
 }
 
 function setActive(id: string): void {
@@ -92,7 +101,7 @@ async function activate(id: string, openKey?: string, scroll = false): Promise<v
   setActive(id);
   const def = MODULES.find((m) => m.id === id);
   if (!def) return;
-  if (!instances.has(def.id)) showLoading();
+  if (!instances.has(def.id)) showLoading(def);
   await ensureModule(def);
   hideLoading();
   if (openKey) {
